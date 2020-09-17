@@ -16,7 +16,7 @@ rule all:
         tree = "temp/tree.nwk",
         node_data = "temp/tree_branch_lengths.json" ,
         node_data_mut = "temp/tree_nt_muts.json" ,
-        auspice_json = "auspice/data.json" ,  
+        auspice_json = "auspice/nextfrance_data.json" ,  
 
 
 
@@ -96,7 +96,7 @@ rule augur_export:
         nt_muts = rules.augur_ancestral.output.node_data_mut,
         branch_lengths = rules.augur_refine.output.node_data,
     output:
-        auspice_json = "auspice/data.json" ,  
+        auspice_json = "auspice/nextfrance_data.json" ,  
     shell:
         "augur export v2 "
         "--tree {input.tree} "
