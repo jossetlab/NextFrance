@@ -102,6 +102,6 @@ rule augur_export:
         "--tree {input.tree} "
         "--metadata {input.meta} "
         "--title 'NEXTRAIN VISUALISATION' "
-        "--color-by-metadata 'location'  "
+        "--color-by-metadata 'location' 'lineage' 'clade' "
         "--node-data {input.branch_lengths} {input.nt_muts} "
         "--output {output.auspice_json} "
