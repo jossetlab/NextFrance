@@ -7,6 +7,8 @@ configfile : "config/config.yaml"
 fasta=config['input_sequence']
 metadata=config['input_metadata']
 thread_align=int(config['nbthreads'])
+json=config['json']
+
 
 rule all:
     input:
@@ -16,7 +18,7 @@ rule all:
         tree = "temp/tree.nwk",
         node_data = "temp/tree_branch_lengths.json" ,
         node_data_mut = "temp/tree_nt_muts.json" ,
-        auspice_json = "auspice/nextfrance_data.json" ,  
+        auspice_json = "auspice/nextfrance_"+ json +".json" ,  
 
 
 
@@ -88,6 +90,39 @@ rule augur_ancestral:
             --alignment {input.alignment} \
             --output-node-data {output.node_data_mut}
         """        
+rule augur_translate:
+    input:
+        tree = rules.augur_refine.output.tree,
+        nt_muts = rules.augur_ancestral.output.node_data_mut,
+        reference = "config/SARS-CoV-2.gb"
+    output:
+        node_data = "temp/aa_muts.json"        
+    shell:
+        """
+        augur translate \
+            --tree {input.tree} \
+            --ancestral-sequences {input.nt_muts} \
+            --reference-sequence {input.reference} \
+            --output-node-data {output.node_data} 
+        """
+
+rule augur_traits:
+    message:
+        "Infering ancestral traits for given column."
+    input:
+        tree = rules.augur_refine.output.tree,
+        meta = metadata
+    output:
+        node_traits = "temp/traits.json"
+    shell:
+        """
+        augur traits \
+            --tree {input.tree} \
+            --metadata {input.meta} \
+            --output-node-data {output.node_traits} \
+            --columns "country" \
+            --confidence
+        """
 
 rule augur_export:
     input:
@@ -95,13 +130,16 @@ rule augur_export:
         meta = metadata,
         nt_muts = rules.augur_ancestral.output.node_data_mut,
         branch_lengths = rules.augur_refine.output.node_data,
+        aa_mut = rules.augur_translate.output.node_data,
+        traits = rules.augur_traits.output.node_traits,
+
     output:
-        auspice_json = "auspice/nextfrance_data.json" ,  
+        auspice_json = "auspice/nextfrance_"+ json +".json"  ,  
     shell:
         "augur export v2 "
         "--tree {input.tree} "
         "--metadata {input.meta} "
         "--title 'NEXTRAIN VISUALISATION' "
-        "--color-by-metadata 'location' 'lineage' 'clade' "
-        "--node-data {input.branch_lengths} {input.nt_muts} "
+        "--color-by-metadata 'country'  "
+        "--node-data {input.branch_lengths} {input.nt_muts} {input.traits} {input.aa_mut}  "
         "--output {output.auspice_json} "
