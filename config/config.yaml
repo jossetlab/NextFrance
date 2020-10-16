@@ -5,3 +5,9 @@ input_metadata : ""
 nbthreads : 8
 
 json : "data"
+
+#flu
+
+input_seq : ""
+input_meta : ""
+output_rep : ""
