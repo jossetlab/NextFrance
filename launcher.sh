@@ -1,9 +1,6 @@
-
-
-
-fasta_file="/srv/nfs/ngs-stockage/NGS_Virologie/GISAID/DEL_NEXT/sequences.fasta"
-metadata_file="/srv/nfs/ngs-stockage/NGS_Virologie/GISAID/DEL_NEXT/metadata.tsv"
-output_json="DEL"
+fasta_file="/srv/nfs/ngs-stockage/NGS_Virologie/NEXTFRANCE/filtered_data/sequences.fasta"
+metadata_file="/srv/nfs/ngs-stockage/NGS_Virologie/NEXTFRANCE/filtered_data/metadata.tsv"
+output_json="global"
 nbthreads=8
 
 #    -R augur_filter \
