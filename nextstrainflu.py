@@ -72,6 +72,7 @@ rule augur_align:
             --fill-gaps \
             --nthreads {threads} \
             --reference-sequence {input.ref} \
+            --remove-reference \
             --output {output} 
         """
 
@@ -123,6 +124,7 @@ rule augur_ancestral:
             --inference "joint" \
             --output-node-data {output.node_data_mut}
         """        
+
 rule augur_translate:
     input:
         tree = rules.augur_refine.output.tree,
