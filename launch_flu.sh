@@ -2,9 +2,6 @@ raw_seq="/srv/nfs/ngs-stockage/NGS_Virologie/HadrienR/NEXTFLU/ALLSEQ_withoutspac
 metadata_rep="/srv/nfs/ngs-stockage/NGS_Virologie/HadrienR/NEXTFLU/"
 output_dir="/srv/nfs/ngs-stockage/NGS_Virologie/HadrienR/NEXTFLU/"
 
-
-# filter duplicates
-
 snakemake -s nextstrainflu.py -p \
     -R augur_filter \
     --cores 8 \

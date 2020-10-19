@@ -26,7 +26,7 @@ rule all:
         #node_data_mut = expand( outputdir + "temp/tree_nt_muts_{subtype}.json",subtype=SUBTYPE),
         #node_data_aa = expand( outputdir + "temp/aa_muts_{subtype}.json",subtype=SUBTYPE),
         #node_traits = expand( outputdir + "temp/traits_{subtype}.json",subtype=SUBTYPE),
-        auspice_json = expand( "auspice/nextfrance_FLUSS-{subtype}.json", subtype=SUBTYPE),
+        auspice_json = expand( "auspice/nextfrance_FLUALL-{subtype}.json", subtype=SUBTYPE),
 
 rule remove_dupp:
     input:
@@ -52,11 +52,12 @@ rule augur_filter:
         --min-date 2019-12-01 \
         --max-date 2020-07-30 \
         --non-nucleotide \
-        --group-by country \
-        --sequences-per-group 20 \
-        --include-where dataset=GIHSN \
+        --include-where dataset=GIHSN  \
         --output {output.filtered_seq} 
         """ 
+#        --group-by country \
+#        --sequences-per-group 20 \
+
 
 rule augur_align:
     input:
@@ -155,7 +156,7 @@ rule augur_traits:
             --tree {input.tree} \
             --metadata {input.meta} \
             --output-node-data {output.node_traits} \
-            --columns "country" \
+            --columns "country" "continent" \
             --confidence
         """
 
@@ -188,14 +189,14 @@ rule augur_export:
         traits = rules.augur_traits.output.node_traits,
         clades = rules.augur_clades.output.clades ,
     output:
-        auspice_json = "auspice/nextfrance_FLUSS-{subtype}.json"  ,  
+        auspice_json = "auspice/nextfrance_FLUALL-{subtype}.json"  ,  
     shell:
         """
         augur export v2 \
         --tree {input.tree} \
         --metadata {input.meta} \
         --title 'NEXTRAIN {wildcards.subtype} HA SEGMENT VISUALISATION' \
-        --color-by-metadata 'country' 'dataset'  \
+        --color-by-metadata 'country' 'continent' 'dataset'  \
         --node-data {input.branch_lengths} {input.nt_muts} {input.traits} {input.aa_mut} {input.clades} \
         --output {output.auspice_json} 
         """
