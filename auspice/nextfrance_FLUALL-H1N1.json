@@ -1,0 +1,500 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "clade_membership",
+        "title": "Clade",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical"
+      },
+      {
+        "key": "continent",
+        "title": "continent",
+        "type": "categorical"
+      },
+      {
+        "key": "dataset",
+        "title": "dataset",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "dataset",
+      "continent",
+      "clade_membership",
+      "country"
+    ],
+    "genome_annotations": {
+      "HA1": {
+        "end": 1052,
+        "seqid": "reference/H1N1_HA.gb",
+        "start": 72,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "HA2": {
+        "end": 1718,
+        "seqid": "reference/H1N1_HA.gb",
+        "start": 1053,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "SigPep": {
+        "end": 71,
+        "seqid": "reference/H1N1_HA.gb",
+        "start": 21,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 1752,
+        "seqid": "reference/H1N1_HA.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "panels": [
+      "tree",
+      "entropy"
+    ],
+    "title": "NEXTRAIN H1N1 HA SEGMENT VISUALISATION",
+    "updated": "2021-07-09"
+  },
+  "tree": {
+    "branch_attrs": {
+      "labels": {
+        "clade": "6b1"
+      },
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "name": "A/Michigan/45/2015",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "6b1"
+          },
+          "continent": {
+            "value": "North America"
+          },
+          "country": {
+            "value": "United States"
+          },
+          "dataset": {
+            "value": "REFERENCE"
+          },
+          "div": 0.003463438660540672,
+          "num_date": {
+            "value": 2015.6835616438357
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "HA1: S74R, S164T, S183P, I295V",
+            "clade": "6b1.A"
+          },
+          "mutations": {
+            "HA1": [
+              "S74R",
+              "S164T",
+              "S183P",
+              "I295V"
+            ],
+            "nuc": [
+              "A47G",
+              "C164T",
+              "T293A",
+              "G416A",
+              "C443T",
+              "A524G",
+              "T554C",
+              "T561A",
+              "T618C",
+              "A954G",
+              "A974G",
+              "T1034C",
+              "C1163T",
+              "C1190T",
+              "G1271T",
+              "T1356C",
+              "G1493A",
+              "A1511G",
+              "G1577A",
+              "T1601C"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HA1: R45G, Q223R, P282A, I298V"
+              },
+              "mutations": {
+                "HA1": [
+                  "R45G",
+                  "Q223R",
+                  "P282A",
+                  "I298V"
+                ],
+                "nuc": [
+                  "A204G",
+                  "A739G",
+                  "A881G",
+                  "C915G",
+                  "A963G",
+                  "A1010G",
+                  "G1703A"
+                ]
+              }
+            },
+            "name": "A/Brisbane/02/2018",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "6b1.A"
+              },
+              "continent": {
+                "value": "Oceania"
+              },
+              "country": {
+                "value": "Australia"
+              },
+              "dataset": {
+                "value": "REFERENCE"
+              },
+              "div": 0.012049550277122945,
+              "num_date": {
+                "value": 2018.009589041096
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "clade": "6b1.A/183P-5"
+              },
+              "mutations": {
+                "nuc": [
+                  "T1364C",
+                  "T1487C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA1: T120A, H138L, T277A",
+                    "clade": "6b1.A/183P-6"
+                  },
+                  "mutations": {
+                    "HA1": [
+                      "T120A",
+                      "H138L",
+                      "T277A"
+                    ],
+                    "nuc": [
+                      "G209A",
+                      "G371A",
+                      "A429G",
+                      "A484T",
+                      "C512T",
+                      "A536G",
+                      "T575C",
+                      "T878C",
+                      "A900G",
+                      "G1226A",
+                      "A1355G",
+                      "C1403T"
+                    ]
+                  }
+                },
+                "name": "A/Ireland/84630/2018",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "6b1.A/183P-6"
+                  },
+                  "continent": {
+                    "value": "Europe"
+                  },
+                  "country": {
+                    "value": "Ireland"
+                  },
+                  "dataset": {
+                    "value": "REFERENCE"
+                  },
+                  "div": 0.01607301554717901,
+                  "num_date": {
+                    "value": 2018.9082191780822
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA1: N129D, T185I, N260D",
+                    "clade": "6b1.A/183P-5a"
+                  },
+                  "mutations": {
+                    "HA1": [
+                      "N129D",
+                      "T185I",
+                      "N260D"
+                    ],
+                    "nuc": [
+                      "T161C",
+                      "A456G",
+                      "C625T",
+                      "G776A",
+                      "A849G",
+                      "C1073T",
+                      "C1631T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA1: K130N, N156K, L161I, V250A; HA2: E179D; SigPep: L8M",
+                        "clade": "6b1.A/156K"
+                      },
+                      "mutations": {
+                        "HA1": [
+                          "K130N",
+                          "N156K",
+                          "L161I",
+                          "V250A"
+                        ],
+                        "HA2": [
+                          "E179D"
+                        ],
+                        "SigPep": [
+                          "L8M"
+                        ],
+                        "nuc": [
+                          "C42A",
+                          "A119G",
+                          "A461T",
+                          "T539A",
+                          "C552A",
+                          "A809T",
+                          "T820C",
+                          "T1082C",
+                          "A1247G",
+                          "G1250T",
+                          "A1301G",
+                          "A1589C"
+                        ]
+                      }
+                    },
+                    "name": "A/Denmark/3280/2019",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "6b1.A/156K"
+                      },
+                      "continent": {
+                        "value": "Europe"
+                      },
+                      "country": {
+                        "value": "Denmark"
+                      },
+                      "dataset": {
+                        "value": "REFERENCE"
+                      },
+                      "div": 0.020093642521103183,
+                      "num_date": {
+                        "value": 2019.858904109589
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA1: D187A, Q189E",
+                        "clade": "6b1.A/187A"
+                      },
+                      "mutations": {
+                        "HA1": [
+                          "D187A",
+                          "Q189E"
+                        ],
+                        "nuc": [
+                          "A631C",
+                          "C636G",
+                          "C965T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "A/Guangdong-Maonan/SWL1536/2019",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "6b1.A/187A"
+                          },
+                          "continent": {
+                            "value": "Asia"
+                          },
+                          "country": {
+                            "value": "China"
+                          },
+                          "dataset": {
+                            "value": "REFERENCE"
+                          },
+                          "div": 0.014909614378899002,
+                          "num_date": {
+                            "value": 2019.458904109589
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HA1: T270A"
+                          },
+                          "mutations": {
+                            "HA1": [
+                              "T270A"
+                            ],
+                            "nuc": [
+                              "A293G",
+                              "G428A",
+                              "A461G",
+                              "A879G",
+                              "A1022G"
+                            ]
+                          }
+                        },
+                        "name": "A/Marseille/0428/2021_jui_S4",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "6b1.A/187A"
+                          },
+                          "continent": {
+                            "value": "GISAID"
+                          },
+                          "country": {
+                            "value": "Europe"
+                          },
+                          "div": 0.0177702678621988,
+                          "num_date": {
+                            "value": 2020.2291178712676
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000003",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "6b1.A/187A"
+                      },
+                      "continent": {
+                        "value": "Asia"
+                      },
+                      "country": {
+                        "value": "China"
+                      },
+                      "div": 0.014909614378898997,
+                      "num_date": {
+                        "value": 2019.4463080350022
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000002",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "6b1.A/183P-5a"
+                  },
+                  "continent": {
+                    "value": "Europe"
+                  },
+                  "country": {
+                    "value": "Denmark"
+                  },
+                  "div": 0.013192356143026232,
+                  "num_date": {
+                    "value": 2018.618097596259
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000001",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "6b1.A/183P-5"
+              },
+              "continent": {
+                "value": "Europe"
+              },
+              "country": {
+                "value": "Australia"
+              },
+              "div": 0.009183006736072787,
+              "num_date": {
+                "value": 2017.5469150346648
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000000",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "6b1.A"
+          },
+          "continent": {
+            "value": "Oceania"
+          },
+          "country": {
+            "value": "Australia"
+          },
+          "div": 0.008039365036698219,
+          "num_date": {
+            "value": 2017.320220185564
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000004",
+    "node_attrs": {
+      "clade_membership": {
+        "value": "6b1"
+      },
+      "continent": {
+        "value": "North America"
+      },
+      "country": {
+        "value": "United States"
+      },
+      "div": 0,
+      "num_date": {
+        "value": 2015.0177540481461
+      }
+    }
+  },
+  "version": "v2"
+}
