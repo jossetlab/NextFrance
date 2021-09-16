@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "clade_membership",
+        "title": "Clade",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical"
+      },
+      {
+        "key": "continent",
+        "title": "continent",
+        "type": "categorical"
+      },
+      {
+        "key": "dataset",
+        "title": "dataset",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "clade_membership",
+      "continent",
+      "country",
+      "dataset"
+    ],
+    "genome_annotations": {
+      "HA1": {
+        "end": 1035,
+        "seqid": "reference/H3N2_HA.gb",
+        "start": 49,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "HA2": {
+        "end": 1698,
+        "seqid": "reference/H3N2_HA.gb",
+        "start": 1036,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "SigPep": {
+        "end": 48,
+        "seqid": "reference/H3N2_HA.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 1701,
+        "seqid": "reference/H3N2_HA.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "panels": [
+      "tree",
+      "entropy"
+    ],
+    "title": "NEXTSRAIN H3N2 HA SEGMENT VISUALISATION",
+    "updated": "2021-09-16"
+  },
+  "tree": {
+    "branch_attrs": {
+      "labels": {
+        "clade": "3c3.A"
+      },
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "name": "A/Kansas/14/2017",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "3c3.A"
+          },
+          "continent": {
+            "value": "North America"
+          },
+          "country": {
+            "value": "United States"
+          },
+          "dataset": {
+            "value": "REFERENCE"
+          },
+          "div": 7.596588088756752e-19,
+          "num_date": {
+            "value": 2017.9520547945206
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "HA2: M149I"
+          },
+          "mutations": {
+            "HA2": [
+              "M149I"
+            ],
+            "nuc": [
+              "G876A",
+              "G1482A"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A1011G"
+                ]
+              }
+            },
+            "name": "A/England/538/2018",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "3c3.A"
+              },
+              "continent": {
+                "value": "Europe"
+              },
+              "country": {
+                "value": "United Kingdom"
+              },
+              "dataset": {
+                "value": "REFERENCE"
+              },
+              "div": 0.001764048940870777,
+              "num_date": {
+                "value": 2018.154794520548
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HA1: E50K, E62G, N91S, K92R, N121K, T135K, S137F, K144S, S159Y, K160T, N171K, K310R, R326K; HA2: I77V, G155E, A201V; SigPep: C9Y, A16T",
+                "clade": "A1b/137F"
+              },
+              "mutations": {
+                "HA1": [
+                  "E50K",
+                  "E62G",
+                  "N91S",
+                  "K92R",
+                  "N121K",
+                  "T135K",
+                  "S137F",
+                  "K144S",
+                  "S159Y",
+                  "K160T",
+                  "N171K",
+                  "K310R",
+                  "R326K"
+                ],
+                "HA2": [
+                  "I77V",
+                  "G155E",
+                  "A201V"
+                ],
+                "SigPep": [
+                  "C9Y",
+                  "A16T"
+                ],
+                "nuc": [
+                  "G26A",
+                  "G46A",
+                  "G138A",
+                  "C172T",
+                  "C183T",
+                  "G196A",
+                  "A233G",
+                  "A234G",
+                  "C240T",
+                  "A264G",
+                  "T279C",
+                  "T285C",
+                  "C309T",
+                  "A320G",
+                  "A323G",
+                  "A366C",
+                  "A375G",
+                  "C411A",
+                  "C452A",
+                  "C458T",
+                  "A479G",
+                  "A480T",
+                  "C516T",
+                  "A519G",
+                  "C524A",
+                  "A527C",
+                  "C531T",
+                  "T538C",
+                  "A540G",
+                  "T561G",
+                  "T591G",
+                  "A636T",
+                  "G693A",
+                  "A765G",
+                  "A915C",
+                  "A924G",
+                  "A939G",
+                  "A960C",
+                  "A977G",
+                  "T987C",
+                  "G1025A",
+                  "C1047T",
+                  "A1083C",
+                  "C1104T",
+                  "T1149C",
+                  "G1206A",
+                  "G1242A",
+                  "G1260A",
+                  "A1264G",
+                  "G1269A",
+                  "A1296T",
+                  "C1437A",
+                  "G1485A",
+                  "C1491A",
+                  "G1499A",
+                  "A1518G",
+                  "C1637T",
+                  "C1639T",
+                  "G1683A",
+                  "T1692C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C1203T"
+                    ]
+                  }
+                },
+                "name": "GRIPPE-20210486_S94",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "A1b/137F"
+                  },
+                  "continent": {
+                    "value": "Europe"
+                  },
+                  "country": {
+                    "value": "France"
+                  },
+                  "dataset": {
+                    "value": "TEST"
+                  },
+                  "div": 0.03794617595720425,
+                  "num_date": {
+                    "value": 2021.7054794520548
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA1: R33Q"
+                  },
+                  "mutations": {
+                    "HA1": [
+                      "R33Q"
+                    ],
+                    "nuc": [
+                      "G146A"
+                    ]
+                  }
+                },
+                "name": "GRIPPE-20210490_S95",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "A1b/137F"
+                  },
+                  "continent": {
+                    "value": "Europe"
+                  },
+                  "country": {
+                    "value": "France"
+                  },
+                  "dataset": {
+                    "value": "TEST"
+                  },
+                  "div": 0.03794614049932126,
+                  "num_date": {
+                    "value": 2021.7054794520548
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000001",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "A1b/137F"
+              },
+              "continent": {
+                "value": "Europe"
+              },
+              "country": {
+                "value": "France"
+              },
+              "div": 0.03735774917539171,
+              "num_date": {
+                "value": 2021.647561817623
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000000",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "3c3.A"
+          },
+          "continent": {
+            "value": "Europe"
+          },
+          "country": {
+            "value": "United Kingdom"
+          },
+          "div": 0.001176150593632193,
+          "num_date": {
+            "value": 2018.113575677168
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000002",
+    "node_attrs": {
+      "clade_membership": {
+        "value": "3c3.A"
+      },
+      "continent": {
+        "value": "North America"
+      },
+      "country": {
+        "value": "United States"
+      },
+      "div": 0,
+      "num_date": {
+        "value": 2017.9520547945206
+      }
+    }
+  },
+  "version": "v2"
+}
