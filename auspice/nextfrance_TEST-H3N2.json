@@ -33,10 +33,10 @@
       }
     ],
     "filters": [
-      "country",
       "dataset",
+      "continent",
       "clade_membership",
-      "continent"
+      "country"
     ],
     "genome_annotations": {
       "HA1": {
@@ -72,7 +72,7 @@
       "tree",
       "entropy"
     ],
-    "title": "NEXTSRAIN H3N2 HA SEGMENT VISUALISATION",
+    "title": "NEXTSTRAIN H3N2 HA SEGMENT VISUALISATION",
     "updated": "2021-09-16"
   },
   "tree": {
@@ -163,7 +163,7 @@
               "dataset": {
                 "value": "REFERENCE"
               },
-              "div": 0.016030854228431687,
+              "div": 0.01585611785202084,
               "num_date": {
                 "value": 2017.9520547945206
               }
@@ -191,7 +191,7 @@
               "dataset": {
                 "value": "REFERENCE"
               },
-              "div": 0.015442365499377142,
+              "div": 0.015267629005045956,
               "num_date": {
                 "value": 2018.154794520548
               }
@@ -209,9 +209,9 @@
           "country": {
             "value": "United States"
           },
-          "div": 0.014854201543883148,
+          "div": 0.01467946504539828,
           "num_date": {
-            "value": 2017.721472094429
+            "value": 2017.6983173510466
           }
         }
       },
@@ -259,7 +259,7 @@
               "dataset": {
                 "value": "REFERENCE"
               },
-              "div": 0.0058963720734479695,
+              "div": 0.006063172487775322,
               "num_date": {
                 "value": 2014.327397260274
               }
@@ -364,7 +364,7 @@
                       "dataset": {
                         "value": "REFERENCE"
                       },
-                      "div": 0.019497925680930388,
+                      "div": 0.01966246452659453,
                       "num_date": {
                         "value": 2018.7575342465752
                       }
@@ -424,7 +424,7 @@
                       "dataset": {
                         "value": "REFERENCE"
                       },
-                      "div": 0.02545795931630232,
+                      "div": 0.025622498476400885,
                       "num_date": {
                         "value": 2020.5396174863388
                       }
@@ -442,9 +442,9 @@
                   "country": {
                     "value": "Norway"
                   },
-                  "div": 0.014780010071184204,
+                  "div": 0.01494454889141023,
                   "num_date": {
-                    "value": 2017.7650039822818
+                    "value": 2017.2604040913484
                   }
                 }
               },
@@ -480,6 +480,30 @@
                 "children": [
                   {
                     "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "A/Hong_Kong/2669/2019",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "A1b/137F"
+                      },
+                      "continent": {
+                        "value": "Asia"
+                      },
+                      "country": {
+                        "value": "Hong Kong (SAR)"
+                      },
+                      "dataset": {
+                        "value": "REFERENCE"
+                      },
+                      "div": 0.01671626633600855,
+                      "num_date": {
+                        "value": 2019.4616438356165
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
                       "mutations": {
                         "nuc": [
                           "C600T"
@@ -500,7 +524,7 @@
                       "dataset": {
                         "value": "REFERENCE"
                       },
-                      "div": 0.0183222510330465,
+                      "div": 0.01730470524017014,
                       "num_date": {
                         "value": 2019.458904109589
                       }
@@ -508,124 +532,40 @@
                   },
                   {
                     "branch_attrs": {
-                      "mutations": {}
+                      "labels": {
+                        "aa": "HA1: E50K, K310R; HA2: A201V"
+                      },
+                      "mutations": {
+                        "HA1": [
+                          "E50K",
+                          "K310R"
+                        ],
+                        "HA2": [
+                          "A201V"
+                        ],
+                        "nuc": [
+                          "G196A",
+                          "C240T",
+                          "T285C",
+                          "A519G",
+                          "A924G",
+                          "A977G",
+                          "T987C",
+                          "A1083C",
+                          "C1637T"
+                        ]
+                      }
                     },
                     "children": [
                       {
                         "branch_attrs": {
-                          "mutations": {}
-                        },
-                        "name": "A/Hong_Kong/2669/2019",
-                        "node_attrs": {
-                          "clade_membership": {
-                            "value": "A1b/137F"
-                          },
-                          "continent": {
-                            "value": "Asia"
-                          },
-                          "country": {
-                            "value": "Hong Kong (SAR)"
-                          },
-                          "dataset": {
-                            "value": "REFERENCE"
-                          },
-                          "div": 0.017733811917415826,
-                          "num_date": {
-                            "value": 2019.4616438356165
-                          }
-                        }
-                      },
-                      {
-                        "branch_attrs": {
-                          "labels": {
-                            "aa": "HA1: E50K, K310R; HA2: A201V"
-                          },
                           "mutations": {
-                            "HA1": [
-                              "E50K",
-                              "K310R"
-                            ],
-                            "HA2": [
-                              "A201V"
-                            ],
                             "nuc": [
-                              "G196A",
-                              "C240T",
-                              "T285C",
-                              "A519G",
-                              "A924G",
-                              "A977G",
-                              "T987C",
-                              "A1083C",
-                              "C1637T"
+                              "C1203T"
                             ]
                           }
                         },
-                        "children": [
-                          {
-                            "branch_attrs": {
-                              "mutations": {
-                                "nuc": [
-                                  "C1203T"
-                                ]
-                              }
-                            },
-                            "name": "GRIPPE-20210486_S94",
-                            "node_attrs": {
-                              "clade_membership": {
-                                "value": "A1b/137F"
-                              },
-                              "continent": {
-                                "value": "Europe"
-                              },
-                              "country": {
-                                "value": "France"
-                              },
-                              "dataset": {
-                                "value": "TEST"
-                              },
-                              "div": 0.02363171332973694,
-                              "num_date": {
-                                "value": 2021.7054794520548
-                              }
-                            }
-                          },
-                          {
-                            "branch_attrs": {
-                              "labels": {
-                                "aa": "HA1: R33Q"
-                              },
-                              "mutations": {
-                                "HA1": [
-                                  "R33Q"
-                                ],
-                                "nuc": [
-                                  "G146A"
-                                ]
-                              }
-                            },
-                            "name": "GRIPPE-20210490_S95",
-                            "node_attrs": {
-                              "clade_membership": {
-                                "value": "A1b/137F"
-                              },
-                              "continent": {
-                                "value": "Europe"
-                              },
-                              "country": {
-                                "value": "France"
-                              },
-                              "dataset": {
-                                "value": "TEST"
-                              },
-                              "div": 0.02363171647055747,
-                              "num_date": {
-                                "value": 2021.7054794520548
-                              }
-                            }
-                          }
-                        ],
-                        "name": "NODE_0000006",
+                        "name": "GRIPPE-20210486_S94",
                         "node_attrs": {
                           "clade_membership": {
                             "value": "A1b/137F"
@@ -636,27 +576,64 @@
                           "country": {
                             "value": "France"
                           },
-                          "div": 0.02304349584426528,
+                          "dataset": {
+                            "value": "TEST"
+                          },
+                          "div": 0.022614167819643923,
                           "num_date": {
-                            "value": 2021.4794010039914
+                            "value": 2021.7054794520548
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HA1: R33Q"
+                          },
+                          "mutations": {
+                            "HA1": [
+                              "R33Q"
+                            ],
+                            "nuc": [
+                              "G146A"
+                            ]
+                          }
+                        },
+                        "name": "GRIPPE-20210490_S95",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "A1b/137F"
+                          },
+                          "continent": {
+                            "value": "Europe"
+                          },
+                          "country": {
+                            "value": "France"
+                          },
+                          "dataset": {
+                            "value": "TEST"
+                          },
+                          "div": 0.022614170909806195,
+                          "num_date": {
+                            "value": 2021.7054794520548
                           }
                         }
                       }
                     ],
-                    "name": "NODE_0000007",
+                    "name": "NODE_0000006",
                     "node_attrs": {
                       "clade_membership": {
                         "value": "A1b/137F"
                       },
                       "continent": {
-                        "value": "Asia"
+                        "value": "Europe"
                       },
                       "country": {
-                        "value": "Hong Kong (SAR)"
+                        "value": "France"
                       },
-                      "div": 0.017733811917415822,
+                      "div": 0.022025950274716516,
                       "num_date": {
-                        "value": 2019.4429027790727
+                        "value": 2021.4649437552687
                       }
                     }
                   }
@@ -672,9 +649,9 @@
                   "country": {
                     "value": "Hong Kong (SAR)"
                   },
-                  "div": 0.01773381191741582,
+                  "div": 0.016716266336008548,
                   "num_date": {
-                    "value": 2019.342670109432
+                    "value": 2019.3746064196678
                   }
                 }
               }
@@ -688,11 +665,11 @@
                 "value": "Asia"
               },
               "country": {
-                "value": "Hong Kong (SAR)"
+                "value": "Norway"
               },
-              "div": 0.012422805016430729,
+              "div": 0.01199722732337486,
               "num_date": {
-                "value": 2017.123120730077
+                "value": 2016.647112421254
               }
             }
           }
@@ -708,9 +685,9 @@
           "country": {
             "value": "Hong Kong (SAR)"
           },
-          "div": 0.0017675765926869313,
+          "div": 0.0013432427409386552,
           "num_date": {
-            "value": 2013.154677543573
+            "value": 2012.7970180539514
           }
         }
       }
@@ -728,7 +705,7 @@
       },
       "div": 0,
       "num_date": {
-        "value": 2012.4879782458445
+        "value": 2012.5891340730534
       }
     }
   },
