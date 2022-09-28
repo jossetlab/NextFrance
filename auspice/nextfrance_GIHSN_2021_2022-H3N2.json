@@ -30,19 +30,13 @@
         "key": "context",
         "title": "context",
         "type": "categorical"
-      },
-      {
-        "key": "GISAID",
-        "title": "GISAID",
-        "type": "categorical"
       }
     ],
     "filters": [
-      "GISAID",
+      "country",
       "continent",
-      "clade_membership",
       "context",
-      "country"
+      "clade_membership"
     ],
     "genome_annotations": {
       "HA1": {
@@ -95,9 +89,6 @@
         },
         "name": "A/Hong_Kong/5738/2014|S4",
         "node_attrs": {
-          "GISAID": {
-            "value": "166228"
-          },
           "clade_membership": {
             "value": "3C.2a"
           },
@@ -106,9 +97,9 @@
           },
           "continent": {
             "confidence": {
-              "Asia": 1.0
+              "Asia": 0.9999999999999999
             },
-            "entropy": -1.000088900581841e-12,
+            "entropy": -9.99866855976916e-13,
             "value": "Asia"
           },
           "country": {
@@ -118,7 +109,7 @@
             "entropy": -1.000088900581841e-12,
             "value": "China"
           },
-          "div": 4.2856113203671385e-18,
+          "div": 4.286865740166623e-18,
           "num_date": {
             "value": 2014.327397260274
           }
@@ -179,9 +170,6 @@
             },
             "name": "A/Singapore/INFIMH-16-0019/2016|S4",
             "node_attrs": {
-              "GISAID": {
-                "value": "335173"
-              },
               "clade_membership": {
                 "value": "3C.2a1"
               },
@@ -190,19 +178,19 @@
               },
               "continent": {
                 "confidence": {
-                  "Asia": 0.9999999999999999
+                  "Asia": 1.0
                 },
-                "entropy": -9.99866855976916e-13,
+                "entropy": -1.000088900581841e-12,
                 "value": "Asia"
               },
               "country": {
                 "confidence": {
-                  "Singapore": 0.9999999999999999
+                  "Singapore": 1.0
                 },
-                "entropy": -9.99866855976916e-13,
+                "entropy": -1.000088900581841e-12,
                 "value": "Singapore"
               },
-              "div": 0.011225095418691091,
+              "div": 0.011225095487060143,
               "num_date": {
                 "value": 2016.4521857923498
               }
@@ -259,9 +247,6 @@
                     },
                     "name": "A/LaRioja/2202/2018|S4",
                     "node_attrs": {
-                      "GISAID": {
-                        "value": "312347"
-                      },
                       "clade_membership": {
                         "value": "3C.2a1b.1"
                       },
@@ -282,7 +267,7 @@
                         "entropy": -1.000088900581841e-12,
                         "value": "Espagne"
                       },
-                      "div": 0.013580145676709713,
+                      "div": 0.013580145740637267,
                       "num_date": {
                         "value": 2018.2506849315068
                       }
@@ -356,9 +341,6 @@
                         },
                         "name": "22Pl026-022118627601_S706|S4",
                         "node_attrs": {
-                          "GISAID": {
-                            "value": "non soumis"
-                          },
                           "clade_membership": {
                             "value": "3C.2a1b.1a"
                           },
@@ -379,7 +361,7 @@
                             "entropy": -9.99866855976916e-13,
                             "value": "Cote d'ivoire"
                           },
-                          "div": 0.028408615732733157,
+                          "div": 0.028408615727319612,
                           "num_date": {
                             "value": 2021.9109589041095
                           }
@@ -446,9 +428,6 @@
                             },
                             "name": "22Pl026-GIHSNKenya11_S763|S4",
                             "node_attrs": {
-                              "GISAID": {
-                                "value": "non soumis"
-                              },
                               "clade_membership": {
                                 "value": "3C.2a1b.1b"
                               },
@@ -469,7 +448,7 @@
                                 "entropy": -1.000088900581841e-12,
                                 "value": "Kenya"
                               },
-                              "div": 0.026567703989921893,
+                              "div": 0.026567704651990934,
                               "num_date": {
                                 "value": 2021.7082191780821
                               }
@@ -513,9 +492,6 @@
                                     },
                                     "name": "22Pl026-GIHSNKenya10_S762|S4",
                                     "node_attrs": {
-                                      "GISAID": {
-                                        "value": "non soumis"
-                                      },
                                       "clade_membership": {
                                         "value": "3C.2a1b.1b"
                                       },
@@ -536,7 +512,7 @@
                                         "entropy": -1.000088900581841e-12,
                                         "value": "Kenya"
                                       },
-                                      "div": 0.02538482709089639,
+                                      "div": 0.025384827248270906,
                                       "num_date": {
                                         "value": 2021.7054794520548
                                       }
@@ -558,9 +534,6 @@
                                     },
                                     "name": "22Pl026-GIHSNKenya12_S764|S4",
                                     "node_attrs": {
-                                      "GISAID": {
-                                        "value": "non soumis"
-                                      },
                                       "clade_membership": {
                                         "value": "3C.2a1b.1b"
                                       },
@@ -581,7 +554,7 @@
                                         "entropy": -1.000088900581841e-12,
                                         "value": "Kenya"
                                       },
-                                      "div": 0.025384756943159864,
+                                      "div": 0.025384757107529143,
                                       "num_date": {
                                         "value": 2021.727397260274
                                       }
@@ -595,21 +568,21 @@
                                   },
                                   "continent": {
                                     "confidence": {
-                                      "Africa": 0.9997974920360301
+                                      "Africa": 0.9997975922659023
                                     },
-                                    "entropy": 0.0019421008750921819,
+                                    "entropy": 0.001941228403917904,
                                     "value": "Africa"
                                   },
                                   "country": {
                                     "confidence": {
-                                      "Kenya": 0.9999754270194285
+                                      "Kenya": 0.9999754004316546
                                     },
-                                    "entropy": 0.00033449914612038514,
+                                    "entropy": 0.00033481589567817033,
                                     "value": "Kenya"
                                   },
-                                  "div": 0.02479647531582079,
+                                  "div": 0.024796475558190676,
                                   "num_date": {
-                                    "value": 2021.6434564505034
+                                    "value": 2021.6434530989059
                                   }
                                 }
                               },
@@ -638,9 +611,6 @@
                                     },
                                     "name": "22Pl026-GIHSNKenya14_S766|S4",
                                     "node_attrs": {
-                                      "GISAID": {
-                                        "value": "non soumis"
-                                      },
                                       "clade_membership": {
                                         "value": "3C.2a1b.1b"
                                       },
@@ -649,9 +619,9 @@
                                       },
                                       "continent": {
                                         "confidence": {
-                                          "Africa": 0.9999999999999999
+                                          "Africa": 1.0
                                         },
-                                        "entropy": -9.99866855976916e-13,
+                                        "entropy": -1.000088900581841e-12,
                                         "value": "Africa"
                                       },
                                       "country": {
@@ -661,7 +631,7 @@
                                         "entropy": -1.000088900581841e-12,
                                         "value": "Kenya"
                                       },
-                                      "div": 0.02597321883809904,
+                                      "div": 0.025973219186939307,
                                       "num_date": {
                                         "value": 2021.7383561643835
                                       }
@@ -683,9 +653,6 @@
                                     },
                                     "name": "22Pl026-GIHSNKenya09_S761|S4",
                                     "node_attrs": {
-                                      "GISAID": {
-                                        "value": "non soumis"
-                                      },
                                       "clade_membership": {
                                         "value": "3C.2a1b.1b"
                                       },
@@ -694,9 +661,9 @@
                                       },
                                       "continent": {
                                         "confidence": {
-                                          "Africa": 0.9999999999999999
+                                          "Africa": 1.0
                                         },
-                                        "entropy": -9.99866855976916e-13,
+                                        "entropy": -1.000088900581841e-12,
                                         "value": "Africa"
                                       },
                                       "country": {
@@ -706,7 +673,7 @@
                                         "entropy": -1.000088900581841e-12,
                                         "value": "Kenya"
                                       },
-                                      "div": 0.02597316662143077,
+                                      "div": 0.025973166529482207,
                                       "num_date": {
                                         "value": 2021.6917808219177
                                       }
@@ -728,9 +695,6 @@
                                     },
                                     "name": "22Pl026-GIHSNKenya15_S767|S4",
                                     "node_attrs": {
-                                      "GISAID": {
-                                        "value": "non soumis"
-                                      },
                                       "clade_membership": {
                                         "value": "3C.2a1b.1b"
                                       },
@@ -739,9 +703,9 @@
                                       },
                                       "continent": {
                                         "confidence": {
-                                          "Africa": 0.9999999999999999
+                                          "Africa": 1.0
                                         },
-                                        "entropy": -9.99866855976916e-13,
+                                        "entropy": -1.000088900581841e-12,
                                         "value": "Africa"
                                       },
                                       "country": {
@@ -751,7 +715,7 @@
                                         "entropy": -1.000088900581841e-12,
                                         "value": "Kenya"
                                       },
-                                      "div": 0.02597316662143077,
+                                      "div": 0.025973166529482207,
                                       "num_date": {
                                         "value": 2021.7383561643835
                                       }
@@ -768,9 +732,6 @@
                                         },
                                         "name": "22Pl026-GIHSNKenya13_S765|S4",
                                         "node_attrs": {
-                                          "GISAID": {
-                                            "value": "non soumis"
-                                          },
                                           "clade_membership": {
                                             "value": "3C.2a1b.1b"
                                           },
@@ -786,12 +747,12 @@
                                           },
                                           "country": {
                                             "confidence": {
-                                              "Kenya": 0.9999999999999999
+                                              "Kenya": 1.0
                                             },
-                                            "entropy": -9.99866855976916e-13,
+                                            "entropy": -1.000088900581841e-12,
                                             "value": "Kenya"
                                           },
-                                          "div": 0.02538497326963244,
+                                          "div": 0.025384973362216123,
                                           "num_date": {
                                             "value": 2021.7383561643835
                                           }
@@ -803,9 +764,6 @@
                                         },
                                         "name": "22Pl026-GIHSNKenya08_S760|S4",
                                         "node_attrs": {
-                                          "GISAID": {
-                                            "value": "non soumis"
-                                          },
                                           "clade_membership": {
                                             "value": "3C.2a1b.1b"
                                           },
@@ -821,12 +779,12 @@
                                           },
                                           "country": {
                                             "confidence": {
-                                              "Kenya": 0.9999999999999999
+                                              "Kenya": 1.0
                                             },
-                                            "entropy": -9.99866855976916e-13,
+                                            "entropy": -1.000088900581841e-12,
                                             "value": "Kenya"
                                           },
-                                          "div": 0.02538497326963244,
+                                          "div": 0.025384973362216123,
                                           "num_date": {
                                             "value": 2021.6698630136987
                                           }
@@ -840,19 +798,19 @@
                                       },
                                       "continent": {
                                         "confidence": {
-                                          "Africa": 0.9998405421446626
+                                          "Africa": 0.9998405082636724
                                         },
-                                        "entropy": 0.001569460345874796,
+                                        "entropy": 0.0015697412147385073,
                                         "value": "Africa"
                                       },
                                       "country": {
                                         "confidence": {
-                                          "Kenya": 0.9999775527462867
+                                          "Kenya": 0.9999775230952912
                                         },
-                                        "entropy": 0.00030772520367212356,
+                                        "entropy": 0.00030808435639984055,
                                         "value": "Kenya"
                                       },
-                                      "div": 0.025384973269632436,
+                                      "div": 0.02538497336221612,
                                       "num_date": {
                                         "value": 2021.669863013954
                                       }
@@ -866,21 +824,21 @@
                                   },
                                   "continent": {
                                     "confidence": {
-                                      "Africa": 0.9999994206194943
+                                      "Africa": 0.9999994207226791
                                     },
-                                    "entropy": 8.903704652127486e-06,
+                                    "entropy": 8.902216265601754e-06,
                                     "value": "Africa"
                                   },
                                   "country": {
                                     "confidence": {
-                                      "Kenya": 0.9999999945453526
+                                      "Kenya": 0.9999999945301639
                                     },
-                                    "entropy": 1.186214195224285e-07,
+                                    "entropy": 1.1892268493218003e-07,
                                     "value": "Kenya"
                                   },
-                                  "div": 0.025384973269632433,
+                                  "div": 0.025384973362216116,
                                   "num_date": {
-                                    "value": 2021.667821259819
+                                    "value": 2021.6678210003129
                                   }
                                 }
                               }
@@ -892,21 +850,21 @@
                               },
                               "continent": {
                                 "confidence": {
-                                  "Africa": 0.9991205509306447
+                                  "Africa": 0.9991233932452516
                                 },
-                                "entropy": 0.007130925741128918,
+                                "entropy": 0.0071108468995867615,
                                 "value": "Africa"
                               },
                               "country": {
                                 "confidence": {
-                                  "Kenya": 0.9998632939721946
+                                  "Kenya": 0.9998635509761807
                                 },
-                                "entropy": 0.0016225349849784928,
+                                "entropy": 0.0016198669530868405,
                                 "value": "Kenya"
                               },
-                              "div": 0.024796475315820788,
+                              "div": 0.024796475558190673,
                               "num_date": {
-                                "value": 2021.6434564505034
+                                "value": 2021.6434530989059
                               }
                             }
                           }
@@ -918,25 +876,25 @@
                           },
                           "continent": {
                             "confidence": {
-                              "Africa": 0.9788491352459049,
-                              "Europe": 0.020664518371839028
+                              "Africa": 0.9789643966820413,
+                              "Europe": 0.020547547699187856
                             },
-                            "entropy": 0.10513719596377312,
+                            "entropy": 0.10469976183267352,
                             "value": "Africa"
                           },
                           "country": {
                             "confidence": {
-                              "Cote d'ivoire": 0.0011577761096431024,
-                              "Espagne": 0.003758887099403939,
-                              "Kenya": 0.9890415671644419,
-                              "Ukraine": 0.0018532356941575042
+                              "Cote d'ivoire": 0.0011524570957571183,
+                              "Espagne": 0.003718364377698501,
+                              "Kenya": 0.9890838640188233,
+                              "Ukraine": 0.001857808397618215
                             },
-                            "entropy": 0.08173325922866319,
+                            "entropy": 0.08149484427795374,
                             "value": "Kenya"
                           },
-                          "div": 0.02303046987596173,
+                          "div": 0.02303047000867505,
                           "num_date": {
-                            "value": 2021.1199919697156
+                            "value": 2021.1199212745844
                           }
                         }
                       }
@@ -948,27 +906,27 @@
                       },
                       "continent": {
                         "confidence": {
-                          "Africa": 0.3059110812269314,
-                          "Asia": 0.004317100572655299,
-                          "Europe": 0.6865229817552573,
-                          "South America": 0.0032488364451559856
+                          "Africa": 0.30601072945696417,
+                          "Asia": 0.004416960379176793,
+                          "Europe": 0.686260854613901,
+                          "South America": 0.0033114555499579737
                         },
-                        "entropy": 0.6626730980344687,
+                        "entropy": 0.6635932526155991,
                         "value": "Europe"
                       },
                       "country": {
                         "confidence": {
-                          "Cote d'ivoire": 0.0951313559770666,
-                          "Espagne": 0.5602732878531569,
-                          "Kenya": 0.13479670383105277,
-                          "Norvege": 0.060538228074457495
+                          "Cote d'ivoire": 0.0952185292007748,
+                          "Espagne": 0.5598100586464606,
+                          "Kenya": 0.13453817909456284,
+                          "Norvege": 0.059594783890810986
                         },
-                        "entropy": 1.5275313750666675,
+                        "entropy": 1.5300907267795008,
                         "value": "Espagne"
                       },
-                      "div": 0.01475805464328291,
+                      "div": 0.014758054736286774,
                       "num_date": {
-                        "value": 2018.6554571207348
+                        "value": 2018.6337971713326
                       }
                     }
                   }
@@ -980,26 +938,26 @@
                   },
                   "continent": {
                     "confidence": {
-                      "Africa": 0.034842611815111564,
-                      "Asia": 0.002049968678571873,
-                      "Europe": 0.9628473424120467
+                      "Africa": 0.034884601890673175,
+                      "Asia": 0.0021155400702939815,
+                      "Europe": 0.9627353818809331
                     },
-                    "entropy": 0.16825342421754336,
+                    "entropy": 0.1688312305241316,
                     "value": "Europe"
                   },
                   "country": {
                     "confidence": {
-                      "Espagne": 0.7885026123756357,
-                      "Kenya": 0.0353536712672399,
-                      "Norvege": 0.06560922963473793,
-                      "Singapore": 0.04130959584449491
+                      "Espagne": 0.7897931236988203,
+                      "Kenya": 0.03508595826342406,
+                      "Norvege": 0.06405303186748822,
+                      "Singapore": 0.04167238525868754
                     },
-                    "entropy": 0.9141706778698087,
+                    "entropy": 0.9114202903300371,
                     "value": "Espagne"
                   },
-                  "div": 0.012992124154208959,
+                  "div": 0.012992124255053082,
                   "num_date": {
-                    "value": 2018.1162437488663
+                    "value": 2018.0877021847698
                   }
                 }
               },
@@ -1047,9 +1005,6 @@
                     },
                     "name": "A/Norway/3275/2018|S4",
                     "node_attrs": {
-                      "GISAID": {
-                        "value": "332813"
-                      },
                       "clade_membership": {
                         "value": "3C.2a1b.2"
                       },
@@ -1070,7 +1025,7 @@
                         "entropy": -1.000088900581841e-12,
                         "value": "Norvege"
                       },
-                      "div": 0.018295867726121025,
+                      "div": 0.01829586813656838,
                       "num_date": {
                         "value": 2018.7575342465752
                       }
@@ -1131,9 +1086,6 @@
                         },
                         "name": "A/Finland/183/2020|S4",
                         "node_attrs": {
-                          "GISAID": {
-                            "value": "1064133"
-                          },
                           "clade_membership": {
                             "value": "3C.2a1b.2a.1"
                           },
@@ -1142,19 +1094,19 @@
                           },
                           "continent": {
                             "confidence": {
-                              "Europe": 0.9999999999999999
+                              "Europe": 1.0
                             },
-                            "entropy": -9.99866855976916e-13,
+                            "entropy": -1.000088900581841e-12,
                             "value": "Europe"
                           },
                           "country": {
                             "confidence": {
-                              "Finlande": 0.9999999999999999
+                              "Finlande": 1.0
                             },
-                            "entropy": -9.99866855976916e-13,
+                            "entropy": -1.000088900581841e-12,
                             "value": "Finlande"
                           },
-                          "div": 0.024214593528341603,
+                          "div": 0.024214594038832263,
                           "num_date": {
                             "value": 2020.1680327868853
                           }
@@ -1212,9 +1164,6 @@
                             },
                             "name": "22Pl026-GIHSNKenya05_S759|S4",
                             "node_attrs": {
-                              "GISAID": {
-                                "value": "non soumis"
-                              },
                               "clade_membership": {
                                 "value": "3C.2a1b.2a.2"
                               },
@@ -1230,12 +1179,12 @@
                               },
                               "country": {
                                 "confidence": {
-                                  "Kenya": 1.0
+                                  "Kenya": 0.9999999999999999
                                 },
-                                "entropy": -1.000088900581841e-12,
+                                "entropy": -9.99866855976916e-13,
                                 "value": "Kenya"
                               },
-                              "div": 0.030113472507802004,
+                              "div": 0.030113472377907794,
                               "num_date": {
                                 "value": 2021.2232876712328
                               }
@@ -1273,9 +1222,6 @@
                                 },
                                 "name": "A/Kyiv/424/2021_S4",
                                 "node_attrs": {
-                                  "GISAID": {
-                                    "value": "13970490"
-                                  },
                                   "clade_membership": {
                                     "value": "3C.2a1b.2a.2"
                                   },
@@ -1296,7 +1242,7 @@
                                     "entropy": -1.000088900581841e-12,
                                     "value": "Ukraine"
                                   },
-                                  "div": 0.03129273529675477,
+                                  "div": 0.03129273531010867,
                                   "num_date": {
                                     "value": 2021.9986301369863
                                   }
@@ -1312,9 +1258,6 @@
                                 },
                                 "name": "A/Khmelnytskyi/402/2021_S4",
                                 "node_attrs": {
-                                  "GISAID": {
-                                    "value": "13970495"
-                                  },
                                   "clade_membership": {
                                     "value": "3C.2a1b.2a.2"
                                   },
@@ -1335,7 +1278,7 @@
                                     "entropy": -1.000088900581841e-12,
                                     "value": "Ukraine"
                                   },
-                                  "div": 0.03129253799673782,
+                                  "div": 0.03129253805793557,
                                   "num_date": {
                                     "value": 2021.9767123287672
                                   }
@@ -1349,22 +1292,22 @@
                               },
                               "continent": {
                                 "confidence": {
-                                  "Africa": 0.0019945388433402398,
-                                  "Europe": 0.9979373419010117
+                                  "Africa": 0.002037452077238313,
+                                  "Europe": 0.9978945405336094
                                 },
-                                "entropy": 0.015162029950352086,
+                                "entropy": 0.01542713753011936,
                                 "value": "Europe"
                               },
                               "country": {
                                 "confidence": {
-                                  "Ukraine": 0.99813753925815
+                                  "Ukraine": 0.9981013001519445
                                 },
-                                "entropy": 0.016716684009513986,
+                                "entropy": 0.016997593858935442,
                                 "value": "Ukraine"
                               },
-                              "div": 0.030704819266078594,
+                              "div": 0.03070481933650118,
                               "num_date": {
-                                "value": 2021.8898398064475
+                                "value": 2021.8893635566733
                               }
                             }
                           },
@@ -1423,9 +1366,6 @@
                                     },
                                     "name": "22Pl026-022103114101_S751|S4",
                                     "node_attrs": {
-                                      "GISAID": {
-                                        "value": "non soumis"
-                                      },
                                       "clade_membership": {
                                         "value": "3C.2a1b.2a.2"
                                       },
@@ -1434,9 +1374,9 @@
                                       },
                                       "continent": {
                                         "confidence": {
-                                          "South America": 1.0
+                                          "South America": 0.9999999999999999
                                         },
-                                        "entropy": -1.000088900581841e-12,
+                                        "entropy": -9.99866855976916e-13,
                                         "value": "South America"
                                       },
                                       "country": {
@@ -1446,7 +1386,7 @@
                                         "entropy": -1.000088900581841e-12,
                                         "value": "Perou"
                                       },
-                                      "div": 0.03423914294027827,
+                                      "div": 0.03423914288651057,
                                       "num_date": {
                                         "value": 2022.4506849315069
                                       }
@@ -1458,9 +1398,6 @@
                                     },
                                     "name": "22Pl026-022103135401_S753|S4",
                                     "node_attrs": {
-                                      "GISAID": {
-                                        "value": "non soumis"
-                                      },
                                       "clade_membership": {
                                         "value": "3C.2a1b.2a.2"
                                       },
@@ -1469,9 +1406,9 @@
                                       },
                                       "continent": {
                                         "confidence": {
-                                          "South America": 1.0
+                                          "South America": 0.9999999999999999
                                         },
-                                        "entropy": -1.000088900581841e-12,
+                                        "entropy": -9.99866855976916e-13,
                                         "value": "South America"
                                       },
                                       "country": {
@@ -1481,7 +1418,7 @@
                                         "entropy": -1.000088900581841e-12,
                                         "value": "Perou"
                                       },
-                                      "div": 0.03423914294027827,
+                                      "div": 0.03423914288651057,
                                       "num_date": {
                                         "value": 2022.4506849315069
                                       }
@@ -1495,21 +1432,21 @@
                                   },
                                   "continent": {
                                     "confidence": {
-                                      "Europe": 0.002062625861742894,
-                                      "South America": 0.997507239043486
+                                      "Europe": 0.0021297283106503995,
+                                      "South America": 0.9974374383313769
                                     },
-                                    "entropy": 0.018797349948366463,
+                                    "entropy": 0.019232384511595164,
                                     "value": "South America"
                                   },
                                   "country": {
                                     "confidence": {
-                                      "Perou": 0.9970113101015504,
-                                      "Ukraine": 0.0020640980444669088
+                                      "Perou": 0.9969399412778613,
+                                      "Ukraine": 0.0021354403671546627
                                     },
-                                    "entropy": 0.024083148646191765,
+                                    "entropy": 0.024521573153317336,
                                     "value": "Perou"
                                   },
-                                  "div": 0.034239142940278265,
+                                  "div": 0.03423914288651056,
                                   "num_date": {
                                     "value": 2022.4506849317622
                                   }
@@ -1551,6 +1488,119 @@
                                     "children": [
                                       {
                                         "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "A186G",
+                                              "A1026G",
+                                              "T1632C"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "name": "A/Kyiv/60/2022_S4",
+                                            "node_attrs": {
+                                              "clade_membership": {
+                                                "value": "3C.2a1b.2a.2"
+                                              },
+                                              "context": {
+                                                "value": "GIHSN"
+                                              },
+                                              "continent": {
+                                                "confidence": {
+                                                  "Europe": 1.0
+                                                },
+                                                "entropy": -1.000088900581841e-12,
+                                                "value": "Europe"
+                                              },
+                                              "country": {
+                                                "confidence": {
+                                                  "Ukraine": 1.0
+                                                },
+                                                "entropy": -1.000088900581841e-12,
+                                                "value": "Ukraine"
+                                              },
+                                              "div": 0.033638420634374326,
+                                              "num_date": {
+                                                "value": 2022.0534246575342
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "labels": {
+                                                "aa": "HA1: P55H"
+                                              },
+                                              "mutations": {
+                                                "HA1": [
+                                                  "P55H"
+                                                ],
+                                                "nuc": [
+                                                  "C212A"
+                                                ]
+                                              }
+                                            },
+                                            "name": "A/Kyiv/61/2022_S4",
+                                            "node_attrs": {
+                                              "clade_membership": {
+                                                "value": "3C.2a1b.2a.2"
+                                              },
+                                              "context": {
+                                                "value": "GIHSN"
+                                              },
+                                              "continent": {
+                                                "confidence": {
+                                                  "Europe": 1.0
+                                                },
+                                                "entropy": -1.000088900581841e-12,
+                                                "value": "Europe"
+                                              },
+                                              "country": {
+                                                "confidence": {
+                                                  "Ukraine": 1.0
+                                                },
+                                                "entropy": -1.000088900581841e-12,
+                                                "value": "Ukraine"
+                                              },
+                                              "div": 0.034226008371543624,
+                                              "num_date": {
+                                                "value": 2022.0534246575342
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000020",
+                                        "node_attrs": {
+                                          "clade_membership": {
+                                            "value": "3C.2a1b.2a.2"
+                                          },
+                                          "continent": {
+                                            "confidence": {
+                                              "Africa": 0.004137630908279279,
+                                              "Europe": 0.9958431066593502
+                                            },
+                                            "entropy": 0.02707652340877603,
+                                            "value": "Europe"
+                                          },
+                                          "country": {
+                                            "confidence": {
+                                              "Liban": 0.004738857230756433,
+                                              "Ukraine": 0.9951516674731695
+                                            },
+                                            "entropy": 0.031416288047652674,
+                                            "value": "Ukraine"
+                                          },
+                                          "div": 0.03363842063437432,
+                                          "num_date": {
+                                            "value": 2021.9759101405637
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
                                           "labels": {
                                             "aa": "HA1: S279Y"
                                           },
@@ -1580,9 +1630,6 @@
                                             },
                                             "name": "22Pl026-022120585501_S743|S4",
                                             "node_attrs": {
-                                              "GISAID": {
-                                                "value": "non soumis"
-                                              },
                                               "clade_membership": {
                                                 "value": "3C.2a1b.2a.2"
                                               },
@@ -1598,12 +1645,12 @@
                                               },
                                               "country": {
                                                 "confidence": {
-                                                  "Liban": 1.0
+                                                  "Liban": 0.9999999999999999
                                                 },
-                                                "entropy": -1.000088900581841e-12,
+                                                "entropy": -9.99866855976916e-13,
                                                 "value": "Liban"
                                               },
-                                              "div": 0.03304987021146564,
+                                              "div": 0.03304987011692458,
                                               "num_date": {
                                                 "value": 2021.8397260273973
                                               }
@@ -1615,9 +1662,6 @@
                                             },
                                             "name": "22Pl026-022120609601_S745|S4",
                                             "node_attrs": {
-                                              "GISAID": {
-                                                "value": "non soumis"
-                                              },
                                               "clade_membership": {
                                                 "value": "3C.2a1b.2a.2"
                                               },
@@ -1633,161 +1677,42 @@
                                               },
                                               "country": {
                                                 "confidence": {
-                                                  "Liban": 1.0
+                                                  "Liban": 0.9999999999999999
                                                 },
-                                                "entropy": -1.000088900581841e-12,
+                                                "entropy": -9.99866855976916e-13,
                                                 "value": "Liban"
                                               },
-                                              "div": 0.03246218599617102,
+                                              "div": 0.03246218606701941,
                                               "num_date": {
                                                 "value": 2021.886301369863
                                               }
                                             }
                                           }
                                         ],
-                                        "name": "NODE_0000023",
+                                        "name": "NODE_0000022",
                                         "node_attrs": {
                                           "clade_membership": {
                                             "value": "3C.2a1b.2a.2"
                                           },
                                           "continent": {
                                             "confidence": {
-                                              "Africa": 0.9545698214785476,
-                                              "Europe": 0.0453644594367398
+                                              "Africa": 0.9544181356923263,
+                                              "Europe": 0.04551602412065892
                                             },
-                                            "entropy": 0.18537411845154267,
+                                            "entropy": 0.18583684374832904,
                                             "value": "Africa"
                                           },
                                           "country": {
                                             "confidence": {
-                                              "Liban": 0.9760078319488877,
-                                              "Ukraine": 0.023728206076716166
+                                              "Liban": 0.9758735899330874,
+                                              "Ukraine": 0.023860557921520316
                                             },
-                                            "entropy": 0.11519150773792217,
+                                            "entropy": 0.11570246050756211,
                                             "value": "Liban"
                                           },
-                                          "div": 0.03246218599617101,
+                                          "div": 0.0324621860670194,
                                           "num_date": {
-                                            "value": 2021.7898695114134
-                                          }
-                                        }
-                                      },
-                                      {
-                                        "branch_attrs": {
-                                          "mutations": {
-                                            "nuc": [
-                                              "A186G",
-                                              "A1026G",
-                                              "T1632C"
-                                            ]
-                                          }
-                                        },
-                                        "children": [
-                                          {
-                                            "branch_attrs": {
-                                              "mutations": {}
-                                            },
-                                            "name": "A/Kyiv/60/2022_S4",
-                                            "node_attrs": {
-                                              "GISAID": {
-                                                "value": "13970492"
-                                              },
-                                              "clade_membership": {
-                                                "value": "3C.2a1b.2a.2"
-                                              },
-                                              "context": {
-                                                "value": "GIHSN"
-                                              },
-                                              "continent": {
-                                                "confidence": {
-                                                  "Europe": 1.0
-                                                },
-                                                "entropy": -1.000088900581841e-12,
-                                                "value": "Europe"
-                                              },
-                                              "country": {
-                                                "confidence": {
-                                                  "Ukraine": 1.0
-                                                },
-                                                "entropy": -1.000088900581841e-12,
-                                                "value": "Ukraine"
-                                              },
-                                              "div": 0.033638420756638976,
-                                              "num_date": {
-                                                "value": 2022.0534246575342
-                                              }
-                                            }
-                                          },
-                                          {
-                                            "branch_attrs": {
-                                              "labels": {
-                                                "aa": "HA1: P55H"
-                                              },
-                                              "mutations": {
-                                                "HA1": [
-                                                  "P55H"
-                                                ],
-                                                "nuc": [
-                                                  "C212A"
-                                                ]
-                                              }
-                                            },
-                                            "name": "A/Kyiv/61/2022_S4",
-                                            "node_attrs": {
-                                              "GISAID": {
-                                                "value": "13970493"
-                                              },
-                                              "clade_membership": {
-                                                "value": "3C.2a1b.2a.2"
-                                              },
-                                              "context": {
-                                                "value": "GIHSN"
-                                              },
-                                              "continent": {
-                                                "confidence": {
-                                                  "Europe": 1.0
-                                                },
-                                                "entropy": -1.000088900581841e-12,
-                                                "value": "Europe"
-                                              },
-                                              "country": {
-                                                "confidence": {
-                                                  "Ukraine": 1.0
-                                                },
-                                                "entropy": -1.000088900581841e-12,
-                                                "value": "Ukraine"
-                                              },
-                                              "div": 0.03422600850088451,
-                                              "num_date": {
-                                                "value": 2022.0534246575342
-                                              }
-                                            }
-                                          }
-                                        ],
-                                        "name": "NODE_0000025",
-                                        "node_attrs": {
-                                          "clade_membership": {
-                                            "value": "3C.2a1b.2a.2"
-                                          },
-                                          "continent": {
-                                            "confidence": {
-                                              "Africa": 0.004266493090149971,
-                                              "Europe": 0.9957138671503234
-                                            },
-                                            "entropy": 0.02778549340795271,
-                                            "value": "Europe"
-                                          },
-                                          "country": {
-                                            "confidence": {
-                                              "Liban": 0.00492873876515153,
-                                              "Ukraine": 0.994958621772147
-                                            },
-                                            "entropy": 0.03246309222329705,
-                                            "value": "Ukraine"
-                                          },
-                                          "div": 0.03363842075663897,
-                                          "num_date": {
-                                            "value": 2021.975919980419
+                                            "value": 2021.7898631951514
                                           }
                                         }
                                       },
@@ -1821,9 +1746,6 @@
                                             },
                                             "name": "A/Kyiv/62/2022_S4",
                                             "node_attrs": {
-                                              "GISAID": {
-                                                "value": "13970494"
-                                              },
                                               "clade_membership": {
                                                 "value": "3C.2a1b.2a.2"
                                               },
@@ -1844,7 +1766,7 @@
                                                 "entropy": -9.99866855976916e-13,
                                                 "value": "Ukraine"
                                               },
-                                              "div": 0.03422650078786731,
+                                              "div": 0.034226500461621824,
                                               "num_date": {
                                                 "value": 2022.0561643835617
                                               }
@@ -1861,9 +1783,6 @@
                                                 },
                                                 "name": "A/Kyiv/415/2021_S4",
                                                 "node_attrs": {
-                                                  "GISAID": {
-                                                    "value": "13970479"
-                                                  },
                                                   "clade_membership": {
                                                     "value": "3C.2a1b.2a.2"
                                                   },
@@ -1872,9 +1791,9 @@
                                                   },
                                                   "continent": {
                                                     "confidence": {
-                                                      "Europe": 0.9999999999999999
+                                                      "Europe": 1.0
                                                     },
-                                                    "entropy": -9.99866855976916e-13,
+                                                    "entropy": -1.000088900581841e-12,
                                                     "value": "Europe"
                                                   },
                                                   "country": {
@@ -1884,7 +1803,7 @@
                                                     "entropy": -1.000088900581841e-12,
                                                     "value": "Ukraine"
                                                   },
-                                                  "div": 0.03246211609441623,
+                                                  "div": 0.0324621159632923,
                                                   "num_date": {
                                                     "value": 2021.9739726027397
                                                   }
@@ -1896,9 +1815,6 @@
                                                 },
                                                 "name": "A/Kyiv/51/2022_S4",
                                                 "node_attrs": {
-                                                  "GISAID": {
-                                                    "value": "13970478"
-                                                  },
                                                   "clade_membership": {
                                                     "value": "3C.2a1b.2a.2"
                                                   },
@@ -1907,9 +1823,9 @@
                                                   },
                                                   "continent": {
                                                     "confidence": {
-                                                      "Europe": 0.9999999999999999
+                                                      "Europe": 1.0
                                                     },
-                                                    "entropy": -9.99866855976916e-13,
+                                                    "entropy": -1.000088900581841e-12,
                                                     "value": "Europe"
                                                   },
                                                   "country": {
@@ -1919,63 +1835,63 @@
                                                     "entropy": -1.000088900581841e-12,
                                                     "value": "Ukraine"
                                                   },
-                                                  "div": 0.03246211609441623,
+                                                  "div": 0.0324621159632923,
                                                   "num_date": {
                                                     "value": 2022.0506849315068
                                                   }
                                                 }
                                               }
                                             ],
-                                            "name": "NODE_0000024",
+                                            "name": "NODE_0000025",
                                             "node_attrs": {
                                               "clade_membership": {
                                                 "value": "3C.2a1b.2a.2"
                                               },
                                               "continent": {
                                                 "confidence": {
-                                                  "Europe": 0.9995444024042263
+                                                  "Europe": 0.9995536847215578
                                                 },
-                                                "entropy": 0.004018929806223352,
+                                                "entropy": 0.0039470398974591646,
                                                 "value": "Europe"
                                               },
                                               "country": {
                                                 "confidence": {
-                                                  "Ukraine": 0.9996333501882402
+                                                  "Ukraine": 0.9996456232817926
                                                 },
-                                                "entropy": 0.00348772322100011,
+                                                "entropy": 0.003387594357620465,
                                                 "value": "Ukraine"
                                               },
-                                              "div": 0.032462116094416224,
+                                              "div": 0.03246211596329229,
                                               "num_date": {
                                                 "value": 2021.973972602995
                                               }
                                             }
                                           }
                                         ],
-                                        "name": "NODE_0000020",
+                                        "name": "NODE_0000024",
                                         "node_attrs": {
                                           "clade_membership": {
                                             "value": "3C.2a1b.2a.2"
                                           },
                                           "continent": {
                                             "confidence": {
-                                              "Africa": 0.004965474513767804,
-                                              "Europe": 0.99501577179827
+                                              "Africa": 0.004796061665344797,
+                                              "Europe": 0.9951855154831721
                                             },
-                                            "entropy": 0.031531964560727,
+                                            "entropy": 0.03062726474110495,
                                             "value": "Europe"
                                           },
                                           "country": {
                                             "confidence": {
-                                              "Liban": 0.00573908802506746,
-                                              "Ukraine": 0.9941512269123438
+                                              "Liban": 0.005494282013355166,
+                                              "Ukraine": 0.9943990236030958
                                             },
-                                            "entropy": 0.03666778096410478,
+                                            "entropy": 0.03536716688335886,
                                             "value": "Ukraine"
                                           },
-                                          "div": 0.03246211609441622,
+                                          "div": 0.032462115963292286,
                                           "num_date": {
-                                            "value": 2021.8906122381106
+                                            "value": 2021.8887799746767
                                           }
                                         }
                                       },
@@ -1988,6 +1904,42 @@
                                           }
                                         },
                                         "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "G1089A"
+                                                ]
+                                              }
+                                            },
+                                            "name": "22Pl026-022120622201_S747|S4",
+                                            "node_attrs": {
+                                              "clade_membership": {
+                                                "value": "3C.2a1b.2a.2"
+                                              },
+                                              "context": {
+                                                "value": "GIHSN"
+                                              },
+                                              "continent": {
+                                                "confidence": {
+                                                  "Africa": 0.9999999999999999
+                                                },
+                                                "entropy": -9.99866855976916e-13,
+                                                "value": "Africa"
+                                              },
+                                              "country": {
+                                                "confidence": {
+                                                  "Liban": 1.0
+                                                },
+                                                "entropy": -1.000088900581841e-12,
+                                                "value": "Liban"
+                                              },
+                                              "div": 0.033049906731058926,
+                                              "num_date": {
+                                                "value": 2021.8397260273973
+                                              }
+                                            }
+                                          },
                                           {
                                             "branch_attrs": {
                                               "labels": {
@@ -2005,9 +1957,6 @@
                                             },
                                             "name": "22Pl026-022120604601_S744|S4",
                                             "node_attrs": {
-                                              "GISAID": {
-                                                "value": "non soumis"
-                                              },
                                               "clade_membership": {
                                                 "value": "3C.2a1b.2a.2"
                                               },
@@ -2028,48 +1977,9 @@
                                                 "entropy": -1.000088900581841e-12,
                                                 "value": "Liban"
                                               },
-                                              "div": 0.03363793436381203,
+                                              "div": 0.03363793463811349,
                                               "num_date": {
                                                 "value": 2021.9164383561645
-                                              }
-                                            }
-                                          },
-                                          {
-                                            "branch_attrs": {
-                                              "mutations": {
-                                                "nuc": [
-                                                  "G1089A"
-                                                ]
-                                              }
-                                            },
-                                            "name": "22Pl026-022120622201_S747|S4",
-                                            "node_attrs": {
-                                              "GISAID": {
-                                                "value": "non soumis"
-                                              },
-                                              "clade_membership": {
-                                                "value": "3C.2a1b.2a.2"
-                                              },
-                                              "context": {
-                                                "value": "GIHSN"
-                                              },
-                                              "continent": {
-                                                "confidence": {
-                                                  "Africa": 0.9999999999999999
-                                                },
-                                                "entropy": -9.99866855976916e-13,
-                                                "value": "Africa"
-                                              },
-                                              "country": {
-                                                "confidence": {
-                                                  "Liban": 1.0
-                                                },
-                                                "entropy": -1.000088900581841e-12,
-                                                "value": "Liban"
-                                              },
-                                              "div": 0.03304990656082217,
-                                              "num_date": {
-                                                "value": 2021.8397260273973
                                               }
                                             }
                                           },
@@ -2091,9 +2001,6 @@
                                             },
                                             "name": "A/Kyiv/28/2022_S4",
                                             "node_attrs": {
-                                              "GISAID": {
-                                                "value": "13970475"
-                                              },
                                               "clade_membership": {
                                                 "value": "3C.2a1b.2a.2"
                                               },
@@ -2109,12 +2016,12 @@
                                               },
                                               "country": {
                                                 "confidence": {
-                                                  "Ukraine": 1.0
+                                                  "Ukraine": 0.9999999999999999
                                                 },
-                                                "entropy": -1.000088900581841e-12,
+                                                "entropy": -9.99866855976916e-13,
                                                 "value": "Ukraine"
                                               },
-                                              "div": 0.0336381435936971,
+                                              "div": 0.03363814393334833,
                                               "num_date": {
                                                 "value": 2022.0342465753424
                                               }
@@ -2127,52 +2034,10 @@
                                             "children": [
                                               {
                                                 "branch_attrs": {
-                                                  "mutations": {
-                                                    "nuc": [
-                                                      "T1639C"
-                                                    ]
-                                                  }
-                                                },
-                                                "name": "A/Kyiv/31/2022_S4",
-                                                "node_attrs": {
-                                                  "GISAID": {
-                                                    "value": "13970491"
-                                                  },
-                                                  "clade_membership": {
-                                                    "value": "3C.2a1b.2a.2"
-                                                  },
-                                                  "context": {
-                                                    "value": "GIHSN"
-                                                  },
-                                                  "continent": {
-                                                    "confidence": {
-                                                      "Europe": 1.0
-                                                    },
-                                                    "entropy": -1.000088900581841e-12,
-                                                    "value": "Europe"
-                                                  },
-                                                  "country": {
-                                                    "confidence": {
-                                                      "Ukraine": 1.0
-                                                    },
-                                                    "entropy": -1.000088900581841e-12,
-                                                    "value": "Ukraine"
-                                                  },
-                                                  "div": 0.033049849807045124,
-                                                  "num_date": {
-                                                    "value": 2022.0287671232877
-                                                  }
-                                                }
-                                              },
-                                              {
-                                                "branch_attrs": {
                                                   "mutations": {}
                                                 },
                                                 "name": "22Pl026-022120618101_S746|S4",
                                                 "node_attrs": {
-                                                  "GISAID": {
-                                                    "value": "non soumis"
-                                                  },
                                                   "clade_membership": {
                                                     "value": "3C.2a1b.2a.2"
                                                   },
@@ -2193,9 +2058,45 @@
                                                     "entropy": -1.000088900581841e-12,
                                                     "value": "Liban"
                                                   },
-                                                  "div": 0.03246213419910925,
+                                                  "div": 0.03246213457421473,
                                                   "num_date": {
                                                     "value": 2021.8342465753424
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T1639C"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "A/Kyiv/31/2022_S4",
+                                                "node_attrs": {
+                                                  "clade_membership": {
+                                                    "value": "3C.2a1b.2a.2"
+                                                  },
+                                                  "context": {
+                                                    "value": "GIHSN"
+                                                  },
+                                                  "continent": {
+                                                    "confidence": {
+                                                      "Europe": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12,
+                                                    "value": "Europe"
+                                                  },
+                                                  "country": {
+                                                    "confidence": {
+                                                      "Ukraine": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12,
+                                                    "value": "Ukraine"
+                                                  },
+                                                  "div": 0.03304985012184856,
+                                                  "num_date": {
+                                                    "value": 2022.0287671232877
                                                   }
                                                 }
                                               }
@@ -2207,21 +2108,21 @@
                                               },
                                               "continent": {
                                                 "confidence": {
-                                                  "Africa": 0.5804768770253257,
-                                                  "Europe": 0.4194346396761676
+                                                  "Africa": 0.5792015931338101,
+                                                  "Europe": 0.4207099757506244
                                                 },
-                                                "entropy": 0.6810363201897395,
+                                                "entropy": 0.6814468963475369,
                                                 "value": "Africa"
                                               },
                                               "country": {
                                                 "confidence": {
-                                                  "Liban": 0.7639919705340591,
-                                                  "Ukraine": 0.23563807017848323
+                                                  "Liban": 0.7620093677118454,
+                                                  "Ukraine": 0.23761965237259422
                                                 },
-                                                "entropy": 0.5499530088154619,
+                                                "entropy": 0.5522827688868917,
                                                 "value": "Liban"
                                               },
-                                              "div": 0.03246213419910924,
+                                              "div": 0.03246213457421472,
                                               "num_date": {
                                                 "value": 2021.8342465755977
                                               }
@@ -2235,23 +2136,23 @@
                                           },
                                           "continent": {
                                             "confidence": {
-                                              "Africa": 0.5869660958935344,
-                                              "Europe": 0.4130335271002595
+                                              "Africa": 0.5855484327945183,
+                                              "Europe": 0.414451189856535
                                             },
-                                            "entropy": 0.6779496524913098,
+                                            "entropy": 0.6784437350512341,
                                             "value": "Africa"
                                           },
                                           "country": {
                                             "confidence": {
-                                              "Liban": 0.7748966804342102,
-                                              "Ukraine": 0.2251014570721725
+                                              "Liban": 0.7727859325009491,
+                                              "Ukraine": 0.22721218889152892
                                             },
-                                            "entropy": 0.5333189387940857,
+                                            "entropy": 0.5359156765422297,
                                             "value": "Liban"
                                           },
-                                          "div": 0.03246213419910923,
+                                          "div": 0.032462134574214714,
                                           "num_date": {
-                                            "value": 2021.7905515658933
+                                            "value": 2021.7905460179268
                                           }
                                         }
                                       }
@@ -2263,23 +2164,23 @@
                                       },
                                       "continent": {
                                         "confidence": {
-                                          "Africa": 0.0831805715017641,
-                                          "Europe": 0.9168188179761324
+                                          "Africa": 0.08023807075271701,
+                                          "Europe": 0.919761332227417
                                         },
-                                        "entropy": 0.2864792250790403,
+                                        "entropy": 0.27935993930276887,
                                         "value": "Europe"
                                       },
                                       "country": {
                                         "confidence": {
-                                          "Liban": 0.11976005246546259,
-                                          "Ukraine": 0.8802301204128645
+                                          "Liban": 0.11487688730631918,
+                                          "Ukraine": 0.8851136593240279
                                         },
-                                        "entropy": 0.3665853184900132,
+                                        "entropy": 0.35672549863830005,
                                         "value": "Ukraine"
                                       },
-                                      "div": 0.031874418717773946,
+                                      "div": 0.03187441877859309,
                                       "num_date": {
-                                        "value": 2021.6901993298914
+                                        "value": 2021.6913827673034
                                       }
                                     }
                                   },
@@ -2319,9 +2220,6 @@
                                         },
                                         "name": "A/Khmelnytskyi/404/2021_S4",
                                         "node_attrs": {
-                                          "GISAID": {
-                                            "value": "13970496"
-                                          },
                                           "clade_membership": {
                                             "value": "3C.2a1b.2a.2"
                                           },
@@ -2342,7 +2240,7 @@
                                             "entropy": -1.000088900581841e-12,
                                             "value": "Ukraine"
                                           },
-                                          "div": 0.0330499105418049,
+                                          "div": 0.03304991056205014,
                                           "num_date": {
                                             "value": 2021.9767123287672
                                           }
@@ -2368,17 +2266,21 @@
                                         "children": [
                                           {
                                             "branch_attrs": {
+                                              "labels": {
+                                                "aa": "HA1: S54N"
+                                              },
                                               "mutations": {
+                                                "HA1": [
+                                                  "S54N"
+                                                ],
                                                 "nuc": [
-                                                  "C1347T"
+                                                  "G209A",
+                                                  "A1242G"
                                                 ]
                                               }
                                             },
-                                            "name": "A/Kyiv/21/2022_S4",
+                                            "name": "A/Kyiv/50/2022_S4",
                                             "node_attrs": {
-                                              "GISAID": {
-                                                "value": "13970474"
-                                              },
                                               "clade_membership": {
                                                 "value": "3C.2a1b.2a.2"
                                               },
@@ -2387,9 +2289,9 @@
                                               },
                                               "continent": {
                                                 "confidence": {
-                                                  "Europe": 0.9999999999999999
+                                                  "Europe": 1.0
                                                 },
-                                                "entropy": -9.99866855976916e-13,
+                                                "entropy": -1.000088900581841e-12,
                                                 "value": "Europe"
                                               },
                                               "country": {
@@ -2399,9 +2301,9 @@
                                                 "entropy": -1.000088900581841e-12,
                                                 "value": "Ukraine"
                                               },
-                                              "div": 0.034226912329569335,
+                                              "div": 0.03481517369675928,
                                               "num_date": {
-                                                "value": 2022.0068493150684
+                                                "value": 2022.045205479452
                                               }
                                             }
                                           },
@@ -2421,9 +2323,6 @@
                                             },
                                             "name": "A/Kyiv/8/2022_S4",
                                             "node_attrs": {
-                                              "GISAID": {
-                                                "value": "13970473"
-                                              },
                                               "clade_membership": {
                                                 "value": "3C.2a1b.2a.2"
                                               },
@@ -2432,9 +2331,9 @@
                                               },
                                               "continent": {
                                                 "confidence": {
-                                                  "Europe": 0.9999999999999999
+                                                  "Europe": 1.0
                                                 },
-                                                "entropy": -9.99866855976916e-13,
+                                                "entropy": -1.000088900581841e-12,
                                                 "value": "Europe"
                                               },
                                               "country": {
@@ -2444,7 +2343,43 @@
                                                 "entropy": -1.000088900581841e-12,
                                                 "value": "Ukraine"
                                               },
-                                              "div": 0.03422689390665754,
+                                              "div": 0.034226893281379095,
+                                              "num_date": {
+                                                "value": 2022.0068493150684
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C1347T"
+                                                ]
+                                              }
+                                            },
+                                            "name": "A/Kyiv/21/2022_S4",
+                                            "node_attrs": {
+                                              "clade_membership": {
+                                                "value": "3C.2a1b.2a.2"
+                                              },
+                                              "context": {
+                                                "value": "GIHSN"
+                                              },
+                                              "continent": {
+                                                "confidence": {
+                                                  "Europe": 1.0
+                                                },
+                                                "entropy": -1.000088900581841e-12,
+                                                "value": "Europe"
+                                              },
+                                              "country": {
+                                                "confidence": {
+                                                  "Ukraine": 1.0
+                                                },
+                                                "entropy": -1.000088900581841e-12,
+                                                "value": "Ukraine"
+                                              },
+                                              "div": 0.034226911596421425,
                                               "num_date": {
                                                 "value": 2022.0068493150684
                                               }
@@ -2460,9 +2395,6 @@
                                             },
                                             "name": "A/Kyiv/401/2021_S4",
                                             "node_attrs": {
-                                              "GISAID": {
-                                                "value": "13970485"
-                                              },
                                               "clade_membership": {
                                                 "value": "3C.2a1b.2a.2"
                                               },
@@ -2471,9 +2403,9 @@
                                               },
                                               "continent": {
                                                 "confidence": {
-                                                  "Europe": 0.9999999999999999
+                                                  "Europe": 1.0
                                                 },
-                                                "entropy": -9.99866855976916e-13,
+                                                "entropy": -1.000088900581841e-12,
                                                 "value": "Europe"
                                               },
                                               "country": {
@@ -2483,55 +2415,9 @@
                                                 "entropy": -1.000088900581841e-12,
                                                 "value": "Ukraine"
                                               },
-                                              "div": 0.034226924966432135,
+                                              "div": 0.034226924121612316,
                                               "num_date": {
                                                 "value": 2021.982191780822
-                                              }
-                                            }
-                                          },
-                                          {
-                                            "branch_attrs": {
-                                              "labels": {
-                                                "aa": "HA1: S54N"
-                                              },
-                                              "mutations": {
-                                                "HA1": [
-                                                  "S54N"
-                                                ],
-                                                "nuc": [
-                                                  "G209A",
-                                                  "A1242G"
-                                                ]
-                                              }
-                                            },
-                                            "name": "A/Kyiv/50/2022_S4",
-                                            "node_attrs": {
-                                              "GISAID": {
-                                                "value": "13970477"
-                                              },
-                                              "clade_membership": {
-                                                "value": "3C.2a1b.2a.2"
-                                              },
-                                              "context": {
-                                                "value": "GIHSN"
-                                              },
-                                              "continent": {
-                                                "confidence": {
-                                                  "Europe": 0.9999999999999999
-                                                },
-                                                "entropy": -9.99866855976916e-13,
-                                                "value": "Europe"
-                                              },
-                                              "country": {
-                                                "confidence": {
-                                                  "Ukraine": 1.0
-                                                },
-                                                "entropy": -1.000088900581841e-12,
-                                                "value": "Ukraine"
-                                              },
-                                              "div": 0.034815174148886276,
-                                              "num_date": {
-                                                "value": 2022.045205479452
                                               }
                                             }
                                           },
@@ -2546,9 +2432,6 @@
                                                 },
                                                 "name": "A/Kyiv/388/2021_S4",
                                                 "node_attrs": {
-                                                  "GISAID": {
-                                                    "value": "13970483"
-                                                  },
                                                   "clade_membership": {
                                                     "value": "3C.2a1b.2a.2"
                                                   },
@@ -2564,12 +2447,12 @@
                                                   },
                                                   "country": {
                                                     "confidence": {
-                                                      "Ukraine": 0.9999999999999999
+                                                      "Ukraine": 1.0
                                                     },
-                                                    "entropy": -9.99866855976916e-13,
+                                                    "entropy": -1.000088900581841e-12,
                                                     "value": "Ukraine"
                                                   },
-                                                  "div": 0.03363897443835101,
+                                                  "div": 0.033638973825121814,
                                                   "num_date": {
                                                     "value": 2021.9520547945206
                                                   }
@@ -2588,51 +2471,6 @@
                                                       {
                                                         "branch_attrs": {
                                                           "labels": {
-                                                            "aa": "HA1: I236V"
-                                                          },
-                                                          "mutations": {
-                                                            "HA1": [
-                                                              "I236V"
-                                                            ],
-                                                            "nuc": [
-                                                              "A754G"
-                                                            ]
-                                                          }
-                                                        },
-                                                        "name": "A/Kyiv/58/2022_S4",
-                                                        "node_attrs": {
-                                                          "GISAID": {
-                                                            "value": "13970481"
-                                                          },
-                                                          "clade_membership": {
-                                                            "value": "3C.2a1b.2a.2"
-                                                          },
-                                                          "context": {
-                                                            "value": "GIHSN"
-                                                          },
-                                                          "continent": {
-                                                            "confidence": {
-                                                              "Europe": 1.0
-                                                            },
-                                                            "entropy": -1.000088900581841e-12,
-                                                            "value": "Europe"
-                                                          },
-                                                          "country": {
-                                                            "confidence": {
-                                                              "Ukraine": 0.9999999999999999
-                                                            },
-                                                            "entropy": -9.99866855976916e-13,
-                                                            "value": "Ukraine"
-                                                          },
-                                                          "div": 0.03422684176283632,
-                                                          "num_date": {
-                                                            "value": 2022.058904109589
-                                                          }
-                                                        }
-                                                      },
-                                                      {
-                                                        "branch_attrs": {
-                                                          "labels": {
                                                             "aa": "HA1: N96K"
                                                           },
                                                           "mutations": {
@@ -2646,9 +2484,6 @@
                                                         },
                                                         "name": "A/Kyiv/47/2022_S4",
                                                         "node_attrs": {
-                                                          "GISAID": {
-                                                            "value": "13970476"
-                                                          },
                                                           "clade_membership": {
                                                             "value": "3C.2a1b.2a.2"
                                                           },
@@ -2657,9 +2492,9 @@
                                                           },
                                                           "continent": {
                                                             "confidence": {
-                                                              "Europe": 1.0
+                                                              "Europe": 0.9999999999999999
                                                             },
-                                                            "entropy": -1.000088900581841e-12,
+                                                            "entropy": -9.99866855976916e-13,
                                                             "value": "Europe"
                                                           },
                                                           "country": {
@@ -2669,9 +2504,51 @@
                                                             "entropy": -9.99866855976916e-13,
                                                             "value": "Ukraine"
                                                           },
-                                                          "div": 0.034226963970871056,
+                                                          "div": 0.03422696347882247,
                                                           "num_date": {
                                                             "value": 2022.0424657534247
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "labels": {
+                                                            "aa": "HA1: I236V"
+                                                          },
+                                                          "mutations": {
+                                                            "HA1": [
+                                                              "I236V"
+                                                            ],
+                                                            "nuc": [
+                                                              "A754G"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "name": "A/Kyiv/58/2022_S4",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "3C.2a1b.2a.2"
+                                                          },
+                                                          "context": {
+                                                            "value": "GIHSN"
+                                                          },
+                                                          "continent": {
+                                                            "confidence": {
+                                                              "Europe": 0.9999999999999999
+                                                            },
+                                                            "entropy": -9.99866855976916e-13,
+                                                            "value": "Europe"
+                                                          },
+                                                          "country": {
+                                                            "confidence": {
+                                                              "Ukraine": 0.9999999999999999
+                                                            },
+                                                            "entropy": -9.99866855976916e-13,
+                                                            "value": "Ukraine"
+                                                          },
+                                                          "div": 0.034226841033889246,
+                                                          "num_date": {
+                                                            "value": 2022.058904109589
                                                           }
                                                         }
                                                       }
@@ -2683,21 +2560,21 @@
                                                       },
                                                       "continent": {
                                                         "confidence": {
-                                                          "Europe": 0.9998044255119991
+                                                          "Europe": 0.999804433261961
                                                         },
-                                                        "entropy": 0.0019122617582741457,
+                                                        "entropy": 0.0019121520525157282,
                                                         "value": "Europe"
                                                       },
                                                       "country": {
                                                         "confidence": {
-                                                          "Ukraine": 0.999894789739412
+                                                          "Ukraine": 0.9998952156458413
                                                         },
-                                                        "entropy": 0.0012150709931925165,
+                                                        "entropy": 0.001210684285756,
                                                         "value": "Ukraine"
                                                       },
-                                                      "div": 0.03363897443835102,
+                                                      "div": 0.03363897382512182,
                                                       "num_date": {
-                                                        "value": 2021.9700860303876
+                                                        "value": 2021.9700768253965
                                                       }
                                                     }
                                                   },
@@ -2722,242 +2599,6 @@
                                                                 },
                                                                 "name": "A/Kyiv/398/2021_S4",
                                                                 "node_attrs": {
-                                                                  "GISAID": {
-                                                                    "value": "13970484"
-                                                                  },
-                                                                  "clade_membership": {
-                                                                    "value": "3C.2a1b.2a.2"
-                                                                  },
-                                                                  "context": {
-                                                                    "value": "GIHSN"
-                                                                  },
-                                                                  "continent": {
-                                                                    "confidence": {
-                                                                      "Europe": 0.9999999999999999
-                                                                    },
-                                                                    "entropy": -9.99866855976916e-13,
-                                                                    "value": "Europe"
-                                                                  },
-                                                                  "country": {
-                                                                    "confidence": {
-                                                                      "Ukraine": 0.9999999999999999
-                                                                    },
-                                                                    "entropy": -9.99866855976916e-13,
-                                                                    "value": "Ukraine"
-                                                                  },
-                                                                  "div": 0.03363897443835104,
-                                                                  "num_date": {
-                                                                    "value": 2021.9794520547946
-                                                                  }
-                                                                }
-                                                              },
-                                                              {
-                                                                "branch_attrs": {
-                                                                  "mutations": {}
-                                                                },
-                                                                "name": "A/Kyiv/12/2022_S4",
-                                                                "node_attrs": {
-                                                                  "GISAID": {
-                                                                    "value": "13970480"
-                                                                  },
-                                                                  "clade_membership": {
-                                                                    "value": "3C.2a1b.2a.2"
-                                                                  },
-                                                                  "context": {
-                                                                    "value": "GIHSN"
-                                                                  },
-                                                                  "continent": {
-                                                                    "confidence": {
-                                                                      "Europe": 0.9999999999999999
-                                                                    },
-                                                                    "entropy": -9.99866855976916e-13,
-                                                                    "value": "Europe"
-                                                                  },
-                                                                  "country": {
-                                                                    "confidence": {
-                                                                      "Ukraine": 0.9999999999999999
-                                                                    },
-                                                                    "entropy": -9.99866855976916e-13,
-                                                                    "value": "Ukraine"
-                                                                  },
-                                                                  "div": 0.03363897443835104,
-                                                                  "num_date": {
-                                                                    "value": 2022.0068493150684
-                                                                  }
-                                                                }
-                                                              }
-                                                            ],
-                                                            "name": "NODE_0000034",
-                                                            "node_attrs": {
-                                                              "clade_membership": {
-                                                                "value": "3C.2a1b.2a.2"
-                                                              },
-                                                              "continent": {
-                                                                "confidence": {
-                                                                  "Europe": 0.9998044255228751
-                                                                },
-                                                                "entropy": 0.001912261664719021,
-                                                                "value": "Europe"
-                                                              },
-                                                              "country": {
-                                                                "confidence": {
-                                                                  "Ukraine": 0.999894789740904
-                                                                },
-                                                                "entropy": 0.001215070978743603,
-                                                                "value": "Ukraine"
-                                                              },
-                                                              "div": 0.03363897443835103,
-                                                              "num_date": {
-                                                                "value": 2021.9712737239952
-                                                              }
-                                                            }
-                                                          },
-                                                          {
-                                                            "branch_attrs": {
-                                                              "mutations": {}
-                                                            },
-                                                            "children": [
-                                                              {
-                                                                "branch_attrs": {
-                                                                  "mutations": {}
-                                                                },
-                                                                "name": "A/Kyiv/411/2021_S4",
-                                                                "node_attrs": {
-                                                                  "GISAID": {
-                                                                    "value": "13970464"
-                                                                  },
-                                                                  "clade_membership": {
-                                                                    "value": "3C.2a1b.2a.2"
-                                                                  },
-                                                                  "context": {
-                                                                    "value": "GIHSN"
-                                                                  },
-                                                                  "continent": {
-                                                                    "confidence": {
-                                                                      "Europe": 0.9999999999999999
-                                                                    },
-                                                                    "entropy": -9.99866855976916e-13,
-                                                                    "value": "Europe"
-                                                                  },
-                                                                  "country": {
-                                                                    "confidence": {
-                                                                      "Ukraine": 0.9999999999999999
-                                                                    },
-                                                                    "entropy": -9.99866855976916e-13,
-                                                                    "value": "Ukraine"
-                                                                  },
-                                                                  "div": 0.03363897443835104,
-                                                                  "num_date": {
-                                                                    "value": 2021.968493150685
-                                                                  }
-                                                                }
-                                                              },
-                                                              {
-                                                                "branch_attrs": {
-                                                                  "mutations": {}
-                                                                },
-                                                                "name": "A/Kyiv/409/2021_S4",
-                                                                "node_attrs": {
-                                                                  "GISAID": {
-                                                                    "value": "13970470"
-                                                                  },
-                                                                  "clade_membership": {
-                                                                    "value": "3C.2a1b.2a.2"
-                                                                  },
-                                                                  "context": {
-                                                                    "value": "GIHSN"
-                                                                  },
-                                                                  "continent": {
-                                                                    "confidence": {
-                                                                      "Europe": 0.9999999999999999
-                                                                    },
-                                                                    "entropy": -9.99866855976916e-13,
-                                                                    "value": "Europe"
-                                                                  },
-                                                                  "country": {
-                                                                    "confidence": {
-                                                                      "Ukraine": 0.9999999999999999
-                                                                    },
-                                                                    "entropy": -9.99866855976916e-13,
-                                                                    "value": "Ukraine"
-                                                                  },
-                                                                  "div": 0.03363897443835104,
-                                                                  "num_date": {
-                                                                    "value": 2021.968493150685
-                                                                  }
-                                                                }
-                                                              }
-                                                            ],
-                                                            "name": "NODE_0000035",
-                                                            "node_attrs": {
-                                                              "clade_membership": {
-                                                                "value": "3C.2a1b.2a.2"
-                                                              },
-                                                              "continent": {
-                                                                "confidence": {
-                                                                  "Europe": 0.9998044255228751
-                                                                },
-                                                                "entropy": 0.001912261664719021,
-                                                                "value": "Europe"
-                                                              },
-                                                              "country": {
-                                                                "confidence": {
-                                                                  "Ukraine": 0.999894789740904
-                                                                },
-                                                                "entropy": 0.001215070978743603,
-                                                                "value": "Ukraine"
-                                                              },
-                                                              "div": 0.03363897443835103,
-                                                              "num_date": {
-                                                                "value": 2021.9684931509403
-                                                              }
-                                                            }
-                                                          }
-                                                        ],
-                                                        "name": "NODE_0000033",
-                                                        "node_attrs": {
-                                                          "clade_membership": {
-                                                            "value": "3C.2a1b.2a.2"
-                                                          },
-                                                          "continent": {
-                                                            "confidence": {
-                                                              "Europe": 0.9997818571309881
-                                                            },
-                                                            "entropy": 0.0021064605657977807,
-                                                            "value": "Europe"
-                                                          },
-                                                          "country": {
-                                                            "confidence": {
-                                                              "Ukraine": 0.9998864804781292
-                                                            },
-                                                            "entropy": 0.0012990462510998168,
-                                                            "value": "Ukraine"
-                                                          },
-                                                          "div": 0.033638974438351024,
-                                                          "num_date": {
-                                                            "value": 2021.9664513280568
-                                                          }
-                                                        }
-                                                      },
-                                                      {
-                                                        "branch_attrs": {
-                                                          "mutations": {}
-                                                        },
-                                                        "children": [
-                                                          {
-                                                            "branch_attrs": {
-                                                              "mutations": {}
-                                                            },
-                                                            "children": [
-                                                              {
-                                                                "branch_attrs": {
-                                                                  "mutations": {}
-                                                                },
-                                                                "name": "A/Kyiv/56/2022_S4",
-                                                                "node_attrs": {
-                                                                  "GISAID": {
-                                                                    "value": "13970482"
-                                                                  },
                                                                   "clade_membership": {
                                                                     "value": "3C.2a1b.2a.2"
                                                                   },
@@ -2978,7 +2619,228 @@
                                                                     "entropy": -1.000088900581841e-12,
                                                                     "value": "Ukraine"
                                                                   },
-                                                                  "div": 0.03363897443835104,
+                                                                  "div": 0.03363897382512184,
+                                                                  "num_date": {
+                                                                    "value": 2021.9794520547946
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "A/Kyiv/12/2022_S4",
+                                                                "node_attrs": {
+                                                                  "clade_membership": {
+                                                                    "value": "3C.2a1b.2a.2"
+                                                                  },
+                                                                  "context": {
+                                                                    "value": "GIHSN"
+                                                                  },
+                                                                  "continent": {
+                                                                    "confidence": {
+                                                                      "Europe": 1.0
+                                                                    },
+                                                                    "entropy": -1.000088900581841e-12,
+                                                                    "value": "Europe"
+                                                                  },
+                                                                  "country": {
+                                                                    "confidence": {
+                                                                      "Ukraine": 1.0
+                                                                    },
+                                                                    "entropy": -1.000088900581841e-12,
+                                                                    "value": "Ukraine"
+                                                                  },
+                                                                  "div": 0.03363897382512184,
+                                                                  "num_date": {
+                                                                    "value": 2022.0068493150684
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000034",
+                                                            "node_attrs": {
+                                                              "clade_membership": {
+                                                                "value": "3C.2a1b.2a.2"
+                                                              },
+                                                              "continent": {
+                                                                "confidence": {
+                                                                  "Europe": 0.9998044332729503
+                                                                },
+                                                                "entropy": 0.0019121519579858237,
+                                                                "value": "Europe"
+                                                              },
+                                                              "country": {
+                                                                "confidence": {
+                                                                  "Ukraine": 0.9998952156473245
+                                                                },
+                                                                "entropy": 0.0012106842713833974,
+                                                                "value": "Ukraine"
+                                                              },
+                                                              "div": 0.033638973825121835,
+                                                              "num_date": {
+                                                                "value": 2021.9712721289857
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "A/Kyiv/411/2021_S4",
+                                                                "node_attrs": {
+                                                                  "clade_membership": {
+                                                                    "value": "3C.2a1b.2a.2"
+                                                                  },
+                                                                  "context": {
+                                                                    "value": "GIHSN"
+                                                                  },
+                                                                  "continent": {
+                                                                    "confidence": {
+                                                                      "Europe": 1.0
+                                                                    },
+                                                                    "entropy": -1.000088900581841e-12,
+                                                                    "value": "Europe"
+                                                                  },
+                                                                  "country": {
+                                                                    "confidence": {
+                                                                      "Ukraine": 1.0
+                                                                    },
+                                                                    "entropy": -1.000088900581841e-12,
+                                                                    "value": "Ukraine"
+                                                                  },
+                                                                  "div": 0.03363897382512184,
+                                                                  "num_date": {
+                                                                    "value": 2021.968493150685
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "A/Kyiv/409/2021_S4",
+                                                                "node_attrs": {
+                                                                  "clade_membership": {
+                                                                    "value": "3C.2a1b.2a.2"
+                                                                  },
+                                                                  "context": {
+                                                                    "value": "GIHSN"
+                                                                  },
+                                                                  "continent": {
+                                                                    "confidence": {
+                                                                      "Europe": 1.0
+                                                                    },
+                                                                    "entropy": -1.000088900581841e-12,
+                                                                    "value": "Europe"
+                                                                  },
+                                                                  "country": {
+                                                                    "confidence": {
+                                                                      "Ukraine": 1.0
+                                                                    },
+                                                                    "entropy": -1.000088900581841e-12,
+                                                                    "value": "Ukraine"
+                                                                  },
+                                                                  "div": 0.03363897382512184,
+                                                                  "num_date": {
+                                                                    "value": 2021.968493150685
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000035",
+                                                            "node_attrs": {
+                                                              "clade_membership": {
+                                                                "value": "3C.2a1b.2a.2"
+                                                              },
+                                                              "continent": {
+                                                                "confidence": {
+                                                                  "Europe": 0.9998044332729503
+                                                                },
+                                                                "entropy": 0.0019121519579858237,
+                                                                "value": "Europe"
+                                                              },
+                                                              "country": {
+                                                                "confidence": {
+                                                                  "Ukraine": 0.9998952156473245
+                                                                },
+                                                                "entropy": 0.0012106842713833974,
+                                                                "value": "Ukraine"
+                                                              },
+                                                              "div": 0.033638973825121835,
+                                                              "num_date": {
+                                                                "value": 2021.9684931509403
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000033",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "3C.2a1b.2a.2"
+                                                          },
+                                                          "continent": {
+                                                            "confidence": {
+                                                              "Europe": 0.9997818665236232
+                                                            },
+                                                            "entropy": 0.002106334462236943,
+                                                            "value": "Europe"
+                                                          },
+                                                          "country": {
+                                                            "confidence": {
+                                                              "Ukraine": 0.9998869609277833
+                                                            },
+                                                            "entropy": 0.0012941562080226454,
+                                                            "value": "Ukraine"
+                                                          },
+                                                          "div": 0.03363897382512183,
+                                                          "num_date": {
+                                                            "value": 2021.966451068806
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "A/Kyiv/56/2022_S4",
+                                                                "node_attrs": {
+                                                                  "clade_membership": {
+                                                                    "value": "3C.2a1b.2a.2"
+                                                                  },
+                                                                  "context": {
+                                                                    "value": "GIHSN"
+                                                                  },
+                                                                  "continent": {
+                                                                    "confidence": {
+                                                                      "Europe": 1.0
+                                                                    },
+                                                                    "entropy": -1.000088900581841e-12,
+                                                                    "value": "Europe"
+                                                                  },
+                                                                  "country": {
+                                                                    "confidence": {
+                                                                      "Ukraine": 1.0
+                                                                    },
+                                                                    "entropy": -1.000088900581841e-12,
+                                                                    "value": "Ukraine"
+                                                                  },
+                                                                  "div": 0.03363897382512184,
                                                                   "num_date": {
                                                                     "value": 2022.0534246575342
                                                                   }
@@ -2995,9 +2857,6 @@
                                                                     },
                                                                     "name": "A/Kyiv/407/2021_S4",
                                                                     "node_attrs": {
-                                                                      "GISAID": {
-                                                                        "value": "13970471"
-                                                                      },
                                                                       "clade_membership": {
                                                                         "value": "3C.2a1b.2a.2"
                                                                       },
@@ -3018,7 +2877,7 @@
                                                                         "entropy": -1.000088900581841e-12,
                                                                         "value": "Ukraine"
                                                                       },
-                                                                      "div": 0.033638974438351045,
+                                                                      "div": 0.03363897382512185,
                                                                       "num_date": {
                                                                         "value": 2021.982191780822
                                                                       }
@@ -3028,11 +2887,8 @@
                                                                     "branch_attrs": {
                                                                       "mutations": {}
                                                                     },
-                                                                    "name": "A/Kyiv/396/2021_S4",
+                                                                    "name": "A/Kyiv/397/2021_S4",
                                                                     "node_attrs": {
-                                                                      "GISAID": {
-                                                                        "value": "13970487"
-                                                                      },
                                                                       "clade_membership": {
                                                                         "value": "3C.2a1b.2a.2"
                                                                       },
@@ -3053,7 +2909,7 @@
                                                                         "entropy": -1.000088900581841e-12,
                                                                         "value": "Ukraine"
                                                                       },
-                                                                      "div": 0.033638974438351045,
+                                                                      "div": 0.03363897382512185,
                                                                       "num_date": {
                                                                         "value": 2021.990410958904
                                                                       }
@@ -3067,21 +2923,21 @@
                                                                   },
                                                                   "continent": {
                                                                     "confidence": {
-                                                                      "Europe": 0.9998050493850263
+                                                                      "Europe": 0.9998050570611464
                                                                     },
-                                                                    "entropy": 0.0019068810368650974,
+                                                                    "entropy": 0.0019067720085770244,
                                                                     "value": "Europe"
                                                                   },
                                                                   "country": {
                                                                     "confidence": {
-                                                                      "Ukraine": 0.9998949626254998
+                                                                      "Ukraine": 0.9998953869608921
                                                                     },
-                                                                    "entropy": 0.001213355597546319,
+                                                                    "entropy": 0.0012089834939750764,
                                                                     "value": "Ukraine"
                                                                   },
-                                                                  "div": 0.03363897443835104,
+                                                                  "div": 0.03363897382512184,
                                                                   "num_date": {
-                                                                    "value": 2021.9783396186251
+                                                                    "value": 2021.9783385207527
                                                                   }
                                                                 }
                                                               }
@@ -3093,21 +2949,21 @@
                                                               },
                                                               "continent": {
                                                                 "confidence": {
-                                                                  "Europe": 0.9997934152811002
+                                                                  "Europe": 0.9997934238222141
                                                                 },
-                                                                "entropy": 0.00200732926440627,
+                                                                "entropy": 0.002007211597448888,
                                                                 "value": "Europe"
                                                               },
                                                               "country": {
                                                                 "confidence": {
-                                                                  "Ukraine": 0.9998907134043344
+                                                                  "Ukraine": 0.9998911658928664
                                                                 },
-                                                                "entropy": 0.001256372560078366,
+                                                                "entropy": 0.0012517397464895496,
                                                                 "value": "Ukraine"
                                                               },
-                                                              "div": 0.03363897443835103,
+                                                              "div": 0.033638973825121835,
                                                               "num_date": {
-                                                                "value": 2021.9772390007815
+                                                                "value": 2021.9772375892314
                                                               }
                                                             }
                                                           },
@@ -3125,11 +2981,8 @@
                                                                     "branch_attrs": {
                                                                       "mutations": {}
                                                                     },
-                                                                    "name": "A/Kyiv/397/2021_S4",
+                                                                    "name": "A/Kyiv/396/2021_S4",
                                                                     "node_attrs": {
-                                                                      "GISAID": {
-                                                                        "value": "13970486"
-                                                                      },
                                                                       "clade_membership": {
                                                                         "value": "3C.2a1b.2a.2"
                                                                       },
@@ -3150,7 +3003,7 @@
                                                                         "entropy": -1.000088900581841e-12,
                                                                         "value": "Ukraine"
                                                                       },
-                                                                      "div": 0.033638974438351045,
+                                                                      "div": 0.03363897382512185,
                                                                       "num_date": {
                                                                         "value": 2021.990410958904
                                                                       }
@@ -3162,9 +3015,6 @@
                                                                     },
                                                                     "name": "A/Kyiv/412/2021_S4",
                                                                     "node_attrs": {
-                                                                      "GISAID": {
-                                                                        "value": "13970472"
-                                                                      },
                                                                       "clade_membership": {
                                                                         "value": "3C.2a1b.2a.2"
                                                                       },
@@ -3185,7 +3035,7 @@
                                                                         "entropy": -1.000088900581841e-12,
                                                                         "value": "Ukraine"
                                                                       },
-                                                                      "div": 0.033638974438351045,
+                                                                      "div": 0.03363897382512185,
                                                                       "num_date": {
                                                                         "value": 2021.9931506849316
                                                                       }
@@ -3199,21 +3049,21 @@
                                                                   },
                                                                   "continent": {
                                                                     "confidence": {
-                                                                      "Europe": 0.9998044276913955
+                                                                      "Europe": 0.9998044354409599
                                                                     },
-                                                                    "entropy": 0.0019122430056588433,
+                                                                    "entropy": 0.001912133303405262,
                                                                     "value": "Europe"
                                                                   },
                                                                   "country": {
                                                                     "confidence": {
-                                                                      "Ukraine": 0.999894790116101
+                                                                      "Ukraine": 0.9998952160171598
                                                                     },
-                                                                    "entropy": 0.0012150673255123393,
+                                                                    "entropy": 0.0012106806683526874,
                                                                     "value": "Ukraine"
                                                                   },
-                                                                  "div": 0.03363897443835104,
+                                                                  "div": 0.03363897382512184,
                                                                   "num_date": {
-                                                                    "value": 2021.9781829760254
+                                                                    "value": 2021.97818095963
                                                                   }
                                                                 }
                                                               },
@@ -3226,11 +3076,8 @@
                                                                     "branch_attrs": {
                                                                       "mutations": {}
                                                                     },
-                                                                    "name": "A/Kyiv/399/2021_S4",
+                                                                    "name": "A/Kyiv/423/2021_S4",
                                                                     "node_attrs": {
-                                                                      "GISAID": {
-                                                                        "value": "13970488"
-                                                                      },
                                                                       "clade_membership": {
                                                                         "value": "3C.2a1b.2a.2"
                                                                       },
@@ -3251,9 +3098,9 @@
                                                                         "entropy": -1.000088900581841e-12,
                                                                         "value": "Ukraine"
                                                                       },
-                                                                      "div": 0.033638974438351045,
+                                                                      "div": 0.03363897382512185,
                                                                       "num_date": {
-                                                                        "value": 2021.9931506849316
+                                                                        "value": 2021.995890410959
                                                                       }
                                                                     }
                                                                   },
@@ -3261,11 +3108,8 @@
                                                                     "branch_attrs": {
                                                                       "mutations": {}
                                                                     },
-                                                                    "name": "A/Kyiv/423/2021_S4",
+                                                                    "name": "A/Kyiv/399/2021_S4",
                                                                     "node_attrs": {
-                                                                      "GISAID": {
-                                                                        "value": "13970489"
-                                                                      },
                                                                       "clade_membership": {
                                                                         "value": "3C.2a1b.2a.2"
                                                                       },
@@ -3286,9 +3130,9 @@
                                                                         "entropy": -1.000088900581841e-12,
                                                                         "value": "Ukraine"
                                                                       },
-                                                                      "div": 0.033638974438351045,
+                                                                      "div": 0.03363897382512185,
                                                                       "num_date": {
-                                                                        "value": 2021.995890410959
+                                                                        "value": 2021.9931506849316
                                                                       }
                                                                     }
                                                                   }
@@ -3300,21 +3144,21 @@
                                                                   },
                                                                   "continent": {
                                                                     "confidence": {
-                                                                      "Europe": 0.9998044276913955
+                                                                      "Europe": 0.9998044354409599
                                                                     },
-                                                                    "entropy": 0.0019122430056588433,
+                                                                    "entropy": 0.001912133303405262,
                                                                     "value": "Europe"
                                                                   },
                                                                   "country": {
                                                                     "confidence": {
-                                                                      "Ukraine": 0.999894790116101
+                                                                      "Ukraine": 0.9998952160171598
                                                                     },
-                                                                    "entropy": 0.0012150673255123393,
+                                                                    "entropy": 0.0012106806683526874,
                                                                     "value": "Ukraine"
                                                                   },
-                                                                  "div": 0.03363897443835104,
+                                                                  "div": 0.03363897382512184,
                                                                   "num_date": {
-                                                                    "value": 2021.9719829679782
+                                                                    "value": 2021.9719816717254
                                                                   }
                                                                 }
                                                               }
@@ -3326,21 +3170,21 @@
                                                               },
                                                               "continent": {
                                                                 "confidence": {
-                                                                  "Europe": 0.9997818969451836
+                                                                  "Europe": 0.9997819063306703
                                                                 },
-                                                                "entropy": 0.0021061223118266498,
+                                                                "entropy": 0.0021059962705265627,
                                                                 "value": "Europe"
                                                               },
                                                               "country": {
                                                                 "confidence": {
-                                                                  "Ukraine": 0.999886488955652
+                                                                  "Ukraine": 0.9998869693046682
                                                                 },
-                                                                "entropy": 0.001298964016138672,
+                                                                "entropy": 0.001294074900423181,
                                                                 "value": "Ukraine"
                                                               },
-                                                              "div": 0.03363897443835103,
+                                                              "div": 0.033638973825121835,
                                                               "num_date": {
-                                                                "value": 2021.9719829679782
+                                                                "value": 2021.9719816717254
                                                               }
                                                             }
                                                           }
@@ -3352,21 +3196,21 @@
                                                           },
                                                           "continent": {
                                                             "confidence": {
-                                                              "Europe": 0.9997798430607496
+                                                              "Europe": 0.9997798526998996
                                                             },
-                                                            "entropy": 0.0021235893176596654,
+                                                            "entropy": 0.002123461004079221,
                                                             "value": "Europe"
                                                           },
                                                           "country": {
                                                             "confidence": {
-                                                              "Ukraine": 0.9998859308914168
+                                                              "Ukraine": 0.9998864164145231
                                                             },
-                                                            "entropy": 0.0013044436680486788,
+                                                            "entropy": 0.0012995070691833423,
                                                             "value": "Ukraine"
                                                           },
-                                                          "div": 0.033638974438351024,
+                                                          "div": 0.03363897382512183,
                                                           "num_date": {
-                                                            "value": 2021.9719829679782
+                                                            "value": 2021.9719816717254
                                                           }
                                                         }
                                                       }
@@ -3378,21 +3222,21 @@
                                                       },
                                                       "continent": {
                                                         "confidence": {
-                                                          "Europe": 0.9997791837593928
+                                                          "Europe": 0.9997791934784908
                                                         },
-                                                        "entropy": 0.0021291923340929246,
+                                                        "entropy": 0.002129063304209327,
                                                         "value": "Europe"
                                                       },
                                                       "country": {
                                                         "confidence": {
-                                                          "Ukraine": 0.9998857502885671
+                                                          "Ukraine": 0.9998862374724605
                                                         },
-                                                        "entropy": 0.001306216877986372,
+                                                        "entropy": 0.0013012650509692072,
                                                         "value": "Ukraine"
                                                       },
-                                                      "div": 0.03363897443835102,
+                                                      "div": 0.03363897382512182,
                                                       "num_date": {
-                                                        "value": 2021.9635141911688
+                                                        "value": 2021.963513558989
                                                       }
                                                     }
                                                   }
@@ -3404,21 +3248,21 @@
                                                   },
                                                   "continent": {
                                                     "confidence": {
-                                                      "Europe": 0.9997818569315484
+                                                      "Europe": 0.999781866322093
                                                     },
-                                                    "entropy": 0.0021064622587342458,
+                                                    "entropy": 0.002106336172912399,
                                                     "value": "Europe"
                                                   },
                                                   "country": {
                                                     "confidence": {
-                                                      "Ukraine": 0.999886480445211
+                                                      "Ukraine": 0.9998869608949805
                                                     },
-                                                    "entropy": 0.001299046566798901,
+                                                    "entropy": 0.0012941565227838864,
                                                     "value": "Ukraine"
                                                   },
-                                                  "div": 0.03363897443835101,
+                                                  "div": 0.033638973825121814,
                                                   "num_date": {
-                                                    "value": 2021.959619038307
+                                                    "value": 2021.9597357100479
                                                   }
                                                 }
                                               }
@@ -3430,19 +3274,19 @@
                                               },
                                               "continent": {
                                                 "confidence": {
-                                                  "Europe": 0.9998044222430691
+                                                  "Europe": 0.9998044299585596
                                                 },
-                                                "entropy": 0.0019122898714059406,
+                                                "entropy": 0.001912180461950817,
                                                 "value": "Europe"
                                               },
                                               "country": {
                                                 "confidence": {
-                                                  "Ukraine": 0.9998947890768496
+                                                  "Ukraine": 0.999895214983963
                                                 },
-                                                "entropy": 0.0012150774112345262,
+                                                "entropy": 0.0012106907003579465,
                                                 "value": "Ukraine"
                                               },
-                                              "div": 0.033638974438351,
+                                              "div": 0.03363897382512181,
                                               "num_date": {
                                                 "value": 2021.952054794776
                                               }
@@ -3456,21 +3300,21 @@
                                           },
                                           "continent": {
                                             "confidence": {
-                                              "Europe": 0.9999999433686465
+                                              "Europe": 0.9999999427683398
                                             },
-                                            "entropy": 1.002195961062208e-06,
+                                            "entropy": 1.0122097659184664e-06,
                                             "value": "Europe"
                                           },
                                           "country": {
                                             "confidence": {
-                                              "Ukraine": 0.999999986021838
+                                              "Ukraine": 0.9999999860041023
                                             },
-                                            "entropy": 2.6915216467946157e-07,
+                                            "entropy": 2.6946360001735456e-07,
                                             "value": "Ukraine"
                                           },
-                                          "div": 0.033638974438350996,
+                                          "div": 0.0336389738251218,
                                           "num_date": {
-                                            "value": 2021.905731732733
+                                            "value": 2021.9057140046098
                                           }
                                         }
                                       }
@@ -3482,23 +3326,23 @@
                                       },
                                       "continent": {
                                         "confidence": {
-                                          "Africa": 0.0017964689158177973,
-                                          "Europe": 0.9981751819588713
+                                          "Africa": 0.0018487582987525358,
+                                          "Europe": 0.9981228400589023
                                         },
-                                        "entropy": 0.013495935466687111,
+                                        "entropy": 0.01382607884182567,
                                         "value": "Europe"
                                       },
                                       "country": {
                                         "confidence": {
-                                          "Liban": 0.001181495643257771,
-                                          "Ukraine": 0.9986030427078031
+                                          "Liban": 0.001214190934360152,
+                                          "Ukraine": 0.9985719355523841
                                         },
-                                        "entropy": 0.01154719079650098,
+                                        "entropy": 0.011748411802677099,
                                         "value": "Ukraine"
                                       },
-                                      "div": 0.03187405324976367,
+                                      "div": 0.031874052910191804,
                                       "num_date": {
-                                        "value": 2021.6910618440168
+                                        "value": 2021.6836457270592
                                       }
                                     }
                                   }
@@ -3510,25 +3354,25 @@
                                   },
                                   "continent": {
                                     "confidence": {
-                                      "Africa": 0.03394843628548076,
-                                      "Europe": 0.9654729779581652
+                                      "Africa": 0.0325630288439132,
+                                      "Europe": 0.9668653759688557
                                     },
-                                    "entropy": 0.1532520553345409,
+                                    "entropy": 0.1485257068201173,
                                     "value": "Europe"
                                   },
                                   "country": {
                                     "confidence": {
-                                      "Kenya": 0.002776181372531406,
-                                      "Liban": 0.02897270944744127,
-                                      "Perou": 0.0026523501421666543,
-                                      "Ukraine": 0.9638434157278976
+                                      "Kenya": 0.002525287316168472,
+                                      "Liban": 0.027640504917619702,
+                                      "Perou": 0.002560082535531671,
+                                      "Ukraine": 0.965685320428289
                                     },
-                                    "entropy": 0.18400483349989422,
+                                    "entropy": 0.17598516882394474,
                                     "value": "Ukraine"
                                   },
-                                  "div": 0.030109463286741512,
+                                  "div": 0.030109463179540774,
                                   "num_date": {
-                                    "value": 2021.3425656772054
+                                    "value": 2021.354979615505
                                   }
                                 }
                               }
@@ -3540,26 +3384,26 @@
                               },
                               "continent": {
                                 "confidence": {
-                                  "Africa": 0.05538815116937408,
-                                  "Europe": 0.9335715116128146,
-                                  "South America": 0.01047481739197348
+                                  "Africa": 0.05468432948455922,
+                                  "Europe": 0.933341469148121,
+                                  "South America": 0.011379399200827289
                                 },
-                                "entropy": 0.2764122959880875,
+                                "entropy": 0.27865956493733224,
                                 "value": "Europe"
                               },
                               "country": {
                                 "confidence": {
-                                  "Kenya": 0.03610114480537357,
-                                  "Liban": 0.0249814725365016,
-                                  "Perou": 0.03538596468801666,
-                                  "Ukraine": 0.883167083985973
+                                  "Kenya": 0.03576447058135792,
+                                  "Liban": 0.024223874167784595,
+                                  "Perou": 0.037332292845166745,
+                                  "Ukraine": 0.882599633115713
                                 },
-                                "entropy": 0.5490453881492123,
+                                "entropy": 0.5503272509190922,
                                 "value": "Ukraine"
                               },
-                              "div": 0.028933509641323255,
+                              "div": 0.028933509408130255,
                               "num_date": {
-                                "value": 2021.1249625172163
+                                "value": 2021.1631486494068
                               }
                             }
                           }
@@ -3571,25 +3415,25 @@
                           },
                           "continent": {
                             "confidence": {
-                              "Africa": 0.104630931890409,
-                              "Europe": 0.8947658643473985
+                              "Africa": 0.10825703542009459,
+                              "Europe": 0.8911203335500439
                             },
-                            "entropy": 0.34041344542804064,
+                            "entropy": 0.3482781544526012,
                             "value": "Europe"
                           },
                           "country": {
                             "confidence": {
-                              "Finlande": 0.03609116695331823,
-                              "Kenya": 0.13419389934195566,
-                              "Liban": 0.016932558578827053,
-                              "Ukraine": 0.7825348124641723
+                              "Finlande": 0.03649650081586409,
+                              "Kenya": 0.14021885180407184,
+                              "Liban": 0.01647059758003756,
+                              "Ukraine": 0.776177963041562
                             },
-                            "entropy": 0.8016882049362679,
+                            "entropy": 0.8135814451821377,
                             "value": "Ukraine"
                           },
-                          "div": 0.026578906688104885,
+                          "div": 0.026578906731283665,
                           "num_date": {
-                            "value": 2020.6213320675752
+                            "value": 2020.630206911401
                           }
                         }
                       }
@@ -3601,25 +3445,25 @@
                       },
                       "continent": {
                         "confidence": {
-                          "Africa": 0.025247751208978847,
-                          "Europe": 0.9738749058984891
+                          "Africa": 0.02626112145248741,
+                          "Europe": 0.9728209279685976
                         },
-                        "entropy": 0.1254484293750331,
+                        "entropy": 0.12944073080315235,
                         "value": "Europe"
                       },
                       "country": {
                         "confidence": {
-                          "Finlande": 0.5717944478749716,
-                          "Kenya": 0.04798953199285019,
-                          "Norvege": 0.07625291989509539,
-                          "Ukraine": 0.1980174252293158
+                          "Finlande": 0.5731484352372419,
+                          "Kenya": 0.04953410965661431,
+                          "Norvege": 0.07441366488108091,
+                          "Ukraine": 0.195696215239959
                         },
-                        "entropy": 1.400700772980834,
+                        "entropy": 1.4025684559027325,
                         "value": "Finlande"
                       },
-                      "div": 0.02186101864513703,
+                      "div": 0.021861018658184905,
                       "num_date": {
-                        "value": 2019.6623566360229
+                        "value": 2019.659039522423
                       }
                     }
                   }
@@ -3631,26 +3475,26 @@
                   },
                   "continent": {
                     "confidence": {
-                      "Africa": 0.0164895881542386,
-                      "Asia": 0.0032696062476631105,
-                      "Europe": 0.9797921807325203
+                      "Africa": 0.017406511954589754,
+                      "Asia": 0.0035184919143536574,
+                      "Europe": 0.9785956072987078
                     },
-                    "entropy": 0.10986327296959816,
+                    "entropy": 0.11522836762814696,
                     "value": "Europe"
                   },
                   "country": {
                     "confidence": {
-                      "Espagne": 0.19164288361376117,
-                      "Finlande": 0.09137904220372843,
-                      "Norvege": 0.5247400124870943,
-                      "Singapore": 0.06965008949982672
+                      "Espagne": 0.19616600512148882,
+                      "Finlande": 0.0926086998512078,
+                      "Norvege": 0.5141936813467367,
+                      "Singapore": 0.07154549191656677
                     },
-                    "entropy": 1.52215109365813,
+                    "entropy": 1.5420382751215513,
                     "value": "Norvege"
                   },
-                  "div": 0.01417134141126537,
+                  "div": 0.014171341484420372,
                   "num_date": {
-                    "value": 2018.143690489112
+                    "value": 2018.1177027337849
                   }
                 }
               }
@@ -3662,27 +3506,27 @@
               },
               "continent": {
                 "confidence": {
-                  "Africa": 0.03145045124971838,
-                  "Asia": 0.021449288287377712,
-                  "Europe": 0.9458966327126425,
-                  "South America": 0.0012036277502615858
+                  "Africa": 0.03192070062906292,
+                  "Asia": 0.022065895710541707,
+                  "Europe": 0.9447908500793697,
+                  "South America": 0.0012225535810256741
                 },
-                "entropy": 0.2519113321184797,
+                "entropy": 0.25595978008212417,
                 "value": "Europe"
               },
               "country": {
                 "confidence": {
-                  "Espagne": 0.43413949710707056,
-                  "Finlande": 0.04586276728079184,
-                  "Norvege": 0.24329202994229623,
-                  "Singapore": 0.1502997871893975
+                  "Espagne": 0.436993405826944,
+                  "Finlande": 0.046199695862717285,
+                  "Norvege": 0.2373580575324259,
+                  "Singapore": 0.15176307186597227
                 },
-                "entropy": 1.609772908997075,
+                "entropy": 1.6123458262650356,
                 "value": "Espagne"
               },
-              "div": 0.011815616584177674,
+              "div": 0.011815616549627865,
               "num_date": {
-                "value": 2017.6001274489126
+                "value": 2017.5703104935003
               }
             }
           }
@@ -3694,26 +3538,26 @@
           },
           "continent": {
             "confidence": {
-              "Africa": 0.003139639741878279,
-              "Asia": 0.9789109559393363,
-              "Europe": 0.017111282933237645
+              "Africa": 0.003291315148136187,
+              "Asia": 0.9777746048026887,
+              "Europe": 0.018061164533305127
             },
-            "entropy": 0.11450740285549929,
+            "entropy": 0.11943714543123458,
             "value": "Asia"
           },
           "country": {
             "confidence": {
-              "China": 0.07221757285429838,
-              "Espagne": 0.04693184665086531,
-              "Norvege": 0.029042484999765472,
-              "Singapore": 0.8032783752316731
+              "China": 0.07574562983603154,
+              "Espagne": 0.04974946870567668,
+              "Norvege": 0.029962166371293533,
+              "Singapore": 0.7939095885368375
             },
-            "entropy": 0.844443543850775,
+            "entropy": 0.873314702150368,
             "value": "Singapore"
           },
-          "div": 0.008278875015690771,
+          "div": 0.00827887542302718,
           "num_date": {
-            "value": 2016.1876425743828
+            "value": 2016.1741017132213
           }
         }
       }
@@ -3725,21 +3569,21 @@
       },
       "continent": {
         "confidence": {
-          "Africa": 0.0015983141548015349,
-          "Asia": 0.9938655205206447,
-          "Europe": 0.003584314492936732
+          "Africa": 0.0016284041108804812,
+          "Asia": 0.993736028761611,
+          "Europe": 0.0036783683838168472
         },
-        "entropy": 0.0432129319435386,
+        "entropy": 0.043971191373672974,
         "value": "Asia"
       },
       "country": {
         "confidence": {
-          "China": 0.8537809422763936,
-          "Espagne": 0.011942120600056508,
-          "Singapore": 0.07646521795204277,
-          "Ukraine": 0.010591706007828397
+          "China": 0.8535415092674021,
+          "Espagne": 0.012186336947412607,
+          "Singapore": 0.07627750344289987,
+          "Ukraine": 0.010596775415026488
         },
-        "entropy": 0.6607174261678102,
+        "entropy": 0.6621443061754282,
         "value": "China"
       },
       "div": 0,

@@ -1,0 +1,882 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "clade_membership",
+        "title": "Clade",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical"
+      },
+      {
+        "key": "continent",
+        "title": "continent",
+        "type": "categorical"
+      },
+      {
+        "key": "context",
+        "title": "context",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "country",
+      "clade_membership",
+      "context",
+      "continent"
+    ],
+    "genome_annotations": {
+      "HA1": {
+        "end": 1052,
+        "seqid": "reference/H1N1_HA.gb",
+        "start": 72,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "HA2": {
+        "end": 1718,
+        "seqid": "reference/H1N1_HA.gb",
+        "start": 1053,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "SigPep": {
+        "end": 71,
+        "seqid": "reference/H1N1_HA.gb",
+        "start": 21,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 1752,
+        "seqid": "reference/H1N1_HA.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "panels": [
+      "tree",
+      "entropy"
+    ],
+    "title": "NEXTSRAIN H1N1 HA SEGMENT VISUALISATION",
+    "updated": "2022-09-28"
+  },
+  "tree": {
+    "branch_attrs": {
+      "labels": {
+        "clade": "6B.1"
+      },
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "name": "A/Michigan/45/2015|S4",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "6B.1"
+          },
+          "context": {
+            "value": "reference"
+          },
+          "continent": {
+            "confidence": {
+              "North America": 1.0
+            },
+            "entropy": -1.000088900581841e-12,
+            "value": "North America"
+          },
+          "country": {
+            "confidence": {
+              "Michigan": 1.0
+            },
+            "entropy": -1.000088900581841e-12,
+            "value": "Michigan"
+          },
+          "div": 0.0052248594329831624,
+          "num_date": {
+            "value": 2015.6835616438357
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "HA1: S74R, S164T, R223Q, I295V",
+            "clade": "6B.1A"
+          },
+          "mutations": {
+            "HA1": [
+              "S74R",
+              "S164T",
+              "R223Q",
+              "I295V"
+            ],
+            "nuc": [
+              "T7C",
+              "C164T",
+              "T293A",
+              "G416A",
+              "C443T",
+              "T554C",
+              "T561A",
+              "G739A",
+              "A954G",
+              "A974G",
+              "T1034C",
+              "C1163T",
+              "C1190T",
+              "G1271T",
+              "T1356C",
+              "G1493A",
+              "A1511G",
+              "G1577A",
+              "T1601C"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C389T",
+                  "T947C",
+                  "G1037A",
+                  "C1061T",
+                  "C1073A",
+                  "C1118T",
+                  "G1145T",
+                  "T1641C"
+                ]
+              }
+            },
+            "name": "A/Paris/1447/2017|S4",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "6B.1A"
+              },
+              "context": {
+                "value": "reference"
+              },
+              "continent": {
+                "confidence": {
+                  "Europe": 1.0
+                },
+                "entropy": -1.000088900581841e-12,
+                "value": "Europe"
+              },
+              "country": {
+                "confidence": {
+                  "France": 0.9999999999999999
+                },
+                "entropy": -9.99866855976916e-13,
+                "value": "France"
+              },
+              "div": 0.010268592172878139,
+              "num_date": {
+                "value": 2017.8013698630136
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HA1: S183P"
+              },
+              "mutations": {
+                "HA1": [
+                  "S183P"
+                ],
+                "nuc": [
+                  "A47G",
+                  "A524G",
+                  "T618C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA1: R45G, P282A, I298V"
+                  },
+                  "mutations": {
+                    "HA1": [
+                      "R45G",
+                      "P282A",
+                      "I298V"
+                    ],
+                    "nuc": [
+                      "A204G",
+                      "A881G",
+                      "C915G",
+                      "A963G",
+                      "A1010G",
+                      "G1703A"
+                    ]
+                  }
+                },
+                "name": "A/Brisbane/02/2018|S4",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "6B.1A"
+                  },
+                  "context": {
+                    "value": "reference"
+                  },
+                  "continent": {
+                    "confidence": {
+                      "Australia": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Australia"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Brisbane": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Brisbane"
+                  },
+                  "div": 0.010829091231237611,
+                  "num_date": {
+                    "value": 2018.009589041096
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "clade": "6B.1A.5"
+                  },
+                  "mutations": {
+                    "nuc": [
+                      "T1364C",
+                      "T1487C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA1: T120A, H138L, T277A",
+                        "clade": "6B.1A.6"
+                      },
+                      "mutations": {
+                        "HA1": [
+                          "T120A",
+                          "H138L",
+                          "T277A"
+                        ],
+                        "nuc": [
+                          "G209A",
+                          "G371A",
+                          "A429G",
+                          "A484T",
+                          "C512T",
+                          "A536G",
+                          "T575C",
+                          "T878C",
+                          "A900G",
+                          "G1226A",
+                          "A1355G",
+                          "C1403T"
+                        ]
+                      }
+                    },
+                    "name": "A/Ireland/84630/2018|S4",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "6B.1A.6"
+                      },
+                      "context": {
+                        "value": "reference"
+                      },
+                      "continent": {
+                        "confidence": {
+                          "Europe": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Europe"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Irelande": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Irelande"
+                      },
+                      "div": 0.015426398070431734,
+                      "num_date": {
+                        "value": 2018.9082191780822
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA1: N260D"
+                      },
+                      "mutations": {
+                        "HA1": [
+                          "N260D"
+                        ],
+                        "nuc": [
+                          "A849G"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HA1: E235D; HA2: V193A",
+                            "clade": "6B.1A.5b"
+                          },
+                          "mutations": {
+                            "HA1": [
+                              "E235D"
+                            ],
+                            "HA2": [
+                              "V193A"
+                            ],
+                            "nuc": [
+                              "G776C",
+                              "G824A",
+                              "C917T",
+                              "T1630C"
+                            ]
+                          }
+                        },
+                        "name": "A/Switzerland/3330/2017|S4",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "6B.1A.5b"
+                          },
+                          "context": {
+                            "value": "reference"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Europe": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Europe"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Suisse": 0.9999999999999999
+                            },
+                            "entropy": -9.99866855976916e-13,
+                            "value": "Suisse"
+                          },
+                          "div": 0.01139282958093001,
+                          "num_date": {
+                            "value": 2017.8013698630136
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HA1: N129D, T185I",
+                            "clade": "6B.1A.5a"
+                          },
+                          "mutations": {
+                            "HA1": [
+                              "N129D",
+                              "T185I"
+                            ],
+                            "nuc": [
+                              "T161C",
+                              "A456G",
+                              "C625T",
+                              "G776A",
+                              "C1073T",
+                              "C1631T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "A/Norway/3433/2018|S4",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "6B.1A.5a"
+                              },
+                              "context": {
+                                "value": "reference"
+                              },
+                              "continent": {
+                                "confidence": {
+                                  "Europe": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Europe"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Norvege": 0.9999999999999999
+                                },
+                                "entropy": -9.99866855976916e-13,
+                                "value": "Norvege"
+                              },
+                              "div": 0.012535127085717175,
+                              "num_date": {
+                                "value": 2018.8287671232877
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HA1: D187A, Q189E",
+                                "clade": "6B.1A.5a.1"
+                              },
+                              "mutations": {
+                                "HA1": [
+                                  "D187A",
+                                  "Q189E"
+                                ],
+                                "nuc": [
+                                  "A631C",
+                                  "C636G",
+                                  "C965T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "HA1: R45K, T120I"
+                                  },
+                                  "mutations": {
+                                    "HA1": [
+                                      "R45K",
+                                      "T120I"
+                                    ],
+                                    "nuc": [
+                                      "G205A",
+                                      "A296G",
+                                      "C430T",
+                                      "C941A"
+                                    ]
+                                  }
+                                },
+                                "name": "A/Ireland/87733/2019|S4",
+                                "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "6B.1A.5a.1"
+                                  },
+                                  "context": {
+                                    "value": "reference"
+                                  },
+                                  "continent": {
+                                    "confidence": {
+                                      "Europe": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Europe"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Irelande": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Irelande"
+                                  },
+                                  "div": 0.01654325211389138,
+                                  "num_date": {
+                                    "value": 2019.8397260273973
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C941T",
+                                      "T1310C",
+                                      "A1415G",
+                                      "A1469G",
+                                      "A1640G"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "HA1: R113K; HA2: H72N; SigPep: N16K"
+                                      },
+                                      "mutations": {
+                                        "HA1": [
+                                          "R113K"
+                                        ],
+                                        "HA2": [
+                                          "H72N"
+                                        ],
+                                        "SigPep": [
+                                          "N16K"
+                                        ],
+                                        "nuc": [
+                                          "A19G",
+                                          "T68A",
+                                          "C155T",
+                                          "C389T",
+                                          "G409A",
+                                          "A800G",
+                                          "T923A",
+                                          "C1266A",
+                                          "A1421G"
+                                        ]
+                                      }
+                                    },
+                                    "name": "22Pl026-022118403801_S705|S4",
+                                    "node_attrs": {
+                                      "clade_membership": {
+                                        "value": "6B.1A.5a.1"
+                                      },
+                                      "context": {
+                                        "value": "GIHSN"
+                                      },
+                                      "continent": {
+                                        "confidence": {
+                                          "Africa": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "Africa"
+                                      },
+                                      "country": {
+                                        "confidence": {
+                                          "Cote d'ivoire": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "Cote d'ivoire"
+                                      },
+                                      "div": 0.022269091569944777,
+                                      "num_date": {
+                                        "value": 2022.1493150684933
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G371A",
+                                          "C372T",
+                                          "G596T",
+                                          "C632T",
+                                          "A1133G",
+                                          "C1160T",
+                                          "G1616T"
+                                        ]
+                                      }
+                                    },
+                                    "name": "22Pl026-022118623301_S704|S4",
+                                    "node_attrs": {
+                                      "clade_membership": {
+                                        "value": "6B.1A.5a.1"
+                                      },
+                                      "context": {
+                                        "value": "GIHSN"
+                                      },
+                                      "continent": {
+                                        "confidence": {
+                                          "Africa": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "Africa"
+                                      },
+                                      "country": {
+                                        "confidence": {
+                                          "Cote d'ivoire": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "Cote d'ivoire"
+                                      },
+                                      "div": 0.0211178724451961,
+                                      "num_date": {
+                                        "value": 2021.8150684931506
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000006",
+                                "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "6B.1A.5a.1"
+                                  },
+                                  "continent": {
+                                    "confidence": {
+                                      "Africa": 0.7731463527139083,
+                                      "Australia": 0.010259994145272492,
+                                      "Europe": 0.20452694858844434,
+                                      "North America": 0.01206670455237486
+                                    },
+                                    "entropy": 0.6238040596800941,
+                                    "value": "Africa"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Cote d'ivoire": 0.8117503373664098,
+                                      "Irelande": 0.09231343868172406,
+                                      "Norvege": 0.046525042819108964,
+                                      "Suisse": 0.014696691177008926
+                                    },
+                                    "entropy": 0.7487222358757021,
+                                    "value": "Cote d'ivoire"
+                                  },
+                                  "div": 0.01710989841711314,
+                                  "num_date": {
+                                    "value": 2020.3127687561653
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000005",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "6B.1A.5a.1"
+                              },
+                              "continent": {
+                                "confidence": {
+                                  "Africa": 0.028628663804270395,
+                                  "Australia": 0.002240178695486109,
+                                  "Europe": 0.9666568865398565,
+                                  "North America": 0.0024742709603870192
+                                },
+                                "entropy": 0.16302640068153287,
+                                "value": "Europe"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Cote d'ivoire": 0.14669908640960755,
+                                  "Irelande": 0.5283059564314224,
+                                  "Norvege": 0.2449895238250664,
+                                  "Suisse": 0.03671775167903909
+                                },
+                                "entropy": 1.2679943435028775,
+                                "value": "Irelande"
+                              },
+                              "div": 0.014251285153719477,
+                              "num_date": {
+                                "value": 2019.275399500754
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000004",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "6B.1A.5a"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Africa": 0.004741457022326453,
+                              "Europe": 0.9934437705837139
+                            },
+                            "entropy": 0.04462054771710358,
+                            "value": "Europe"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Cote d'ivoire": 0.060347757249741826,
+                              "Irelande": 0.27664683071388196,
+                              "Norvege": 0.5493593930862328,
+                              "Suisse": 0.06681938861807435
+                            },
+                            "entropy": 1.229028731602671,
+                            "value": "Norvege"
+                          },
+                          "div": 0.012535127085717166,
+                          "num_date": {
+                            "value": 2018.811401920259
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000003",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "6B.1A.5"
+                      },
+                      "continent": {
+                        "confidence": {
+                          "Africa": 0.001309738369295547,
+                          "Australia": 0.004386690023135794,
+                          "Europe": 0.992905542958979,
+                          "North America": 0.0013980286485897001
+                        },
+                        "entropy": 0.04876812353516506,
+                        "value": "Europe"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Brisbane": 0.0890947172332206,
+                          "Irelande": 0.20006354848613112,
+                          "Norvege": 0.0847169556948914,
+                          "Suisse": 0.5288741983431517
+                        },
+                        "entropy": 1.404808896945652,
+                        "value": "Suisse"
+                      },
+                      "div": 0.00910246498243936,
+                      "num_date": {
+                        "value": 2017.3046700108362
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000002",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "6B.1A.5"
+                  },
+                  "continent": {
+                    "confidence": {
+                      "Africa": 0.002601430894094738,
+                      "Australia": 0.018344159397109153,
+                      "Europe": 0.9750826235099119,
+                      "North America": 0.003971786198884154
+                    },
+                    "entropy": 0.13539351854850115,
+                    "value": "Europe"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Brisbane": 0.17424774361115664,
+                      "France": 0.10609328810590478,
+                      "Irelande": 0.26810158751284124,
+                      "Suisse": 0.33800110259844734
+                    },
+                    "entropy": 1.622647965355973,
+                    "value": "Suisse"
+                  },
+                  "div": 0.00853141754946762,
+                  "num_date": {
+                    "value": 2017.1609305473526
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000000",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "6B.1A"
+              },
+              "continent": {
+                "confidence": {
+                  "Africa": 0.00629147963450487,
+                  "Australia": 0.077496011011899,
+                  "Europe": 0.9027425076065883,
+                  "North America": 0.013470001747008
+                },
+                "entropy": 0.38047295708937556,
+                "value": "Europe"
+              },
+              "country": {
+                "confidence": {
+                  "Brisbane": 0.3175801519602445,
+                  "France": 0.1909325331601882,
+                  "Irelande": 0.17062952212746502,
+                  "Suisse": 0.2089600663465877
+                },
+                "entropy": 1.6705684036370816,
+                "value": "Brisbane"
+              },
+              "div": 0.007388627435261631,
+              "num_date": {
+                "value": 2016.9309538674825
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "6B.1A"
+          },
+          "continent": {
+            "confidence": {
+              "Africa": 0.010471889753244396,
+              "Australia": 0.05788302369849981,
+              "Europe": 0.9031996358714075,
+              "North America": 0.028445450676848255
+            },
+            "entropy": 0.40588532393068655,
+            "value": "Europe"
+          },
+          "country": {
+            "confidence": {
+              "Brisbane": 0.2306575054855873,
+              "France": 0.34155647609339906,
+              "Irelande": 0.12985805693525745,
+              "Suisse": 0.1540292544379662
+            },
+            "entropy": 1.6803202365680074,
+            "value": "France"
+          },
+          "div": 0.005673077668007517,
+          "num_date": {
+            "value": 2016.5898025635927
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000007",
+    "node_attrs": {
+      "clade_membership": {
+        "value": "6B.1"
+      },
+      "continent": {
+        "confidence": {
+          "Africa": 0.06529001210234314,
+          "Australia": 0.07026564732536518,
+          "Europe": 0.297392996809627,
+          "North America": 0.5670513437626645
+        },
+        "entropy": 1.0470994766964634,
+        "value": "North America"
+      },
+      "country": {
+        "confidence": {
+          "Brisbane": 0.09821471904729817,
+          "France": 0.12289482464226716,
+          "Irelande": 0.07965601453456911,
+          "Michigan": 0.5141088846712367
+        },
+        "entropy": 1.5410705020391269,
+        "value": "Michigan"
+      },
+      "div": 0,
+      "num_date": {
+        "value": 2014.1814863982308
+      }
+    }
+  },
+  "version": "v2"
+}
