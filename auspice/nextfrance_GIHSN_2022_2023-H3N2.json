@@ -1,0 +1,2378 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "clade_membership",
+        "title": "Clade",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical"
+      },
+      {
+        "key": "continent",
+        "title": "continent",
+        "type": "categorical"
+      },
+      {
+        "key": "O2_supplements",
+        "title": "O2_supplements",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "O2_supplements",
+      "country",
+      "clade_membership",
+      "continent"
+    ],
+    "genome_annotations": {
+      "HA1": {
+        "end": 1035,
+        "seqid": "reference/H3N2_HA.gb",
+        "start": 49,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "HA2": {
+        "end": 1698,
+        "seqid": "reference/H3N2_HA.gb",
+        "start": 1036,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "SigPep": {
+        "end": 48,
+        "seqid": "reference/H3N2_HA.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 1701,
+        "seqid": "reference/H3N2_HA.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "panels": [
+      "tree",
+      "entropy"
+    ],
+    "title": "NEXTSRAIN H3N2 HA SEGMENT VISUALISATION",
+    "updated": "2023-02-01"
+  },
+  "tree": {
+    "branch_attrs": {
+      "labels": {
+        "clade": "3C.2a1b.2a.2"
+      },
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "HA1: H156S"
+          },
+          "mutations": {
+            "HA1": [
+              "H156S"
+            ],
+            "nuc": [
+              "C514A",
+              "A515G",
+              "C879T"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HA1: E50K, D53N, N96S, I192F; HA2: N49S"
+              },
+              "mutations": {
+                "HA1": [
+                  "E50K",
+                  "D53N",
+                  "N96S",
+                  "I192F"
+                ],
+                "HA2": [
+                  "N49S"
+                ],
+                "nuc": [
+                  "G196A",
+                  "G205A",
+                  "A335G",
+                  "C396A",
+                  "T432C",
+                  "A622T",
+                  "T861C",
+                  "T972C",
+                  "A1020T",
+                  "A1181G"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA1: I140M"
+                  },
+                  "mutations": {
+                    "HA1": [
+                      "I140M"
+                    ],
+                    "nuc": [
+                      "A468G",
+                      "A645G"
+                    ]
+                  }
+                },
+                "name": "A/Dakar/1639/2022",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "3C.2a1b.2a.2"
+                  },
+                  "continent": {
+                    "confidence": {
+                      "Africa": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Africa"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Senegal": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Senegal"
+                  },
+                  "div": 0.00825094413410232,
+                  "num_date": {
+                    "value": 2022.6671232876713
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA1: I223V"
+                  },
+                  "mutations": {
+                    "HA1": [
+                      "I223V"
+                    ],
+                    "nuc": [
+                      "A715G"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA1: I140K; SigPep: T3A"
+                      },
+                      "mutations": {
+                        "HA1": [
+                          "I140K"
+                        ],
+                        "SigPep": [
+                          "T3A"
+                        ],
+                        "nuc": [
+                          "A7G",
+                          "T467A",
+                          "C1047T",
+                          "A1386G"
+                        ]
+                      }
+                    },
+                    "name": "A/Turkey/GIHSN_Ankara/14011_1323/2022",
+                    "node_attrs": {
+                      "O2_supplements": {
+                        "value": "no"
+                      },
+                      "clade_membership": {
+                        "value": "3C.2a1b.2a.2"
+                      },
+                      "continent": {
+                        "confidence": {
+                          "Asia": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Asia"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Turkey": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Turkey"
+                      },
+                      "div": 0.010015822127913122,
+                      "num_date": {
+                        "value": 2022.9191780821918
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T585C",
+                          "C1149A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HA1: T128I"
+                          },
+                          "mutations": {
+                            "HA1": [
+                              "T128I"
+                            ],
+                            "nuc": [
+                              "C431T"
+                            ]
+                          }
+                        },
+                        "name": "A/Dakar/1851/2022",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "3C.2a1b.2a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Africa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Senegal": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Senegal"
+                          },
+                          "div": 0.00942596067330107,
+                          "num_date": {
+                            "value": 2022.727397260274
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G462A"
+                            ]
+                          }
+                        },
+                        "name": "A/Dakar/2039/2022",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "3C.2a1b.2a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Africa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Senegal": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Senegal"
+                          },
+                          "div": 0.009425975088543781,
+                          "num_date": {
+                            "value": 2022.7767123287672
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "A/Dakar/1716/2022",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "3C.2a1b.2a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Africa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Senegal": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Senegal"
+                          },
+                          "div": 0.008838323351360297,
+                          "num_date": {
+                            "value": 2022.6808219178083
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000021",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "3C.2a1b.2a.2"
+                      },
+                      "continent": {
+                        "confidence": {
+                          "Africa": 0.999803306995147
+                        },
+                        "entropy": 0.0020115491267419317,
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Senegal": 0.9998479321847652
+                        },
+                        "entropy": 0.0015737863353188202,
+                        "value": "Senegal"
+                      },
+                      "div": 0.008838323351360294,
+                      "num_date": {
+                        "value": 2022.6671842308335
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000020",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "3C.2a1b.2a.2"
+                  },
+                  "continent": {
+                    "confidence": {
+                      "Africa": 0.9243953631093521,
+                      "Asia": 0.06155219066949612,
+                      "Europe": 0.014052446221151794
+                    },
+                    "entropy": 0.3042043263621211,
+                    "value": "Africa"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Senegal": 0.9123373992106156,
+                      "South Africa": 0.0017948758356782744,
+                      "Spain": 0.003999392596242142,
+                      "Turkey": 0.07922669547208236
+                    },
+                    "entropy": 0.3353824470304617,
+                    "value": "Senegal"
+                  },
+                  "div": 0.007662393829706665,
+                  "num_date": {
+                    "value": 2022.4770186724452
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000019",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "3C.2a1b.2a.2"
+              },
+              "continent": {
+                "confidence": {
+                  "Africa": 0.9549383001654008,
+                  "Asia": 0.02303539864001687,
+                  "Europe": 0.022026301194582282
+                },
+                "entropy": 0.21493267905939498,
+                "value": "Africa"
+              },
+              "country": {
+                "confidence": {
+                  "Romania": 0.003975624201671771,
+                  "Senegal": 0.9415804187138805,
+                  "Spain": 0.008276491169888767,
+                  "Turkey": 0.04069255895235502
+                },
+                "entropy": 0.28041283083936624,
+                "value": "Senegal"
+              },
+              "div": 0.007074790478158573,
+              "num_date": {
+                "value": 2022.3626981194257
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HA1: D53G, D104G, K276R"
+              },
+              "mutations": {
+                "HA1": [
+                  "D53G",
+                  "D104G",
+                  "K276R"
+                ],
+                "nuc": [
+                  "A206G",
+                  "C316A",
+                  "A359G",
+                  "A875G",
+                  "G1323T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA1: T135A, T167S"
+                  },
+                  "mutations": {
+                    "HA1": [
+                      "T135A",
+                      "T167S"
+                    ],
+                    "nuc": [
+                      "G120A",
+                      "C400T",
+                      "A451G",
+                      "G462A",
+                      "C548G",
+                      "C1339T",
+                      "C1411T"
+                    ]
+                  }
+                },
+                "name": "A/Alicante/VAHNSI-GIHSN-16_1938/2022",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "3C.2a1b.2a.2"
+                  },
+                  "continent": {
+                    "confidence": {
+                      "Europe": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Europe"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Spain": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Spain"
+                  },
+                  "div": 0.009428851914180768,
+                  "num_date": {
+                    "value": 2022.804109589041
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA1: R299K"
+                  },
+                  "mutations": {
+                    "HA1": [
+                      "R299K"
+                    ],
+                    "nuc": [
+                      "T270C",
+                      "G944A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA1: T128N, K131T, G142R, S144N, S145N, S156H, N159F, I160K, Q164L"
+                      },
+                      "mutations": {
+                        "HA1": [
+                          "T128N",
+                          "K131T",
+                          "G142R",
+                          "S144N",
+                          "S145N",
+                          "S156H",
+                          "N159F",
+                          "I160K",
+                          "Q164L"
+                        ],
+                        "nuc": [
+                          "G21A",
+                          "C431A",
+                          "A440C",
+                          "A441T",
+                          "G462T",
+                          "G472A",
+                          "G479A",
+                          "G482A",
+                          "T489C",
+                          "A514C",
+                          "G515A",
+                          "A523T",
+                          "A524T",
+                          "T527A",
+                          "T531C",
+                          "C538T",
+                          "A539T"
+                        ]
+                      }
+                    },
+                    "name": "A/Turkey/GIHSN_Ankara/14020_7/2022",
+                    "node_attrs": {
+                      "O2_supplements": {
+                        "value": "yes"
+                      },
+                      "clade_membership": {
+                        "value": "3C.2a1b.2a.2"
+                      },
+                      "continent": {
+                        "confidence": {
+                          "Asia": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Asia"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Turkey": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Turkey"
+                      },
+                      "div": 0.016559207805169153,
+                      "num_date": {
+                        "value": 2022.968493150685
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA1: I140K"
+                      },
+                      "mutations": {
+                        "HA1": [
+                          "I140K"
+                        ],
+                        "nuc": [
+                          "T467A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HA1: H56L"
+                          },
+                          "mutations": {
+                            "HA1": [
+                              "H56L"
+                            ],
+                            "nuc": [
+                              "A215T",
+                              "C279T"
+                            ]
+                          }
+                        },
+                        "name": "A/Alicante/VAHNSI-GIHSN-16_1832/2022",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "3C.2a1b.2a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Europe": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Europe"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Spain": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Spain"
+                          },
+                          "div": 0.008240298495578708,
+                          "num_date": {
+                            "value": 2022.7219178082191
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HA1: L15I; HA2: N168S"
+                          },
+                          "mutations": {
+                            "HA1": [
+                              "L15I"
+                            ],
+                            "HA2": [
+                              "N168S"
+                            ],
+                            "nuc": [
+                              "C91A",
+                              "G171A",
+                              "A1538G"
+                            ]
+                          }
+                        },
+                        "name": "A/Alicante/VAHNSI-GIHSN-16_1909/2022",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "3C.2a1b.2a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Europe": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Europe"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Spain": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Spain"
+                          },
+                          "div": 0.008829112584346998,
+                          "num_date": {
+                            "value": 2022.7794520547945
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "A/Valencia/VAHNSI-GIHSN-07_3192/2022",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "3C.2a1b.2a.2"
+                              },
+                              "continent": {
+                                "confidence": {
+                                  "Europe": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Europe"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Spain": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Spain"
+                              },
+                              "div": 0.0070640208564998214,
+                              "num_date": {
+                                "value": 2022.6753424657534
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HA1: R261Q"
+                              },
+                              "mutations": {
+                                "HA1": [
+                                  "R261Q"
+                                ],
+                                "nuc": [
+                                  "T216C",
+                                  "G830A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "A/Romania/4682/2022",
+                                "node_attrs": {
+                                  "O2_supplements": {
+                                    "value": "no"
+                                  },
+                                  "clade_membership": {
+                                    "value": "3C.2a1b.2a.2"
+                                  },
+                                  "continent": {
+                                    "confidence": {
+                                      "Europe": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13,
+                                    "value": "Europe"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Romania": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Romania"
+                                  },
+                                  "div": 0.008239954553487874,
+                                  "num_date": {
+                                    "value": 2022.9575342465753
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "A/Romania/4674/2022",
+                                "node_attrs": {
+                                  "O2_supplements": {
+                                    "value": "no"
+                                  },
+                                  "clade_membership": {
+                                    "value": "3C.2a1b.2a.2"
+                                  },
+                                  "continent": {
+                                    "confidence": {
+                                      "Europe": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13,
+                                    "value": "Europe"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Romania": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Romania"
+                                  },
+                                  "div": 0.008239954553487874,
+                                  "num_date": {
+                                    "value": 2022.9575342465753
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000028",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "3C.2a1b.2a.2"
+                              },
+                              "continent": {
+                                "confidence": {
+                                  "Europe": 0.9996281384342326
+                                },
+                                "entropy": 0.0035213610454698824,
+                                "value": "Europe"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Romania": 0.9130064018247829,
+                                  "South Africa": 0.001184183851585056,
+                                  "Spain": 0.08454987691148308
+                                },
+                                "entropy": 0.3097310382198565,
+                                "value": "Romania"
+                              },
+                              "div": 0.00823995455348787,
+                              "num_date": {
+                                "value": 2022.9377485252578
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000008",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "3C.2a1b.2a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Europe": 0.9996136236513034
+                            },
+                            "entropy": 0.0036445364639158223,
+                            "value": "Europe"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Romania": 0.09497829261533573,
+                              "South Africa": 0.0010560970504766983,
+                              "Spain": 0.9024190758949756
+                            },
+                            "entropy": 0.3351627914020209,
+                            "value": "Spain"
+                          },
+                          "div": 0.007064020856499817,
+                          "num_date": {
+                            "value": 2022.6549173235974
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000025",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "3C.2a1b.2a.2"
+                      },
+                      "continent": {
+                        "confidence": {
+                          "Europe": 0.9997360017479335
+                        },
+                        "entropy": 0.002610577203347498,
+                        "value": "Europe"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Romania": 0.006707724913542401,
+                          "Spain": 0.9927306102814147
+                        },
+                        "entropy": 0.04564308001293077,
+                        "value": "Spain"
+                      },
+                      "div": 0.007064020856499813,
+                      "num_date": {
+                        "value": 2022.428432689835
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000024",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "3C.2a1b.2a.2"
+                  },
+                  "continent": {
+                    "confidence": {
+                      "Africa": 0.05986039928844896,
+                      "Asia": 0.0743156455626619,
+                      "Europe": 0.8658239551488892
+                    },
+                    "entropy": 0.4864723663526067,
+                    "value": "Europe"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Romania": 0.06504526167275398,
+                      "Senegal": 0.028482203808559328,
+                      "Spain": 0.7493342216623411,
+                      "Turkey": 0.12455533073189494
+                    },
+                    "entropy": 0.8835096532508224,
+                    "value": "Spain"
+                  },
+                  "div": 0.006476110293171688,
+                  "num_date": {
+                    "value": 2021.6053486275193
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000023",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "3C.2a1b.2a.2"
+              },
+              "continent": {
+                "confidence": {
+                  "Africa": 0.09742037617298312,
+                  "Asia": 0.04189659539803063,
+                  "Europe": 0.8606830284289863
+                },
+                "entropy": 0.4889112430178836,
+                "value": "Europe"
+              },
+              "country": {
+                "confidence": {
+                  "Romania": 0.08540634023505984,
+                  "Senegal": 0.043163461469465064,
+                  "Spain": 0.7336435106615782,
+                  "Turkey": 0.08831077156719955
+                },
+                "entropy": 0.9592804173829099,
+                "value": "Spain"
+              },
+              "div": 0.005300338157096667,
+              "num_date": {
+                "value": 2021.3773751206238
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000018",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "3C.2a1b.2a.2"
+          },
+          "continent": {
+            "confidence": {
+              "Africa": 0.4269434689656816,
+              "Asia": 0.02741323928657929,
+              "Europe": 0.545643291747739
+            },
+            "entropy": 0.7925163057570146,
+            "value": "Europe"
+          },
+          "country": {
+            "confidence": {
+              "Romania": 0.1635474640258307,
+              "Senegal": 0.16801645006789415,
+              "South Africa": 0.1636175917279909,
+              "Spain": 0.4042928280799921
+            },
+            "entropy": 1.5432881383622967,
+            "value": "Spain"
+          },
+          "div": 0.0017651655246221118,
+          "num_date": {
+            "value": 2020.4754250977046
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HA1: E83K, K121E, S205F, A212T, R261Q; SigPep: N9Y"
+              },
+              "mutations": {
+                "HA1": [
+                  "E83K",
+                  "K121E",
+                  "S205F",
+                  "A212T",
+                  "R261Q"
+                ],
+                "SigPep": [
+                  "N9Y"
+                ],
+                "nuc": [
+                  "A25T",
+                  "G120A",
+                  "T228C",
+                  "G295A",
+                  "A324G",
+                  "A409G",
+                  "G603A",
+                  "C662T",
+                  "G682A",
+                  "G830A",
+                  "G927A",
+                  "T1182C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA1: I48T; HA2: L91I"
+                  },
+                  "mutations": {
+                    "HA1": [
+                      "I48T"
+                    ],
+                    "HA2": [
+                      "L91I"
+                    ],
+                    "nuc": [
+                      "C27T",
+                      "T191C",
+                      "C894A",
+                      "C1306A"
+                    ]
+                  }
+                },
+                "name": "A/SouthAfrica/PET26121/2022",
+                "node_attrs": {
+                  "O2_supplements": {
+                    "value": "no"
+                  },
+                  "clade_membership": {
+                    "value": "3C.2a1b.2a.2"
+                  },
+                  "continent": {
+                    "confidence": {
+                      "Africa": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Africa"
+                  },
+                  "country": {
+                    "confidence": {
+                      "South Africa": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "South Africa"
+                  },
+                  "div": 0.010032853145826968,
+                  "num_date": {
+                    "value": 2022.7849315068493
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA2: E61D"
+                  },
+                  "mutations": {
+                    "HA2": [
+                      "E61D"
+                    ],
+                    "nuc": [
+                      "T306C",
+                      "G1218T",
+                      "G1344A"
+                    ]
+                  }
+                },
+                "name": "A/SouthAfrica/PET25820/2022",
+                "node_attrs": {
+                  "O2_supplements": {
+                    "value": "no"
+                  },
+                  "clade_membership": {
+                    "value": "3C.2a1b.2a.2"
+                  },
+                  "continent": {
+                    "confidence": {
+                      "Africa": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Africa"
+                  },
+                  "country": {
+                    "confidence": {
+                      "South Africa": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "South Africa"
+                  },
+                  "div": 0.009442843382533043,
+                  "num_date": {
+                    "value": 2022.7082191780821
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G630A",
+                          "C1653A"
+                        ]
+                      }
+                    },
+                    "name": "A/SouthAfrica/PET25813/2022",
+                    "node_attrs": {
+                      "O2_supplements": {
+                        "value": "yes"
+                      },
+                      "clade_membership": {
+                        "value": "3C.2a1b.2a.2"
+                      },
+                      "continent": {
+                        "confidence": {
+                          "Africa": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "confidence": {
+                          "South Africa": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13,
+                        "value": "South Africa"
+                      },
+                      "div": 0.00885377262226894,
+                      "num_date": {
+                        "value": 2022.7191780821918
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G1056A",
+                              "C1338T"
+                            ]
+                          }
+                        },
+                        "name": "A/SouthAfrica/PET26189/2022",
+                        "node_attrs": {
+                          "O2_supplements": {
+                            "value": "no"
+                          },
+                          "clade_membership": {
+                            "value": "3C.2a1b.2a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Africa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "confidence": {
+                              "South Africa": 0.9999999999999999
+                            },
+                            "entropy": -9.99866855976916e-13,
+                            "value": "South Africa"
+                          },
+                          "div": 0.008853399382357689,
+                          "num_date": {
+                            "value": 2022.7630136986302
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T102C",
+                              "T477C"
+                            ]
+                          }
+                        },
+                        "name": "A/SouthAfrica/PET25819/2022",
+                        "node_attrs": {
+                          "O2_supplements": {
+                            "value": "no"
+                          },
+                          "clade_membership": {
+                            "value": "3C.2a1b.2a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Africa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "confidence": {
+                              "South Africa": 0.9999999999999999
+                            },
+                            "entropy": -9.99866855976916e-13,
+                            "value": "South Africa"
+                          },
+                          "div": 0.008853215631483252,
+                          "num_date": {
+                            "value": 2022.7191780821918
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000016",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "3C.2a1b.2a.2"
+                      },
+                      "continent": {
+                        "confidence": {
+                          "Africa": 0.9996516468908782
+                        },
+                        "entropy": 0.003276397013107177,
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "confidence": {
+                          "South Africa": 0.999675169151807
+                        },
+                        "entropy": 0.0033771790889605977,
+                        "value": "South Africa"
+                      },
+                      "div": 0.007677057805262049,
+                      "num_date": {
+                        "value": 2022.4257228575075
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000015",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "3C.2a1b.2a.2"
+                  },
+                  "continent": {
+                    "confidence": {
+                      "Africa": 0.9996215005935799
+                    },
+                    "entropy": 0.0035231912968181397,
+                    "value": "Africa"
+                  },
+                  "country": {
+                    "confidence": {
+                      "South Africa": 0.9996579078909097
+                    },
+                    "entropy": 0.0035363187594352643,
+                    "value": "South Africa"
+                  },
+                  "div": 0.007677057805262045,
+                  "num_date": {
+                    "value": 2022.4257228575075
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000014",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "3C.2a1b.2a.2"
+              },
+              "continent": {
+                "confidence": {
+                  "Africa": 0.9995037184612312
+                },
+                "entropy": 0.004398373436981047,
+                "value": "Africa"
+              },
+              "country": {
+                "confidence": {
+                  "South Africa": 0.9996303800200689
+                },
+                "entropy": 0.00375584451953606,
+                "value": "South Africa"
+              },
+              "div": 0.00767705780526204,
+              "num_date": {
+                "value": 2022.4257228575075
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HA1: E50K, F79V, I140K"
+              },
+              "mutations": {
+                "HA1": [
+                  "E50K",
+                  "F79V",
+                  "I140K"
+                ],
+                "nuc": [
+                  "G196A",
+                  "T283G",
+                  "T467A",
+                  "T633C",
+                  "T723C",
+                  "C726T",
+                  "A1251G"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA1: I242M"
+                  },
+                  "mutations": {
+                    "HA1": [
+                      "I242M"
+                    ],
+                    "nuc": [
+                      "T259C",
+                      "C333T",
+                      "A774G",
+                      "T1071C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA1: K50I, A93T; HA2: G181E, L202V"
+                      },
+                      "mutations": {
+                        "HA1": [
+                          "K50I",
+                          "A93T"
+                        ],
+                        "HA2": [
+                          "G181E",
+                          "L202V"
+                        ],
+                        "nuc": [
+                          "G78A",
+                          "A197T",
+                          "G325A",
+                          "G462A",
+                          "C1371T",
+                          "G1577A",
+                          "T1639G"
+                        ]
+                      }
+                    },
+                    "name": "A/Romania/28571/2022",
+                    "node_attrs": {
+                      "O2_supplements": {
+                        "value": "no"
+                      },
+                      "clade_membership": {
+                        "value": "3C.2a1b.2a.2"
+                      },
+                      "continent": {
+                        "confidence": {
+                          "Europe": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Europe"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Romania": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Romania"
+                      },
+                      "div": 0.010014193803591075,
+                      "num_date": {
+                        "value": 2022.954794520548
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G978A",
+                          "G1518A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G462T",
+                              "T1635C"
+                            ]
+                          }
+                        },
+                        "name": "A/SouthAfrica/PET26064/2022",
+                        "node_attrs": {
+                          "O2_supplements": {
+                            "value": "no"
+                          },
+                          "clade_membership": {
+                            "value": "3C.2a1b.2a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Africa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "confidence": {
+                              "South Africa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "South Africa"
+                          },
+                          "div": 0.008240476184723301,
+                          "num_date": {
+                            "value": 2022.7767123287672
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HA1: V309I"
+                          },
+                          "mutations": {
+                            "HA1": [
+                              "V309I"
+                            ],
+                            "nuc": [
+                              "A288G",
+                              "G973A",
+                              "C1293T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HA1: V204I"
+                              },
+                              "mutations": {
+                                "HA1": [
+                                  "V204I"
+                                ],
+                                "nuc": [
+                                  "G658A"
+                                ]
+                              }
+                            },
+                            "name": "A/SouthAfrica/PET25685/2022",
+                            "node_attrs": {
+                              "O2_supplements": {
+                                "value": "no"
+                              },
+                              "clade_membership": {
+                                "value": "3C.2a1b.2a.2"
+                              },
+                              "continent": {
+                                "confidence": {
+                                  "Africa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "South Africa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "South Africa"
+                              },
+                              "div": 0.009416426638718388,
+                              "num_date": {
+                                "value": 2022.7191780821918
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "A/SouthAfrica/PET26182/2022",
+                                "node_attrs": {
+                                  "O2_supplements": {
+                                    "value": "yes"
+                                  },
+                                  "clade_membership": {
+                                    "value": "3C.2a1b.2a.2"
+                                  },
+                                  "continent": {
+                                    "confidence": {
+                                      "Africa": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Africa"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "South Africa": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13,
+                                    "value": "South Africa"
+                                  },
+                                  "div": 0.008828623012577145,
+                                  "num_date": {
+                                    "value": 2022.7739726027398
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "A/SouthAfrica/PET26045/2022",
+                                "node_attrs": {
+                                  "O2_supplements": {
+                                    "value": "no"
+                                  },
+                                  "clade_membership": {
+                                    "value": "3C.2a1b.2a.2"
+                                  },
+                                  "continent": {
+                                    "confidence": {
+                                      "Africa": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Africa"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "South Africa": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13,
+                                    "value": "South Africa"
+                                  },
+                                  "div": 0.008828623012577145,
+                                  "num_date": {
+                                    "value": 2022.7575342465752
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000022",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "3C.2a1b.2a.2"
+                              },
+                              "continent": {
+                                "confidence": {
+                                  "Africa": 0.9995047310762714
+                                },
+                                "entropy": 0.004449074729994307,
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "South Africa": 0.9996097741783212
+                                },
+                                "entropy": 0.003961300284467837,
+                                "value": "South Africa"
+                              },
+                              "div": 0.008828623012577141,
+                              "num_date": {
+                                "value": 2022.6981770817883
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000000",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "3C.2a1b.2a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Africa": 0.9972467774833681,
+                              "Europe": 0.0026318786994474377
+                            },
+                            "entropy": 0.01947708228637382,
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Romania": 0.0011360547786247162,
+                              "South Africa": 0.9983273993404838
+                            },
+                            "entropy": 0.013972368337532267,
+                            "value": "South Africa"
+                          },
+                          "div": 0.008828623012577138,
+                          "num_date": {
+                            "value": 2022.662995309368
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000002",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "3C.2a1b.2a.2"
+                      },
+                      "continent": {
+                        "confidence": {
+                          "Africa": 0.9634070879347879,
+                          "Europe": 0.035789090995366715
+                        },
+                        "entropy": 0.16082489551165394,
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Romania": 0.019625700259311225,
+                          "South Africa": 0.9739297949610192,
+                          "Spain": 0.004746668991016472
+                        },
+                        "entropy": 0.14096082426173998,
+                        "value": "South Africa"
+                      },
+                      "div": 0.007064128115662499,
+                      "num_date": {
+                        "value": 2022.4026059136909
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000003",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "3C.2a1b.2a.2"
+                  },
+                  "continent": {
+                    "confidence": {
+                      "Africa": 0.4217104192791557,
+                      "Asia": 0.005626429670243589,
+                      "Europe": 0.5726631510506006
+                    },
+                    "entropy": 0.7125020411747978,
+                    "value": "Europe"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Pakistan": 0.008564065968362903,
+                      "Romania": 0.4130198326508397,
+                      "South Africa": 0.479524848018486,
+                      "Spain": 0.08521772713064366
+                    },
+                    "entropy": 1.0363828614750032,
+                    "value": "South Africa"
+                  },
+                  "div": 0.0058883968211727415,
+                  "num_date": {
+                    "value": 2021.959500273334
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA1: S262N"
+                  },
+                  "mutations": {
+                    "HA1": [
+                      "S262N"
+                    ],
+                    "nuc": [
+                      "T66C",
+                      "T636C",
+                      "G833A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA1: T135A"
+                      },
+                      "mutations": {
+                        "HA1": [
+                          "T135A"
+                        ],
+                        "nuc": [
+                          "A451G"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HA1: S193F"
+                          },
+                          "mutations": {
+                            "HA1": [
+                              "S193F"
+                            ],
+                            "nuc": [
+                              "C626T",
+                              "T897C"
+                            ]
+                          }
+                        },
+                        "name": "A/Pakistan/GIHSN-ICT-610/2023",
+                        "node_attrs": {
+                          "O2_supplements": {
+                            "value": "no"
+                          },
+                          "clade_membership": {
+                            "value": "3C.2a1b.2a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Asia": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Asia"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Pakistan": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Pakistan"
+                          },
+                          "div": 0.007062971801242105,
+                          "num_date": {
+                            "value": 2023.0561643835617
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "SigPep: N9S"
+                              },
+                              "mutations": {
+                                "SigPep": [
+                                  "N9S"
+                                ],
+                                "nuc": [
+                                  "A26G"
+                                ]
+                              }
+                            },
+                            "name": "A/Romania/4607/2022",
+                            "node_attrs": {
+                              "O2_supplements": {
+                                "value": "no"
+                              },
+                              "clade_membership": {
+                                "value": "3C.2a1b.2a.2"
+                              },
+                              "continent": {
+                                "confidence": {
+                                  "Europe": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Europe"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Romania": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Romania"
+                              },
+                              "div": 0.006474895674073649,
+                              "num_date": {
+                                "value": 2022.9493150684932
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "A/Romania/4675/2022",
+                                "node_attrs": {
+                                  "O2_supplements": {
+                                    "value": "no"
+                                  },
+                                  "clade_membership": {
+                                    "value": "3C.2a1b.2a.2"
+                                  },
+                                  "continent": {
+                                    "confidence": {
+                                      "Europe": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Europe"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Romania": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Romania"
+                                  },
+                                  "div": 0.0058873114174973805,
+                                  "num_date": {
+                                    "value": 2022.9575342465753
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "A/Romania/28268/2022",
+                                "node_attrs": {
+                                  "O2_supplements": {
+                                    "value": "no"
+                                  },
+                                  "clade_membership": {
+                                    "value": "3C.2a1b.2a.2"
+                                  },
+                                  "continent": {
+                                    "confidence": {
+                                      "Europe": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Europe"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Romania": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Romania"
+                                  },
+                                  "div": 0.0058873114174973805,
+                                  "num_date": {
+                                    "value": 2022.9109589041095
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000026",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "3C.2a1b.2a.2"
+                              },
+                              "continent": {
+                                "confidence": {
+                                  "Europe": 0.9994392089286203
+                                },
+                                "entropy": 0.0051382826193001165,
+                                "value": "Europe"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Romania": 0.9965579525556592,
+                                  "Spain": 0.0026621422277083515
+                                },
+                                "entropy": 0.02565615219539998,
+                                "value": "Romania"
+                              },
+                              "div": 0.005887311417497376,
+                              "num_date": {
+                                "value": 2022.6735302437096
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000027",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "3C.2a1b.2a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Africa": 0.0010889617063574645,
+                              "Asia": 0.0031017983213974085,
+                              "Europe": 0.9958092399722451
+                            },
+                            "entropy": 0.029526724776835257,
+                            "value": "Europe"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Pakistan": 0.0065971780206603705,
+                              "Romania": 0.9757660818111366,
+                              "South Africa": 0.001528492826444488,
+                              "Spain": 0.015501414022182426
+                            },
+                            "entropy": 0.13648025474513545,
+                            "value": "Romania"
+                          },
+                          "div": 0.005887311417497372,
+                          "num_date": {
+                            "value": 2022.6632362476316
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000006",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "3C.2a1b.2a.2"
+                      },
+                      "continent": {
+                        "confidence": {
+                          "Africa": 0.00987449539275287,
+                          "Asia": 0.0649162018694256,
+                          "Europe": 0.9252093027378215
+                        },
+                        "entropy": 0.2950434760626804,
+                        "value": "Europe"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Pakistan": 0.1352097646896618,
+                          "Romania": 0.7152849717899507,
+                          "South Africa": 0.015371282602551497,
+                          "Spain": 0.127930404004044
+                        },
+                        "entropy": 0.8732851176232246,
+                        "value": "Romania"
+                      },
+                      "div": 0.0058873114174973675,
+                      "num_date": {
+                        "value": 2022.6600944154127
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA1: R33Q"
+                      },
+                      "mutations": {
+                        "HA1": [
+                          "R33Q"
+                        ],
+                        "nuc": [
+                          "G146A",
+                          "C1363T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T816C",
+                              "C987T",
+                              "C1347T"
+                            ]
+                          }
+                        },
+                        "name": "A/Romania/4584/2022",
+                        "node_attrs": {
+                          "O2_supplements": {
+                            "value": "no"
+                          },
+                          "clade_membership": {
+                            "value": "3C.2a1b.2a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Europe": 0.9999999999999999
+                            },
+                            "entropy": -9.99866855976916e-13,
+                            "value": "Europe"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Romania": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Romania"
+                          },
+                          "div": 0.008240282968972957,
+                          "num_date": {
+                            "value": 2022.9465753424658
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HA1: T28A"
+                          },
+                          "mutations": {
+                            "HA1": [
+                              "T28A"
+                            ],
+                            "nuc": [
+                              "A130G"
+                            ]
+                          }
+                        },
+                        "name": "A/Castellon/VAHNSI-GIHSN-02_2871/2022",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "3C.2a1b.2a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Europe": 0.9999999999999999
+                            },
+                            "entropy": -9.99866855976916e-13,
+                            "value": "Europe"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Spain": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Spain"
+                          },
+                          "div": 0.007063330436419939,
+                          "num_date": {
+                            "value": 2022.6780821917807
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C799T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "A/Valencia/VAHNSI-GIHSN-07_3186/2022",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "3C.2a1b.2a.2"
+                              },
+                              "continent": {
+                                "confidence": {
+                                  "Europe": 0.9999999999999999
+                                },
+                                "entropy": -9.99866855976916e-13,
+                                "value": "Europe"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Spain": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Spain"
+                              },
+                              "div": 0.00706338667290948,
+                              "num_date": {
+                                "value": 2022.672602739726
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C1650T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "A/Alicante/VAHNSI-GIHSN-16_1814/2022",
+                                "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "3C.2a1b.2a.2"
+                                  },
+                                  "continent": {
+                                    "confidence": {
+                                      "Europe": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Europe"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Spain": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Spain"
+                                  },
+                                  "div": 0.00765124649093266,
+                                  "num_date": {
+                                    "value": 2022.7054794520548
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C114T"
+                                    ]
+                                  }
+                                },
+                                "name": "A/Romania/4665/2022",
+                                "node_attrs": {
+                                  "O2_supplements": {
+                                    "value": "no"
+                                  },
+                                  "clade_membership": {
+                                    "value": "3C.2a1b.2a.2"
+                                  },
+                                  "continent": {
+                                    "confidence": {
+                                      "Europe": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Europe"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Romania": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13,
+                                    "value": "Romania"
+                                  },
+                                  "div": 0.008239144950729336,
+                                  "num_date": {
+                                    "value": 2022.9575342465753
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000012",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "3C.2a1b.2a.2"
+                              },
+                              "continent": {
+                                "confidence": {
+                                  "Europe": 0.9996285363281621
+                                },
+                                "entropy": 0.003517978357327568,
+                                "value": "Europe"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Romania": 0.2817506992661099,
+                                  "South Africa": 0.0012764019126178963,
+                                  "Spain": 0.7153014164676602
+                                },
+                                "entropy": 0.617583039929927,
+                                "value": "Spain"
+                              },
+                              "div": 0.007651246490932656,
+                              "num_date": {
+                                "value": 2022.705479452472
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000011",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "3C.2a1b.2a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Europe": 0.9996208285115823
+                            },
+                            "entropy": 0.003583058964282718,
+                            "value": "Europe"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Romania": 0.22737099709163192,
+                              "Spain": 0.7706469329419108
+                            },
+                            "entropy": 0.5524398207785746,
+                            "value": "Spain"
+                          },
+                          "div": 0.007063386672909476,
+                          "num_date": {
+                            "value": 2022.652081882125
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000009",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "3C.2a1b.2a.2"
+                      },
+                      "continent": {
+                        "confidence": {
+                          "Europe": 0.9998616999845698
+                        },
+                        "entropy": 0.0014508490579793777,
+                        "value": "Europe"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Romania": 0.4327802572933177,
+                          "South Africa": 0.001141144582038585,
+                          "Spain": 0.5650117070075417
+                        },
+                        "entropy": 0.7009229033779629,
+                        "value": "Spain"
+                      },
+                      "div": 0.006475565333149774,
+                      "num_date": {
+                        "value": 2022.549016529492
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000005",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "3C.2a1b.2a.2"
+                  },
+                  "continent": {
+                    "confidence": {
+                      "Africa": 0.01898192775072133,
+                      "Asia": 0.01606367409723952,
+                      "Europe": 0.9649543981520391
+                    },
+                    "entropy": 0.17603581711208566,
+                    "value": "Europe"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Pakistan": 0.04289172321780345,
+                      "Romania": 0.5979545594928399,
+                      "South Africa": 0.03499818029068838,
+                      "Spain": 0.31611528185466137
+                    },
+                    "entropy": 0.9682984819246521,
+                    "value": "Romania"
+                  },
+                  "div": 0.005299656045676828,
+                  "num_date": {
+                    "value": 2022.3858986605862
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000004",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "3C.2a1b.2a.2"
+              },
+              "continent": {
+                "confidence": {
+                  "Africa": 0.32264600684306066,
+                  "Asia": 0.010141328459158855,
+                  "Europe": 0.6672126646977805
+                },
+                "entropy": 0.6815224597599892,
+                "value": "Europe"
+              },
+              "country": {
+                "confidence": {
+                  "Pakistan": 0.019730458190308647,
+                  "Romania": 0.4290241400168139,
+                  "South Africa": 0.3347290662053987,
+                  "Spain": 0.18457224825461954
+                },
+                "entropy": 1.2506147368767848,
+                "value": "Romania"
+              },
+              "div": 0.003535321301689819,
+              "num_date": {
+                "value": 2021.3573576208657
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000013",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "3C.2a1b.2a.2"
+          },
+          "continent": {
+            "confidence": {
+              "Africa": 0.4772547676040154,
+              "Asia": 0.021498594009534598,
+              "Europe": 0.50124663838645
+            },
+            "entropy": 0.78176676586343,
+            "value": "Europe"
+          },
+          "country": {
+            "confidence": {
+              "Romania": 0.2325072144584615,
+              "Senegal": 0.08075091280929306,
+              "South Africa": 0.35206060034701303,
+              "Spain": 0.2610717183705341
+            },
+            "entropy": 1.500569197071956,
+            "value": "South Africa"
+          },
+          "div": 4.182005303577678e-18,
+          "num_date": {
+            "value": 2020.0520580016018
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000001",
+    "node_attrs": {
+      "clade_membership": {
+        "value": "3C.2a1b.2a.2"
+      },
+      "continent": {
+        "confidence": {
+          "Africa": 0.4518877238811141,
+          "Asia": 0.027158546767299944,
+          "Europe": 0.520953729351586
+        },
+        "entropy": 0.7965904198032525,
+        "value": "Europe"
+      },
+      "country": {
+        "confidence": {
+          "Romania": 0.20172662486094353,
+          "Senegal": 0.12386361690635561,
+          "South Africa": 0.25422661810752567,
+          "Spain": 0.32661094636890453
+        },
+        "entropy": 1.5741447934424597,
+        "value": "Spain"
+      },
+      "div": 0,
+      "num_date": {
+        "value": 2020.0520580016018
+      }
+    }
+  },
+  "version": "v2"
+}
