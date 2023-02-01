@@ -33,10 +33,10 @@
       }
     ],
     "filters": [
-      "O2_supplements",
       "country",
-      "clade_membership",
-      "continent"
+      "continent",
+      "O2_supplements",
+      "clade_membership"
     ],
     "genome_annotations": {
       "HA1": {
@@ -78,32 +78,21 @@
   "tree": {
     "branch_attrs": {
       "labels": {
-        "clade": "3C.2a1b.2a.2"
+        "clade": "3C.2a1b.2a.2a"
       },
       "mutations": {}
     },
     "children": [
       {
         "branch_attrs": {
-          "labels": {
-            "aa": "HA1: H156S"
-          },
-          "mutations": {
-            "HA1": [
-              "H156S"
-            ],
-            "nuc": [
-              "C514A",
-              "A515G",
-              "C879T"
-            ]
-          }
+          "mutations": {}
         },
         "children": [
           {
             "branch_attrs": {
               "labels": {
-                "aa": "HA1: E50K, D53N, N96S, I192F; HA2: N49S"
+                "aa": "HA1: E50K, D53N, N96S, I192F; HA2: N49S",
+                "clade": "3C.2a1b.2a.2a.3a"
               },
               "mutations": {
                 "HA1": [
@@ -148,7 +137,7 @@
                 "name": "A/Dakar/1639/2022",
                 "node_attrs": {
                   "clade_membership": {
-                    "value": "3C.2a1b.2a.2"
+                    "value": "3C.2a1b.2a.2a.3a"
                   },
                   "continent": {
                     "confidence": {
@@ -164,7 +153,7 @@
                     "entropy": -1.000088900581841e-12,
                     "value": "Senegal"
                   },
-                  "div": 0.00825094413410232,
+                  "div": 0.007073734186311674,
                   "num_date": {
                     "value": 2022.6671232876713
                   }
@@ -211,7 +200,7 @@
                         "value": "no"
                       },
                       "clade_membership": {
-                        "value": "3C.2a1b.2a.2"
+                        "value": "3C.2a1b.2a.2a.3a"
                       },
                       "continent": {
                         "confidence": {
@@ -222,12 +211,12 @@
                       },
                       "country": {
                         "confidence": {
-                          "Turkey": 1.0
+                          "Turkey": 0.9999999999999999
                         },
-                        "entropy": -1.000088900581841e-12,
+                        "entropy": -9.99866855976916e-13,
                         "value": "Turkey"
                       },
-                      "div": 0.010015822127913122,
+                      "div": 0.008838612180122477,
                       "num_date": {
                         "value": 2022.9191780821918
                       }
@@ -260,7 +249,7 @@
                         "name": "A/Dakar/1851/2022",
                         "node_attrs": {
                           "clade_membership": {
-                            "value": "3C.2a1b.2a.2"
+                            "value": "3C.2a1b.2a.2a.3a"
                           },
                           "continent": {
                             "confidence": {
@@ -276,7 +265,7 @@
                             "entropy": -1.000088900581841e-12,
                             "value": "Senegal"
                           },
-                          "div": 0.00942596067330107,
+                          "div": 0.008248750725510425,
                           "num_date": {
                             "value": 2022.727397260274
                           }
@@ -293,7 +282,7 @@
                         "name": "A/Dakar/2039/2022",
                         "node_attrs": {
                           "clade_membership": {
-                            "value": "3C.2a1b.2a.2"
+                            "value": "3C.2a1b.2a.2a.3a"
                           },
                           "continent": {
                             "confidence": {
@@ -309,7 +298,7 @@
                             "entropy": -1.000088900581841e-12,
                             "value": "Senegal"
                           },
-                          "div": 0.009425975088543781,
+                          "div": 0.008248765140753136,
                           "num_date": {
                             "value": 2022.7767123287672
                           }
@@ -322,7 +311,7 @@
                         "name": "A/Dakar/1716/2022",
                         "node_attrs": {
                           "clade_membership": {
-                            "value": "3C.2a1b.2a.2"
+                            "value": "3C.2a1b.2a.2a.3a"
                           },
                           "continent": {
                             "confidence": {
@@ -338,7 +327,7 @@
                             "entropy": -1.000088900581841e-12,
                             "value": "Senegal"
                           },
-                          "div": 0.008838323351360297,
+                          "div": 0.007661113403569653,
                           "num_date": {
                             "value": 2022.6808219178083
                           }
@@ -348,25 +337,25 @@
                     "name": "NODE_0000021",
                     "node_attrs": {
                       "clade_membership": {
-                        "value": "3C.2a1b.2a.2"
+                        "value": "3C.2a1b.2a.2a.3a"
                       },
                       "continent": {
                         "confidence": {
-                          "Africa": 0.999803306995147
+                          "Africa": 0.9998074461458857
                         },
-                        "entropy": 0.0020115491267419317,
+                        "entropy": 0.00197326802053017,
                         "value": "Africa"
                       },
                       "country": {
                         "confidence": {
-                          "Senegal": 0.9998479321847652
+                          "Senegal": 0.9998528974263929
                         },
-                        "entropy": 0.0015737863353188202,
+                        "entropy": 0.0015268779994503446,
                         "value": "Senegal"
                       },
-                      "div": 0.008838323351360294,
+                      "div": 0.007661113403569649,
                       "num_date": {
-                        "value": 2022.6671842308335
+                        "value": 2022.6554839927576
                       }
                     }
                   }
@@ -374,30 +363,30 @@
                 "name": "NODE_0000020",
                 "node_attrs": {
                   "clade_membership": {
-                    "value": "3C.2a1b.2a.2"
+                    "value": "3C.2a1b.2a.2a.3a"
                   },
                   "continent": {
                     "confidence": {
-                      "Africa": 0.9243953631093521,
-                      "Asia": 0.06155219066949612,
-                      "Europe": 0.014052446221151794
+                      "Africa": 0.9262624602423242,
+                      "Asia": 0.06083321995866229,
+                      "Europe": 0.01290431979901352
                     },
-                    "entropy": 0.3042043263621211,
+                    "entropy": 0.29739566564416886,
                     "value": "Africa"
                   },
                   "country": {
                     "confidence": {
-                      "Senegal": 0.9123373992106156,
-                      "South Africa": 0.0017948758356782744,
-                      "Spain": 0.003999392596242142,
-                      "Turkey": 0.07922669547208236
+                      "Senegal": 0.9159732144813647,
+                      "South Africa": 0.0017823174481952904,
+                      "Spain": 0.003546685698749887,
+                      "Turkey": 0.07607493007875434
                     },
-                    "entropy": 0.3353824470304617,
+                    "entropy": 0.32493695690913516,
                     "value": "Senegal"
                   },
-                  "div": 0.007662393829706665,
+                  "div": 0.0064851838819160205,
                   "num_date": {
-                    "value": 2022.4770186724452
+                    "value": 2022.4539860928924
                   }
                 }
               }
@@ -405,37 +394,38 @@
             "name": "NODE_0000019",
             "node_attrs": {
               "clade_membership": {
-                "value": "3C.2a1b.2a.2"
+                "value": "3C.2a1b.2a.2a.3a"
               },
               "continent": {
                 "confidence": {
-                  "Africa": 0.9549383001654008,
-                  "Asia": 0.02303539864001687,
-                  "Europe": 0.022026301194582282
+                  "Africa": 0.9571945835404202,
+                  "Asia": 0.023426108981531156,
+                  "Europe": 0.01937930747804848
                 },
-                "entropy": 0.21493267905939498,
+                "entropy": 0.20623852865983774,
                 "value": "Africa"
               },
               "country": {
                 "confidence": {
-                  "Romania": 0.003975624201671771,
-                  "Senegal": 0.9415804187138805,
-                  "Spain": 0.008276491169888767,
-                  "Turkey": 0.04069255895235502
+                  "Senegal": 0.9451313746568737,
+                  "South Africa": 0.003815224479707415,
+                  "Spain": 0.006876397735842193,
+                  "Turkey": 0.03878759548526211
                 },
-                "entropy": 0.28041283083936624,
+                "entropy": 0.26630131900321485,
                 "value": "Senegal"
               },
-              "div": 0.007074790478158573,
+              "div": 0.005897580530367928,
               "num_date": {
-                "value": 2022.3626981194257
+                "value": 2022.321748477137
               }
             }
           },
           {
             "branch_attrs": {
               "labels": {
-                "aa": "HA1: D53G, D104G, K276R"
+                "aa": "HA1: D53G, D104G, K276R",
+                "clade": "3C.2a1b.2a.2a.1"
               },
               "mutations": {
                 "HA1": [
@@ -477,7 +467,7 @@
                 "name": "A/Alicante/VAHNSI-GIHSN-16_1938/2022",
                 "node_attrs": {
                   "clade_membership": {
-                    "value": "3C.2a1b.2a.2"
+                    "value": "3C.2a1b.2a.2a.1"
                   },
                   "continent": {
                     "confidence": {
@@ -493,7 +483,7 @@
                     "entropy": -1.000088900581841e-12,
                     "value": "Spain"
                   },
-                  "div": 0.009428851914180768,
+                  "div": 0.008251641966390123,
                   "num_date": {
                     "value": 2022.804109589041
                   }
@@ -559,7 +549,7 @@
                         "value": "yes"
                       },
                       "clade_membership": {
-                        "value": "3C.2a1b.2a.2"
+                        "value": "3C.2a1b.2a.2a.1"
                       },
                       "continent": {
                         "confidence": {
@@ -570,12 +560,12 @@
                       },
                       "country": {
                         "confidence": {
-                          "Turkey": 1.0
+                          "Turkey": 0.9999999999999999
                         },
-                        "entropy": -1.000088900581841e-12,
+                        "entropy": -9.99866855976916e-13,
                         "value": "Turkey"
                       },
-                      "div": 0.016559207805169153,
+                      "div": 0.01538199785737851,
                       "num_date": {
                         "value": 2022.968493150685
                       }
@@ -584,7 +574,8 @@
                   {
                     "branch_attrs": {
                       "labels": {
-                        "aa": "HA1: I140K"
+                        "aa": "HA1: I140K",
+                        "clade": "3C.2a1b.2a.2a.1b"
                       },
                       "mutations": {
                         "HA1": [
@@ -614,7 +605,7 @@
                         "name": "A/Alicante/VAHNSI-GIHSN-16_1832/2022",
                         "node_attrs": {
                           "clade_membership": {
-                            "value": "3C.2a1b.2a.2"
+                            "value": "3C.2a1b.2a.2a.1b"
                           },
                           "continent": {
                             "confidence": {
@@ -630,7 +621,7 @@
                             "entropy": -1.000088900581841e-12,
                             "value": "Spain"
                           },
-                          "div": 0.008240298495578708,
+                          "div": 0.0070630885477880635,
                           "num_date": {
                             "value": 2022.7219178082191
                           }
@@ -658,7 +649,7 @@
                         "name": "A/Alicante/VAHNSI-GIHSN-16_1909/2022",
                         "node_attrs": {
                           "clade_membership": {
-                            "value": "3C.2a1b.2a.2"
+                            "value": "3C.2a1b.2a.2a.1b"
                           },
                           "continent": {
                             "confidence": {
@@ -674,7 +665,7 @@
                             "entropy": -1.000088900581841e-12,
                             "value": "Spain"
                           },
-                          "div": 0.008829112584346998,
+                          "div": 0.007651902636556352,
                           "num_date": {
                             "value": 2022.7794520547945
                           }
@@ -692,7 +683,7 @@
                             "name": "A/Valencia/VAHNSI-GIHSN-07_3192/2022",
                             "node_attrs": {
                               "clade_membership": {
-                                "value": "3C.2a1b.2a.2"
+                                "value": "3C.2a1b.2a.2a.1b"
                               },
                               "continent": {
                                 "confidence": {
@@ -708,7 +699,7 @@
                                 "entropy": -1.000088900581841e-12,
                                 "value": "Spain"
                               },
-                              "div": 0.0070640208564998214,
+                              "div": 0.005886810908709177,
                               "num_date": {
                                 "value": 2022.6753424657534
                               }
@@ -740,23 +731,23 @@
                                     "value": "no"
                                   },
                                   "clade_membership": {
-                                    "value": "3C.2a1b.2a.2"
+                                    "value": "3C.2a1b.2a.2a.1b"
                                   },
                                   "continent": {
                                     "confidence": {
-                                      "Europe": 0.9999999999999999
+                                      "Europe": 1.0
                                     },
-                                    "entropy": -9.99866855976916e-13,
+                                    "entropy": -1.000088900581841e-12,
                                     "value": "Europe"
                                   },
                                   "country": {
                                     "confidence": {
-                                      "Romania": 1.0
+                                      "Romania": 0.9999999999999999
                                     },
-                                    "entropy": -1.000088900581841e-12,
+                                    "entropy": -9.99866855976916e-13,
                                     "value": "Romania"
                                   },
-                                  "div": 0.008239954553487874,
+                                  "div": 0.00706274460569723,
                                   "num_date": {
                                     "value": 2022.9575342465753
                                   }
@@ -772,53 +763,53 @@
                                     "value": "no"
                                   },
                                   "clade_membership": {
-                                    "value": "3C.2a1b.2a.2"
+                                    "value": "3C.2a1b.2a.2a.1b"
                                   },
                                   "continent": {
                                     "confidence": {
-                                      "Europe": 0.9999999999999999
+                                      "Europe": 1.0
                                     },
-                                    "entropy": -9.99866855976916e-13,
+                                    "entropy": -1.000088900581841e-12,
                                     "value": "Europe"
                                   },
                                   "country": {
                                     "confidence": {
-                                      "Romania": 1.0
+                                      "Romania": 0.9999999999999999
                                     },
-                                    "entropy": -1.000088900581841e-12,
+                                    "entropy": -9.99866855976916e-13,
                                     "value": "Romania"
                                   },
-                                  "div": 0.008239954553487874,
+                                  "div": 0.00706274460569723,
                                   "num_date": {
                                     "value": 2022.9575342465753
                                   }
                                 }
                               }
                             ],
-                            "name": "NODE_0000028",
+                            "name": "NODE_0000026",
                             "node_attrs": {
                               "clade_membership": {
-                                "value": "3C.2a1b.2a.2"
+                                "value": "3C.2a1b.2a.2a.1b"
                               },
                               "continent": {
                                 "confidence": {
-                                  "Europe": 0.9996281384342326
+                                  "Europe": 0.9996424101508632
                                 },
-                                "entropy": 0.0035213610454698824,
+                                "entropy": 0.0034030340873705467,
                                 "value": "Europe"
                               },
                               "country": {
                                 "confidence": {
-                                  "Romania": 0.9130064018247829,
-                                  "South Africa": 0.001184183851585056,
-                                  "Spain": 0.08454987691148308
+                                  "Romania": 0.9131433486489207,
+                                  "South Africa": 0.0011732163847639604,
+                                  "Spain": 0.08442713825813523
                                 },
-                                "entropy": 0.3097310382198565,
+                                "entropy": 0.30934206745339066,
                                 "value": "Romania"
                               },
-                              "div": 0.00823995455348787,
+                              "div": 0.007062744605697226,
                               "num_date": {
-                                "value": 2022.9377485252578
+                                "value": 2022.9372556045205
                               }
                             }
                           }
@@ -826,27 +817,27 @@
                         "name": "NODE_0000008",
                         "node_attrs": {
                           "clade_membership": {
-                            "value": "3C.2a1b.2a.2"
+                            "value": "3C.2a1b.2a.2a.1b"
                           },
                           "continent": {
                             "confidence": {
-                              "Europe": 0.9996136236513034
+                              "Europe": 0.9996298624476275
                             },
-                            "entropy": 0.0036445364639158223,
+                            "entropy": 0.0035106146041096777,
                             "value": "Europe"
                           },
                           "country": {
                             "confidence": {
-                              "Romania": 0.09497829261533573,
-                              "South Africa": 0.0010560970504766983,
-                              "Spain": 0.9024190758949756
+                              "Romania": 0.09502079803212901,
+                              "South Africa": 0.0010063165107636234,
+                              "Spain": 0.902439908321734
                             },
-                            "entropy": 0.3351627914020209,
+                            "entropy": 0.3348145554319492,
                             "value": "Spain"
                           },
-                          "div": 0.007064020856499817,
+                          "div": 0.005886810908709172,
                           "num_date": {
-                            "value": 2022.6549173235974
+                            "value": 2022.615152865437
                           }
                         }
                       }
@@ -854,26 +845,26 @@
                     "name": "NODE_0000025",
                     "node_attrs": {
                       "clade_membership": {
-                        "value": "3C.2a1b.2a.2"
+                        "value": "3C.2a1b.2a.2a.1b"
                       },
                       "continent": {
                         "confidence": {
-                          "Europe": 0.9997360017479335
+                          "Europe": 0.9997649992538538
                         },
-                        "entropy": 0.002610577203347498,
+                        "entropy": 0.002357159284489929,
                         "value": "Europe"
                       },
                       "country": {
                         "confidence": {
-                          "Romania": 0.006707724913542401,
-                          "Spain": 0.9927306102814147
+                          "Romania": 0.0066642419127615656,
+                          "Spain": 0.992791808148893
                         },
-                        "entropy": 0.04564308001293077,
+                        "entropy": 0.045247441582898125,
                         "value": "Spain"
                       },
-                      "div": 0.007064020856499813,
+                      "div": 0.005886810908709168,
                       "num_date": {
-                        "value": 2022.428432689835
+                        "value": 2022.4472077382536
                       }
                     }
                   }
@@ -881,30 +872,30 @@
                 "name": "NODE_0000024",
                 "node_attrs": {
                   "clade_membership": {
-                    "value": "3C.2a1b.2a.2"
+                    "value": "3C.2a1b.2a.2a.1"
                   },
                   "continent": {
                     "confidence": {
-                      "Africa": 0.05986039928844896,
-                      "Asia": 0.0743156455626619,
-                      "Europe": 0.8658239551488892
+                      "Africa": 0.04793269496244572,
+                      "Asia": 0.07655744817895467,
+                      "Europe": 0.8755098568585997
                     },
-                    "entropy": 0.4864723663526067,
+                    "entropy": 0.4587462682928796,
                     "value": "Europe"
                   },
                   "country": {
                     "confidence": {
-                      "Romania": 0.06504526167275398,
-                      "Senegal": 0.028482203808559328,
-                      "Spain": 0.7493342216623411,
-                      "Turkey": 0.12455533073189494
+                      "Romania": 0.06383400165279364,
+                      "Senegal": 0.022655944874942574,
+                      "Spain": 0.7580542174746515,
+                      "Turkey": 0.12612240532728636
                     },
-                    "entropy": 0.8835096532508224,
+                    "entropy": 0.8522136732633554,
                     "value": "Spain"
                   },
-                  "div": 0.006476110293171688,
+                  "div": 0.005298900345381043,
                   "num_date": {
-                    "value": 2021.6053486275193
+                    "value": 2021.6205909767407
                   }
                 }
               }
@@ -912,30 +903,30 @@
             "name": "NODE_0000023",
             "node_attrs": {
               "clade_membership": {
-                "value": "3C.2a1b.2a.2"
+                "value": "3C.2a1b.2a.2a.1"
               },
               "continent": {
                 "confidence": {
-                  "Africa": 0.09742037617298312,
-                  "Asia": 0.04189659539803063,
-                  "Europe": 0.8606830284289863
+                  "Africa": 0.07724222604782295,
+                  "Asia": 0.04582513545521634,
+                  "Europe": 0.8769326384969607
                 },
-                "entropy": 0.4889112430178836,
+                "entropy": 0.45424119548703434,
                 "value": "Europe"
               },
               "country": {
                 "confidence": {
-                  "Romania": 0.08540634023505984,
-                  "Senegal": 0.043163461469465064,
-                  "Spain": 0.7336435106615782,
-                  "Turkey": 0.08831077156719955
+                  "Romania": 0.08577240419668256,
+                  "South Africa": 0.03607800335826133,
+                  "Spain": 0.7447451833288391,
+                  "Turkey": 0.09062852707409376
                 },
-                "entropy": 0.9592804173829099,
+                "entropy": 0.9245805939185813,
                 "value": "Spain"
               },
-              "div": 0.005300338157096667,
+              "div": 0.004123128209306022,
               "num_date": {
-                "value": 2021.3773751206238
+                "value": 2021.341830952444
               }
             }
           }
@@ -943,42 +934,55 @@
         "name": "NODE_0000018",
         "node_attrs": {
           "clade_membership": {
-            "value": "3C.2a1b.2a.2"
+            "value": "3C.2a1b.2a.2a"
           },
           "continent": {
             "confidence": {
-              "Africa": 0.4269434689656816,
-              "Asia": 0.02741323928657929,
-              "Europe": 0.545643291747739
+              "Africa": 0.4301853340125843,
+              "Asia": 0.03031328717350529,
+              "Europe": 0.5395013788139106
             },
-            "entropy": 0.7925163057570146,
+            "entropy": 0.8017902145788243,
             "value": "Europe"
           },
           "country": {
             "confidence": {
-              "Romania": 0.1635474640258307,
-              "Senegal": 0.16801645006789415,
-              "South Africa": 0.1636175917279909,
-              "Spain": 0.4042928280799921
+              "Romania": 0.18915569808028437,
+              "Senegal": 0.16148455817080867,
+              "South Africa": 0.1876698641727662,
+              "Spain": 0.35713378097406767
             },
-            "entropy": 1.5432881383622967,
+            "entropy": 1.5874838326292566,
             "value": "Spain"
           },
-          "div": 0.0017651655246221118,
+          "div": 0.000587955576831467,
           "num_date": {
-            "value": 2020.4754250977046
+            "value": 2020.0994584502105
           }
         }
       },
       {
         "branch_attrs": {
-          "mutations": {}
+          "labels": {
+            "aa": "HA1: S156H"
+          },
+          "mutations": {
+            "HA1": [
+              "S156H"
+            ],
+            "nuc": [
+              "A514C",
+              "G515A",
+              "T879C"
+            ]
+          }
         },
         "children": [
           {
             "branch_attrs": {
               "labels": {
-                "aa": "HA1: E83K, K121E, S205F, A212T, R261Q; SigPep: N9Y"
+                "aa": "HA1: E83K, K121E, S205F, A212T, R261Q; SigPep: N9Y",
+                "clade": "3C.2a1b.2a.2c"
               },
               "mutations": {
                 "HA1": [
@@ -1011,7 +1015,8 @@
               {
                 "branch_attrs": {
                   "labels": {
-                    "aa": "HA1: I48T; HA2: L91I"
+                    "aa": "HA1: I48T; HA2: L91I",
+                    "clade": "3C.2a1b.2a.1a.1"
                   },
                   "mutations": {
                     "HA1": [
@@ -1034,7 +1039,7 @@
                     "value": "no"
                   },
                   "clade_membership": {
-                    "value": "3C.2a1b.2a.2"
+                    "value": "3C.2a1b.2a.1a.1"
                   },
                   "continent": {
                     "confidence": {
@@ -1050,7 +1055,7 @@
                     "entropy": -1.000088900581841e-12,
                     "value": "South Africa"
                   },
-                  "div": 0.010032853145826968,
+                  "div": 0.01120880019958789,
                   "num_date": {
                     "value": 2022.7849315068493
                   }
@@ -1078,7 +1083,7 @@
                     "value": "no"
                   },
                   "clade_membership": {
-                    "value": "3C.2a1b.2a.2"
+                    "value": "3C.2a1b.2a.2c"
                   },
                   "continent": {
                     "confidence": {
@@ -1094,7 +1099,7 @@
                     "entropy": -1.000088900581841e-12,
                     "value": "South Africa"
                   },
-                  "div": 0.009442843382533043,
+                  "div": 0.010618790436293964,
                   "num_date": {
                     "value": 2022.7082191780821
                   }
@@ -1120,7 +1125,7 @@
                         "value": "yes"
                       },
                       "clade_membership": {
-                        "value": "3C.2a1b.2a.2"
+                        "value": "3C.2a1b.2a.2c"
                       },
                       "continent": {
                         "confidence": {
@@ -1136,7 +1141,7 @@
                         "entropy": -9.99866855976916e-13,
                         "value": "South Africa"
                       },
-                      "div": 0.00885377262226894,
+                      "div": 0.01002971967602986,
                       "num_date": {
                         "value": 2022.7191780821918
                       }
@@ -1162,7 +1167,7 @@
                             "value": "no"
                           },
                           "clade_membership": {
-                            "value": "3C.2a1b.2a.2"
+                            "value": "3C.2a1b.2a.2c"
                           },
                           "continent": {
                             "confidence": {
@@ -1173,12 +1178,12 @@
                           },
                           "country": {
                             "confidence": {
-                              "South Africa": 0.9999999999999999
+                              "South Africa": 1.0
                             },
-                            "entropy": -9.99866855976916e-13,
+                            "entropy": -1.000088900581841e-12,
                             "value": "South Africa"
                           },
-                          "div": 0.008853399382357689,
+                          "div": 0.010029346436118608,
                           "num_date": {
                             "value": 2022.7630136986302
                           }
@@ -1199,7 +1204,7 @@
                             "value": "no"
                           },
                           "clade_membership": {
-                            "value": "3C.2a1b.2a.2"
+                            "value": "3C.2a1b.2a.2c"
                           },
                           "continent": {
                             "confidence": {
@@ -1210,12 +1215,12 @@
                           },
                           "country": {
                             "confidence": {
-                              "South Africa": 0.9999999999999999
+                              "South Africa": 1.0
                             },
-                            "entropy": -9.99866855976916e-13,
+                            "entropy": -1.000088900581841e-12,
                             "value": "South Africa"
                           },
-                          "div": 0.008853215631483252,
+                          "div": 0.010029162685244172,
                           "num_date": {
                             "value": 2022.7191780821918
                           }
@@ -1225,25 +1230,25 @@
                     "name": "NODE_0000016",
                     "node_attrs": {
                       "clade_membership": {
-                        "value": "3C.2a1b.2a.2"
+                        "value": "3C.2a1b.2a.2c"
                       },
                       "continent": {
                         "confidence": {
-                          "Africa": 0.9996516468908782
+                          "Africa": 0.9996562129248882
                         },
-                        "entropy": 0.003276397013107177,
+                        "entropy": 0.0032417723380715495,
                         "value": "Africa"
                       },
                       "country": {
                         "confidence": {
-                          "South Africa": 0.999675169151807
+                          "South Africa": 0.999677529397531
                         },
-                        "entropy": 0.0033771790889605977,
+                        "entropy": 0.003352099490707614,
                         "value": "South Africa"
                       },
-                      "div": 0.007677057805262049,
+                      "div": 0.008853004859022968,
                       "num_date": {
-                        "value": 2022.4257228575075
+                        "value": 2022.4262678513628
                       }
                     }
                   }
@@ -1251,25 +1256,25 @@
                 "name": "NODE_0000015",
                 "node_attrs": {
                   "clade_membership": {
-                    "value": "3C.2a1b.2a.2"
+                    "value": "3C.2a1b.2a.2c"
                   },
                   "continent": {
                     "confidence": {
-                      "Africa": 0.9996215005935799
+                      "Africa": 0.9996234097963708
                     },
-                    "entropy": 0.0035231912968181397,
+                    "entropy": 0.003510716282666081,
                     "value": "Africa"
                   },
                   "country": {
                     "confidence": {
-                      "South Africa": 0.9996579078909097
+                      "South Africa": 0.9996595477347724
                     },
-                    "entropy": 0.0035363187594352643,
+                    "entropy": 0.003517452050244615,
                     "value": "South Africa"
                   },
-                  "div": 0.007677057805262045,
+                  "div": 0.008853004859022965,
                   "num_date": {
-                    "value": 2022.4257228575075
+                    "value": 2022.4262678513628
                   }
                 }
               }
@@ -1277,32 +1282,33 @@
             "name": "NODE_0000014",
             "node_attrs": {
               "clade_membership": {
-                "value": "3C.2a1b.2a.2"
+                "value": "3C.2a1b.2a.2c"
               },
               "continent": {
                 "confidence": {
-                  "Africa": 0.9995037184612312
+                  "Africa": 0.9994614842918154
                 },
-                "entropy": 0.004398373436981047,
+                "entropy": 0.004724838023931258,
                 "value": "Africa"
               },
               "country": {
                 "confidence": {
-                  "South Africa": 0.9996303800200689
+                  "South Africa": 0.9996161856495093
                 },
-                "entropy": 0.00375584451953606,
+                "entropy": 0.003873200304061469,
                 "value": "South Africa"
               },
-              "div": 0.00767705780526204,
+              "div": 0.008853004859022962,
               "num_date": {
-                "value": 2022.4257228575075
+                "value": 2022.4262678513628
               }
             }
           },
           {
             "branch_attrs": {
               "labels": {
-                "aa": "HA1: E50K, F79V, I140K"
+                "aa": "HA1: E50K, F79V, I140K",
+                "clade": "3C.2a1b.2a.2b"
               },
               "mutations": {
                 "HA1": [
@@ -1371,7 +1377,7 @@
                         "value": "no"
                       },
                       "clade_membership": {
-                        "value": "3C.2a1b.2a.2"
+                        "value": "3C.2a1b.2a.2b"
                       },
                       "continent": {
                         "confidence": {
@@ -1387,7 +1393,7 @@
                         "entropy": -1.000088900581841e-12,
                         "value": "Romania"
                       },
-                      "div": 0.010014193803591075,
+                      "div": 0.011190140857351996,
                       "num_date": {
                         "value": 2022.954794520548
                       }
@@ -1418,13 +1424,13 @@
                             "value": "no"
                           },
                           "clade_membership": {
-                            "value": "3C.2a1b.2a.2"
+                            "value": "3C.2a1b.2a.2b"
                           },
                           "continent": {
                             "confidence": {
-                              "Africa": 1.0
+                              "Africa": 0.9999999999999999
                             },
-                            "entropy": -1.000088900581841e-12,
+                            "entropy": -9.99866855976916e-13,
                             "value": "Africa"
                           },
                           "country": {
@@ -1434,7 +1440,7 @@
                             "entropy": -1.000088900581841e-12,
                             "value": "South Africa"
                           },
-                          "div": 0.008240476184723301,
+                          "div": 0.009416423238484222,
                           "num_date": {
                             "value": 2022.7767123287672
                           }
@@ -1477,7 +1483,7 @@
                                 "value": "no"
                               },
                               "clade_membership": {
-                                "value": "3C.2a1b.2a.2"
+                                "value": "3C.2a1b.2a.2b"
                               },
                               "continent": {
                                 "confidence": {
@@ -1493,7 +1499,7 @@
                                 "entropy": -1.000088900581841e-12,
                                 "value": "South Africa"
                               },
-                              "div": 0.009416426638718388,
+                              "div": 0.010592373692479307,
                               "num_date": {
                                 "value": 2022.7191780821918
                               }
@@ -1514,7 +1520,7 @@
                                     "value": "yes"
                                   },
                                   "clade_membership": {
-                                    "value": "3C.2a1b.2a.2"
+                                    "value": "3C.2a1b.2a.2b"
                                   },
                                   "continent": {
                                     "confidence": {
@@ -1530,7 +1536,7 @@
                                     "entropy": -9.99866855976916e-13,
                                     "value": "South Africa"
                                   },
-                                  "div": 0.008828623012577145,
+                                  "div": 0.010004570066338064,
                                   "num_date": {
                                     "value": 2022.7739726027398
                                   }
@@ -1546,7 +1552,7 @@
                                     "value": "no"
                                   },
                                   "clade_membership": {
-                                    "value": "3C.2a1b.2a.2"
+                                    "value": "3C.2a1b.2a.2b"
                                   },
                                   "continent": {
                                     "confidence": {
@@ -1562,7 +1568,7 @@
                                     "entropy": -9.99866855976916e-13,
                                     "value": "South Africa"
                                   },
-                                  "div": 0.008828623012577145,
+                                  "div": 0.010004570066338064,
                                   "num_date": {
                                     "value": 2022.7575342465752
                                   }
@@ -1572,25 +1578,25 @@
                             "name": "NODE_0000022",
                             "node_attrs": {
                               "clade_membership": {
-                                "value": "3C.2a1b.2a.2"
+                                "value": "3C.2a1b.2a.2b"
                               },
                               "continent": {
                                 "confidence": {
-                                  "Africa": 0.9995047310762714
+                                  "Africa": 0.9994790515261402
                                 },
-                                "entropy": 0.004449074729994307,
+                                "entropy": 0.0046521886707564155,
                                 "value": "Africa"
                               },
                               "country": {
                                 "confidence": {
-                                  "South Africa": 0.9996097741783212
+                                  "South Africa": 0.9995978664229601
                                 },
-                                "entropy": 0.003961300284467837,
+                                "entropy": 0.004058588962334588,
                                 "value": "South Africa"
                               },
-                              "div": 0.008828623012577141,
+                              "div": 0.010004570066338061,
                               "num_date": {
-                                "value": 2022.6981770817883
+                                "value": 2022.6928580332378
                               }
                             }
                           }
@@ -1598,27 +1604,27 @@
                         "name": "NODE_0000000",
                         "node_attrs": {
                           "clade_membership": {
-                            "value": "3C.2a1b.2a.2"
+                            "value": "3C.2a1b.2a.2b"
                           },
                           "continent": {
                             "confidence": {
-                              "Africa": 0.9972467774833681,
-                              "Europe": 0.0026318786994474377
+                              "Africa": 0.9967653681364876,
+                              "Europe": 0.003100929090823869
                             },
-                            "entropy": 0.01947708228637382,
+                            "entropy": 0.02233314133875392,
                             "value": "Africa"
                           },
                           "country": {
                             "confidence": {
-                              "Romania": 0.0011360547786247162,
-                              "South Africa": 0.9983273993404838
+                              "Romania": 0.0014121626091308142,
+                              "South Africa": 0.9980497146508249
                             },
-                            "entropy": 0.013972368337532267,
+                            "entropy": 0.01583780255332746,
                             "value": "South Africa"
                           },
-                          "div": 0.008828623012577138,
+                          "div": 0.010004570066338057,
                           "num_date": {
-                            "value": 2022.662995309368
+                            "value": 2022.6577306787858
                           }
                         }
                       }
@@ -1626,28 +1632,28 @@
                     "name": "NODE_0000002",
                     "node_attrs": {
                       "clade_membership": {
-                        "value": "3C.2a1b.2a.2"
+                        "value": "3C.2a1b.2a.2b"
                       },
                       "continent": {
                         "confidence": {
-                          "Africa": 0.9634070879347879,
-                          "Europe": 0.035789090995366715
+                          "Africa": 0.9561263041309206,
+                          "Europe": 0.04301026956549931
                         },
-                        "entropy": 0.16082489551165394,
+                        "entropy": 0.18431189662686476,
                         "value": "Africa"
                       },
                       "country": {
                         "confidence": {
-                          "Romania": 0.019625700259311225,
-                          "South Africa": 0.9739297949610192,
-                          "Spain": 0.004746668991016472
+                          "Romania": 0.02493889209924518,
+                          "South Africa": 0.9687849697263752,
+                          "Spain": 0.00461308431609582
                         },
-                        "entropy": 0.14096082426173998,
+                        "entropy": 0.16005673770890635,
                         "value": "South Africa"
                       },
-                      "div": 0.007064128115662499,
+                      "div": 0.00824007516942342,
                       "num_date": {
-                        "value": 2022.4026059136909
+                        "value": 2022.3992917848652
                       }
                     }
                   }
@@ -1655,30 +1661,30 @@
                 "name": "NODE_0000003",
                 "node_attrs": {
                   "clade_membership": {
-                    "value": "3C.2a1b.2a.2"
+                    "value": "3C.2a1b.2a.2b"
                   },
                   "continent": {
                     "confidence": {
-                      "Africa": 0.4217104192791557,
-                      "Asia": 0.005626429670243589,
-                      "Europe": 0.5726631510506006
+                      "Africa": 0.3451139494550678,
+                      "Asia": 0.004500194000498768,
+                      "Europe": 0.6503858565444334
                     },
-                    "entropy": 0.7125020411747978,
+                    "entropy": 0.6712665949467727,
                     "value": "Europe"
                   },
                   "country": {
                     "confidence": {
-                      "Pakistan": 0.008564065968362903,
-                      "Romania": 0.4130198326508397,
-                      "South Africa": 0.479524848018486,
-                      "Spain": 0.08521772713064366
+                      "Pakistan": 0.007039653443485466,
+                      "Romania": 0.49281474990396906,
+                      "South Africa": 0.41488321866646155,
+                      "Spain": 0.07533268119833268
                     },
-                    "entropy": 1.0363828614750032,
-                    "value": "South Africa"
+                    "entropy": 0.9960508176035052,
+                    "value": "Romania"
                   },
-                  "div": 0.0058883968211727415,
+                  "div": 0.007064343874933662,
                   "num_date": {
-                    "value": 2021.959500273334
+                    "value": 2022.1036722099045
                   }
                 }
               },
@@ -1735,7 +1741,7 @@
                             "value": "no"
                           },
                           "clade_membership": {
-                            "value": "3C.2a1b.2a.2"
+                            "value": "3C.2a1b.2a.2b"
                           },
                           "continent": {
                             "confidence": {
@@ -1751,7 +1757,7 @@
                             "entropy": -1.000088900581841e-12,
                             "value": "Pakistan"
                           },
-                          "div": 0.007062971801242105,
+                          "div": 0.008238918855003025,
                           "num_date": {
                             "value": 2023.0561643835617
                           }
@@ -1782,7 +1788,7 @@
                                 "value": "no"
                               },
                               "clade_membership": {
-                                "value": "3C.2a1b.2a.2"
+                                "value": "3C.2a1b.2a.2b"
                               },
                               "continent": {
                                 "confidence": {
@@ -1798,7 +1804,7 @@
                                 "entropy": -1.000088900581841e-12,
                                 "value": "Romania"
                               },
-                              "div": 0.006474895674073649,
+                              "div": 0.007650842727834568,
                               "num_date": {
                                 "value": 2022.9493150684932
                               }
@@ -1819,7 +1825,7 @@
                                     "value": "no"
                                   },
                                   "clade_membership": {
-                                    "value": "3C.2a1b.2a.2"
+                                    "value": "3C.2a1b.2a.2b"
                                   },
                                   "continent": {
                                     "confidence": {
@@ -1835,7 +1841,7 @@
                                     "entropy": -1.000088900581841e-12,
                                     "value": "Romania"
                                   },
-                                  "div": 0.0058873114174973805,
+                                  "div": 0.0070632584712583,
                                   "num_date": {
                                     "value": 2022.9575342465753
                                   }
@@ -1851,7 +1857,7 @@
                                     "value": "no"
                                   },
                                   "clade_membership": {
-                                    "value": "3C.2a1b.2a.2"
+                                    "value": "3C.2a1b.2a.2b"
                                   },
                                   "continent": {
                                     "confidence": {
@@ -1867,67 +1873,67 @@
                                     "entropy": -1.000088900581841e-12,
                                     "value": "Romania"
                                   },
-                                  "div": 0.0058873114174973805,
+                                  "div": 0.0070632584712583,
                                   "num_date": {
                                     "value": 2022.9109589041095
                                   }
                                 }
                               }
                             ],
-                            "name": "NODE_0000026",
+                            "name": "NODE_0000027",
                             "node_attrs": {
                               "clade_membership": {
-                                "value": "3C.2a1b.2a.2"
+                                "value": "3C.2a1b.2a.2b"
                               },
                               "continent": {
                                 "confidence": {
-                                  "Europe": 0.9994392089286203
+                                  "Europe": 0.9994646713440656
                                 },
-                                "entropy": 0.0051382826193001165,
+                                "entropy": 0.004930351620939077,
                                 "value": "Europe"
                               },
                               "country": {
                                 "confidence": {
-                                  "Romania": 0.9965579525556592,
-                                  "Spain": 0.0026621422277083515
+                                  "Romania": 0.9967308737981962,
+                                  "Spain": 0.0025096146688145435
                                 },
-                                "entropy": 0.02565615219539998,
+                                "entropy": 0.024584794568065057,
                                 "value": "Romania"
                               },
-                              "div": 0.005887311417497376,
+                              "div": 0.007063258471258296,
                               "num_date": {
-                                "value": 2022.6735302437096
+                                "value": 2022.6533546097664
                               }
                             }
                           }
                         ],
-                        "name": "NODE_0000027",
+                        "name": "NODE_0000028",
                         "node_attrs": {
                           "clade_membership": {
-                            "value": "3C.2a1b.2a.2"
+                            "value": "3C.2a1b.2a.2b"
                           },
                           "continent": {
                             "confidence": {
-                              "Africa": 0.0010889617063574645,
-                              "Asia": 0.0031017983213974085,
-                              "Europe": 0.9958092399722451
+                              "Africa": 0.0010505455951349294,
+                              "Asia": 0.0029395681824560737,
+                              "Europe": 0.9960098862224089
                             },
-                            "entropy": 0.029526724776835257,
+                            "entropy": 0.028323443436481913,
                             "value": "Europe"
                           },
                           "country": {
                             "confidence": {
-                              "Pakistan": 0.0065971780206603705,
-                              "Romania": 0.9757660818111366,
-                              "South Africa": 0.001528492826444488,
-                              "Spain": 0.015501414022182426
+                              "Pakistan": 0.006074134969515015,
+                              "Romania": 0.9778178141150167,
+                              "South Africa": 0.001583473104531021,
+                              "Spain": 0.013956885057645333
                             },
-                            "entropy": 0.13648025474513545,
+                            "entropy": 0.12740253439090465,
                             "value": "Romania"
                           },
-                          "div": 0.005887311417497372,
+                          "div": 0.007063258471258291,
                           "num_date": {
-                            "value": 2022.6632362476316
+                            "value": 2022.641099910716
                           }
                         }
                       }
@@ -1935,30 +1941,30 @@
                     "name": "NODE_0000006",
                     "node_attrs": {
                       "clade_membership": {
-                        "value": "3C.2a1b.2a.2"
+                        "value": "3C.2a1b.2a.2b"
                       },
                       "continent": {
                         "confidence": {
-                          "Africa": 0.00987449539275287,
-                          "Asia": 0.0649162018694256,
-                          "Europe": 0.9252093027378215
+                          "Africa": 0.00993721804866346,
+                          "Asia": 0.06193275442825697,
+                          "Europe": 0.9281300275230796
                         },
-                        "entropy": 0.2950434760626804,
+                        "entropy": 0.2873270151740041,
                         "value": "Europe"
                       },
                       "country": {
                         "confidence": {
-                          "Pakistan": 0.1352097646896618,
-                          "Romania": 0.7152849717899507,
-                          "South Africa": 0.015371282602551497,
-                          "Spain": 0.127930404004044
+                          "Pakistan": 0.1245854422793546,
+                          "Romania": 0.739211815152662,
+                          "South Africa": 0.01666171060974056,
+                          "Spain": 0.11386076847643088
                         },
-                        "entropy": 0.8732851176232246,
+                        "entropy": 0.8317755159510755,
                         "value": "Romania"
                       },
-                      "div": 0.0058873114174973675,
+                      "div": 0.007063258471258287,
                       "num_date": {
-                        "value": 2022.6600944154127
+                        "value": 2022.6298854095544
                       }
                     }
                   },
@@ -1994,13 +2000,13 @@
                             "value": "no"
                           },
                           "clade_membership": {
-                            "value": "3C.2a1b.2a.2"
+                            "value": "3C.2a1b.2a.2b"
                           },
                           "continent": {
                             "confidence": {
-                              "Europe": 0.9999999999999999
+                              "Europe": 1.0
                             },
-                            "entropy": -9.99866855976916e-13,
+                            "entropy": -1.000088900581841e-12,
                             "value": "Europe"
                           },
                           "country": {
@@ -2010,7 +2016,7 @@
                             "entropy": -1.000088900581841e-12,
                             "value": "Romania"
                           },
-                          "div": 0.008240282968972957,
+                          "div": 0.009416230022733878,
                           "num_date": {
                             "value": 2022.9465753424658
                           }
@@ -2033,13 +2039,13 @@
                         "name": "A/Castellon/VAHNSI-GIHSN-02_2871/2022",
                         "node_attrs": {
                           "clade_membership": {
-                            "value": "3C.2a1b.2a.2"
+                            "value": "3C.2a1b.2a.2b"
                           },
                           "continent": {
                             "confidence": {
-                              "Europe": 0.9999999999999999
+                              "Europe": 1.0
                             },
-                            "entropy": -9.99866855976916e-13,
+                            "entropy": -1.000088900581841e-12,
                             "value": "Europe"
                           },
                           "country": {
@@ -2049,7 +2055,7 @@
                             "entropy": -1.000088900581841e-12,
                             "value": "Spain"
                           },
-                          "div": 0.007063330436419939,
+                          "div": 0.008239277490180861,
                           "num_date": {
                             "value": 2022.6780821917807
                           }
@@ -2071,13 +2077,13 @@
                             "name": "A/Valencia/VAHNSI-GIHSN-07_3186/2022",
                             "node_attrs": {
                               "clade_membership": {
-                                "value": "3C.2a1b.2a.2"
+                                "value": "3C.2a1b.2a.2b"
                               },
                               "continent": {
                                 "confidence": {
-                                  "Europe": 0.9999999999999999
+                                  "Europe": 1.0
                                 },
-                                "entropy": -9.99866855976916e-13,
+                                "entropy": -1.000088900581841e-12,
                                 "value": "Europe"
                               },
                               "country": {
@@ -2087,7 +2093,7 @@
                                 "entropy": -1.000088900581841e-12,
                                 "value": "Spain"
                               },
-                              "div": 0.00706338667290948,
+                              "div": 0.0082393337266704,
                               "num_date": {
                                 "value": 2022.672602739726
                               }
@@ -2109,7 +2115,7 @@
                                 "name": "A/Alicante/VAHNSI-GIHSN-16_1814/2022",
                                 "node_attrs": {
                                   "clade_membership": {
-                                    "value": "3C.2a1b.2a.2"
+                                    "value": "3C.2a1b.2a.2b"
                                   },
                                   "continent": {
                                     "confidence": {
@@ -2125,7 +2131,7 @@
                                     "entropy": -1.000088900581841e-12,
                                     "value": "Spain"
                                   },
-                                  "div": 0.00765124649093266,
+                                  "div": 0.00882719354469358,
                                   "num_date": {
                                     "value": 2022.7054794520548
                                   }
@@ -2145,7 +2151,7 @@
                                     "value": "no"
                                   },
                                   "clade_membership": {
-                                    "value": "3C.2a1b.2a.2"
+                                    "value": "3C.2a1b.2a.2b"
                                   },
                                   "continent": {
                                     "confidence": {
@@ -2156,12 +2162,12 @@
                                   },
                                   "country": {
                                     "confidence": {
-                                      "Romania": 0.9999999999999999
+                                      "Romania": 1.0
                                     },
-                                    "entropy": -9.99866855976916e-13,
+                                    "entropy": -1.000088900581841e-12,
                                     "value": "Romania"
                                   },
-                                  "div": 0.008239144950729336,
+                                  "div": 0.009415092004490257,
                                   "num_date": {
                                     "value": 2022.9575342465753
                                   }
@@ -2171,27 +2177,27 @@
                             "name": "NODE_0000012",
                             "node_attrs": {
                               "clade_membership": {
-                                "value": "3C.2a1b.2a.2"
+                                "value": "3C.2a1b.2a.2b"
                               },
                               "continent": {
                                 "confidence": {
-                                  "Europe": 0.9996285363281621
+                                  "Europe": 0.9996427170716427
                                 },
-                                "entropy": 0.003517978357327568,
+                                "entropy": 0.003400373150483131,
                                 "value": "Europe"
                               },
                               "country": {
                                 "confidence": {
-                                  "Romania": 0.2817506992661099,
-                                  "South Africa": 0.0012764019126178963,
-                                  "Spain": 0.7153014164676602
+                                  "Romania": 0.2931741433959452,
+                                  "South Africa": 0.001240959163870076,
+                                  "Spain": 0.703925015550867
                                 },
-                                "entropy": 0.617583039929927,
+                                "entropy": 0.6275961724374246,
                                 "value": "Spain"
                               },
-                              "div": 0.007651246490932656,
+                              "div": 0.008827193544693577,
                               "num_date": {
-                                "value": 2022.705479452472
+                                "value": 2022.7054794524825
                               }
                             }
                           }
@@ -2199,26 +2205,26 @@
                         "name": "NODE_0000011",
                         "node_attrs": {
                           "clade_membership": {
-                            "value": "3C.2a1b.2a.2"
+                            "value": "3C.2a1b.2a.2b"
                           },
                           "continent": {
                             "confidence": {
-                              "Europe": 0.9996208285115823
+                              "Europe": 0.9996357044235316
                             },
-                            "entropy": 0.003583058964282718,
+                            "entropy": 0.0034597024390901534,
                             "value": "Europe"
                           },
                           "country": {
                             "confidence": {
-                              "Romania": 0.22737099709163192,
-                              "Spain": 0.7706469329419108
+                              "Romania": 0.2414051447676182,
+                              "Spain": 0.7565837614778131
                             },
-                            "entropy": 0.5524398207785746,
+                            "entropy": 0.5692262124014364,
                             "value": "Spain"
                           },
-                          "div": 0.007063386672909476,
+                          "div": 0.008239333726670397,
                           "num_date": {
-                            "value": 2022.652081882125
+                            "value": 2022.640446106572
                           }
                         }
                       }
@@ -2226,27 +2232,27 @@
                     "name": "NODE_0000009",
                     "node_attrs": {
                       "clade_membership": {
-                        "value": "3C.2a1b.2a.2"
+                        "value": "3C.2a1b.2a.2b"
                       },
                       "continent": {
                         "confidence": {
-                          "Europe": 0.9998616999845698
+                          "Europe": 0.9998726253615331
                         },
-                        "entropy": 0.0014508490579793777,
+                        "entropy": 0.001342876370491639,
                         "value": "Europe"
                       },
                       "country": {
                         "confidence": {
-                          "Romania": 0.4327802572933177,
-                          "South Africa": 0.001141144582038585,
-                          "Spain": 0.5650117070075417
+                          "Romania": 0.46040375612396084,
+                          "South Africa": 0.0012317608137741764,
+                          "Spain": 0.5374343196988924
                         },
-                        "entropy": 0.7009229033779629,
+                        "entropy": 0.7063513230713383,
                         "value": "Spain"
                       },
-                      "div": 0.006475565333149774,
+                      "div": 0.007651512386910695,
                       "num_date": {
-                        "value": 2022.549016529492
+                        "value": 2022.5357058242266
                       }
                     }
                   }
@@ -2254,30 +2260,30 @@
                 "name": "NODE_0000005",
                 "node_attrs": {
                   "clade_membership": {
-                    "value": "3C.2a1b.2a.2"
+                    "value": "3C.2a1b.2a.2b"
                   },
                   "continent": {
                     "confidence": {
-                      "Africa": 0.01898192775072133,
-                      "Asia": 0.01606367409723952,
-                      "Europe": 0.9649543981520391
+                      "Africa": 0.019560349430408016,
+                      "Asia": 0.013025243216905328,
+                      "Europe": 0.9674144073526868
                     },
-                    "entropy": 0.17603581711208566,
+                    "entropy": 0.1655449747890297,
                     "value": "Europe"
                   },
                   "country": {
                     "confidence": {
-                      "Pakistan": 0.04289172321780345,
-                      "Romania": 0.5979545594928399,
-                      "South Africa": 0.03499818029068838,
-                      "Spain": 0.31611528185466137
+                      "Pakistan": 0.03587118023686647,
+                      "Romania": 0.6380300024387554,
+                      "South Africa": 0.03959497804127722,
+                      "Spain": 0.2797457181537167
                     },
-                    "entropy": 0.9682984819246521,
+                    "entropy": 0.928754203336541,
                     "value": "Romania"
                   },
-                  "div": 0.005299656045676828,
+                  "div": 0.006475603099437748,
                   "num_date": {
-                    "value": 2022.3858986605862
+                    "value": 2022.3429667343664
                   }
                 }
               }
@@ -2285,30 +2291,30 @@
             "name": "NODE_0000004",
             "node_attrs": {
               "clade_membership": {
-                "value": "3C.2a1b.2a.2"
+                "value": "3C.2a1b.2a.2b"
               },
               "continent": {
                 "confidence": {
-                  "Africa": 0.32264600684306066,
-                  "Asia": 0.010141328459158855,
-                  "Europe": 0.6672126646977805
+                  "Africa": 0.2599180048696555,
+                  "Asia": 0.007923522925452887,
+                  "Europe": 0.7321584722048916
                 },
-                "entropy": 0.6815224597599892,
+                "entropy": 0.6168005201016843,
                 "value": "Europe"
               },
               "country": {
                 "confidence": {
-                  "Pakistan": 0.019730458190308647,
-                  "Romania": 0.4290241400168139,
-                  "South Africa": 0.3347290662053987,
-                  "Spain": 0.18457224825461954
+                  "Pakistan": 0.0166310859582367,
+                  "Romania": 0.5048351760517609,
+                  "South Africa": 0.29232125578998225,
+                  "Spain": 0.1642640645491368
                 },
-                "entropy": 1.2506147368767848,
+                "entropy": 1.1682931940094414,
                 "value": "Romania"
               },
-              "div": 0.003535321301689819,
+              "div": 0.004711268355450739,
               "num_date": {
-                "value": 2021.3573576208657
+                "value": 2021.564312399724
               }
             }
           }
@@ -2316,30 +2322,30 @@
         "name": "NODE_0000013",
         "node_attrs": {
           "clade_membership": {
-            "value": "3C.2a1b.2a.2"
+            "value": "3C.2a1b.2a.2a"
           },
           "continent": {
             "confidence": {
-              "Africa": 0.4772547676040154,
-              "Asia": 0.021498594009534598,
-              "Europe": 0.50124663838645
+              "Africa": 0.4675583093693218,
+              "Asia": 0.02200353904038189,
+              "Europe": 0.5104381515902964
             },
-            "entropy": 0.78176676586343,
+            "entropy": 0.7826924800015839,
             "value": "Europe"
           },
           "country": {
             "confidence": {
-              "Romania": 0.2325072144584615,
-              "Senegal": 0.08075091280929306,
-              "South Africa": 0.35206060034701303,
-              "Spain": 0.2610717183705341
+              "Romania": 0.2582599438608601,
+              "Senegal": 0.07502247398429357,
+              "South Africa": 0.3602616510307201,
+              "Spain": 0.23535692509124656
             },
-            "entropy": 1.500569197071956,
+            "entropy": 1.487213170461615,
             "value": "South Africa"
           },
-          "div": 4.182005303577678e-18,
+          "div": 0.0011759470537609246,
           "num_date": {
-            "value": 2020.0520580016018
+            "value": 2020.2135837956544
           }
         }
       }
@@ -2347,30 +2353,30 @@
     "name": "NODE_0000001",
     "node_attrs": {
       "clade_membership": {
-        "value": "3C.2a1b.2a.2"
+        "value": "3C.2a1b.2a.2a"
       },
       "continent": {
         "confidence": {
-          "Africa": 0.4518877238811141,
-          "Asia": 0.027158546767299944,
-          "Europe": 0.520953729351586
+          "Africa": 0.44858280819222074,
+          "Asia": 0.02879821034697402,
+          "Europe": 0.5226189814608052
         },
-        "entropy": 0.7965904198032525,
+        "entropy": 0.8009005831786755,
         "value": "Europe"
       },
       "country": {
         "confidence": {
-          "Romania": 0.20172662486094353,
-          "Senegal": 0.12386361690635561,
-          "South Africa": 0.25422661810752567,
-          "Spain": 0.32661094636890453
+          "Romania": 0.2250630783663672,
+          "Senegal": 0.11807036863180412,
+          "South Africa": 0.26987296636748487,
+          "Spain": 0.29296736070287793
         },
-        "entropy": 1.5741447934424597,
+        "entropy": 1.5824682368671505,
         "value": "Spain"
       },
       "div": 0,
       "num_date": {
-        "value": 2020.0520580016018
+        "value": 2019.8768147209873
       }
     }
   },

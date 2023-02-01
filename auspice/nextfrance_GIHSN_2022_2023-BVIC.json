@@ -33,9 +33,9 @@
       }
     ],
     "filters": [
-      "clade_membership",
       "O2_supplements",
       "country",
+      "clade_membership",
       "continent"
     ],
     "genome_annotations": {
@@ -115,9 +115,9 @@
               },
               "continent": {
                 "confidence": {
-                  "Africa": 0.9999999999999999
+                  "Africa": 1.0
                 },
-                "entropy": -9.99866855976916e-13,
+                "entropy": -1.000088900581841e-12,
                 "value": "Africa"
               },
               "country": {
@@ -127,7 +127,7 @@
                 "entropy": -1.000088900581841e-12,
                 "value": "South Africa"
               },
-              "div": 0.0021908324499869316,
+              "div": 0.003274888953656693,
               "num_date": {
                 "value": 2022.6890410958904
               }
@@ -174,12 +174,12 @@
                   },
                   "country": {
                     "confidence": {
-                      "South Africa": 0.9999999999999999
+                      "South Africa": 1.0
                     },
-                    "entropy": -9.99866855976916e-13,
+                    "entropy": -1.000088900581841e-12,
                     "value": "South Africa"
                   },
-                  "div": 0.0016365674376615385,
+                  "div": 0.0027213487617139143,
                   "num_date": {
                     "value": 2022.6972602739727
                   }
@@ -210,66 +210,66 @@
                   },
                   "country": {
                     "confidence": {
-                      "South Africa": 0.9999999999999999
+                      "South Africa": 1.0
                     },
-                    "entropy": -9.99866855976916e-13,
+                    "entropy": -1.000088900581841e-12,
                     "value": "South Africa"
                   },
-                  "div": 0.0010896828958934781,
+                  "div": 0.0021751018258785674,
                   "num_date": {
                     "value": 2022.6890410958904
                   }
                 }
               }
             ],
-            "name": "NODE_0000006",
+            "name": "NODE_0000010",
             "node_attrs": {
               "clade_membership": {
                 "value": "V1A.3a.2"
               },
               "continent": {
                 "confidence": {
-                  "Africa": 0.9998571500405542
+                  "Africa": 0.9998434686612604
                 },
-                "entropy": 0.0014075926844776792,
+                "entropy": 0.0015280864842343003,
                 "value": "Africa"
               },
               "country": {
                 "confidence": {
-                  "South Africa": 0.9997019783127363
+                  "South Africa": 0.999685206979496
                 },
-                "entropy": 0.002923968589417053,
+                "entropy": 0.003071292883740763,
                 "value": "South Africa"
               },
-              "div": 0.0005433867554867097,
+              "div": 0.0016294583692308426,
               "num_date": {
-                "value": 2022.6755922643404
+                "value": 2022.6787226466788
               }
             }
           }
         ],
-        "name": "NODE_0000005",
+        "name": "NODE_0000009",
         "node_attrs": {
           "clade_membership": {
             "value": "V1A.3a.2"
           },
           "continent": {
             "confidence": {
-              "Africa": 0.9997327502401515
+              "Africa": 0.9997078404602672
             },
-            "entropy": 0.002465965183450154,
+            "entropy": 0.002669772699410986,
             "value": "Africa"
           },
           "country": {
             "confidence": {
-              "South Africa": 0.9994328412790934
+              "South Africa": 0.9994016721965953
             },
-            "entropy": 0.005199525251583891,
+            "entropy": 0.00545327475631794,
             "value": "South Africa"
           },
-          "div": 1.386704641782656e-17,
+          "div": 0.0010865951039545382,
           "num_date": {
-            "value": 2022.6587831308073
+            "value": 2022.6720630052916
           }
         }
       },
@@ -294,6 +294,44 @@
             "branch_attrs": {
               "mutations": {
                 "nuc": [
+                  "C623T",
+                  "G1130A",
+                  "C1667T"
+                ]
+              }
+            },
+            "name": "B/SouthAfrica/PET25840/2022",
+            "node_attrs": {
+              "O2_supplements": {
+                "value": "no"
+              },
+              "clade_membership": {
+                "value": "V1A.3a.2"
+              },
+              "continent": {
+                "confidence": {
+                  "Africa": 1.0
+                },
+                "entropy": -1.000088900581841e-12,
+                "value": "Africa"
+              },
+              "country": {
+                "confidence": {
+                  "South Africa": 1.0
+                },
+                "entropy": -1.000088900581841e-12,
+                "value": "South Africa"
+              },
+              "div": 0.0021809878336277134,
+              "num_date": {
+                "value": 2022.6972602739727
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
                   "C422T",
                   "T794C",
                   "A1436G",
@@ -312,96 +350,21 @@
               },
               "continent": {
                 "confidence": {
-                  "Africa": 1.0
+                  "Africa": 0.9999999999999999
                 },
-                "entropy": -1.000088900581841e-12,
+                "entropy": -9.99866855976916e-13,
                 "value": "Africa"
               },
               "country": {
                 "confidence": {
-                  "South Africa": 0.9999999999999999
+                  "South Africa": 1.0
                 },
-                "entropy": -9.99866855976916e-13,
+                "entropy": -1.000088900581841e-12,
                 "value": "South Africa"
               },
-              "div": 0.004366959837936735,
+              "div": 0.0032744579968593565,
               "num_date": {
                 "value": 2022.7219178082191
-              }
-            }
-          },
-          {
-            "branch_attrs": {
-              "mutations": {
-                "nuc": [
-                  "T620C",
-                  "C1335T"
-                ]
-              }
-            },
-            "name": "B/SouthAfrica/PET25810/2022",
-            "node_attrs": {
-              "O2_supplements": {
-                "value": "yes"
-              },
-              "clade_membership": {
-                "value": "V1A.3a.2"
-              },
-              "continent": {
-                "confidence": {
-                  "Africa": 0.9999999999999999
-                },
-                "entropy": -9.99866855976916e-13,
-                "value": "Africa"
-              },
-              "country": {
-                "confidence": {
-                  "South Africa": 1.0
-                },
-                "entropy": -1.000088900581841e-12,
-                "value": "South Africa"
-              },
-              "div": 0.00272483615965968,
-              "num_date": {
-                "value": 2022.6890410958904
-              }
-            }
-          },
-          {
-            "branch_attrs": {
-              "mutations": {
-                "nuc": [
-                  "C623T",
-                  "G1130A",
-                  "C1667T"
-                ]
-              }
-            },
-            "name": "B/SouthAfrica/PET25840/2022",
-            "node_attrs": {
-              "O2_supplements": {
-                "value": "no"
-              },
-              "clade_membership": {
-                "value": "V1A.3a.2"
-              },
-              "continent": {
-                "confidence": {
-                  "Africa": 0.9999999999999999
-                },
-                "entropy": -9.99866855976916e-13,
-                "value": "Africa"
-              },
-              "country": {
-                "confidence": {
-                  "South Africa": 1.0
-                },
-                "entropy": -1.000088900581841e-12,
-                "value": "South Africa"
-              },
-              "div": 0.0032721229057422726,
-              "num_date": {
-                "value": 2022.6972602739727
               }
             }
           },
@@ -426,9 +389,9 @@
               },
               "continent": {
                 "confidence": {
-                  "Africa": 0.9999999999999999
+                  "Africa": 1.0
                 },
-                "entropy": -9.99866855976916e-13,
+                "entropy": -1.000088900581841e-12,
                 "value": "Africa"
               },
               "country": {
@@ -438,7 +401,7 @@
                 "entropy": -1.000088900581841e-12,
                 "value": "South Africa"
               },
-              "div": 0.0038197389566517045,
+              "div": 0.0027279825538599743,
               "num_date": {
                 "value": 2022.7054794520548
               }
@@ -459,7 +422,8 @@
                   "T137C",
                   "A206G",
                   "G649A",
-                  "A1316C"
+                  "A1316C",
+                  "A1499G"
                 ]
               }
             },
@@ -484,8 +448,7 @@
                       "C788T",
                       "A818G",
                       "T866C",
-                      "C1481T",
-                      "A1499G"
+                      "C1481T"
                     ]
                   }
                 },
@@ -496,9 +459,9 @@
                   },
                   "continent": {
                     "confidence": {
-                      "Africa": 0.9999999999999999
+                      "Africa": 1.0
                     },
-                    "entropy": -9.99866855976916e-13,
+                    "entropy": -1.000088900581841e-12,
                     "value": "Africa"
                   },
                   "country": {
@@ -508,7 +471,7 @@
                     "entropy": -1.000088900581841e-12,
                     "value": "Senegal"
                   },
-                  "div": 0.010374790648201241,
+                  "div": 0.008727355937276651,
                   "num_date": {
                     "value": 2022.817808219178
                   }
@@ -540,7 +503,8 @@
                       "mutations": {
                         "nuc": [
                           "G122A",
-                          "C515T"
+                          "C515T",
+                          "G1499A"
                         ]
                       }
                     },
@@ -554,9 +518,9 @@
                       },
                       "continent": {
                         "confidence": {
-                          "Europe": 0.9999999999999999
+                          "Europe": 1.0
                         },
-                        "entropy": -9.99866855976916e-13,
+                        "entropy": -1.000088900581841e-12,
                         "value": "Europe"
                       },
                       "country": {
@@ -566,7 +530,7 @@
                         "entropy": -1.000088900581841e-12,
                         "value": "Russian Federation"
                       },
-                      "div": 0.008711843029032076,
+                      "div": 0.008159345146808977,
                       "num_date": {
                         "value": 2022.927397260274
                       }
@@ -584,8 +548,7 @@
                         ],
                         "nuc": [
                           "G315A",
-                          "C418A",
-                          "A1499G"
+                          "C418A"
                         ]
                       }
                     },
@@ -611,7 +574,7 @@
                         "entropy": -1.000088900581841e-12,
                         "value": "Russian Federation"
                       },
-                      "div": 0.008165371388297257,
+                      "div": 0.007613533392817466,
                       "num_date": {
                         "value": 2022.9136986301369
                       }
@@ -625,24 +588,24 @@
                   },
                   "continent": {
                     "confidence": {
-                      "Africa": 0.0198050073591208,
-                      "Europe": 0.9801949926408792
+                      "Africa": 0.023363197658475658,
+                      "Europe": 0.9766368023415244
                     },
-                    "entropy": 0.09727926390463748,
+                    "entropy": 0.11085415803772711,
                     "value": "Europe"
                   },
                   "country": {
                     "confidence": {
-                      "Russian Federation": 0.979493115469117,
-                      "Senegal": 0.005958713752854577,
-                      "South Africa": 0.014548170778028462
+                      "Russian Federation": 0.9765681542864539,
+                      "Senegal": 0.007012119291273822,
+                      "South Africa": 0.016419726422272417
                     },
-                    "entropy": 0.11236404616364529,
+                    "entropy": 0.12540918984591692,
                     "value": "Russian Federation"
                   },
-                  "div": 0.0070729781584912155,
+                  "div": 0.006522480555753363,
                   "num_date": {
-                    "value": 2022.8679654322286
+                    "value": 2022.8615878278542
                   }
                 }
               }
@@ -654,24 +617,24 @@
               },
               "continent": {
                 "confidence": {
-                  "Africa": 0.9554253558930322,
-                  "Europe": 0.0445746441069678
+                  "Africa": 0.9538748959878114,
+                  "Europe": 0.04612510401218862
                 },
-                "entropy": 0.1822195423655595,
+                "entropy": 0.18694377216271685,
                 "value": "Africa"
               },
               "country": {
                 "confidence": {
-                  "Russian Federation": 0.1507061186608822,
-                  "Senegal": 0.24723750844752884,
-                  "South Africa": 0.6020563728915889
+                  "Russian Federation": 0.16370829342517387,
+                  "Senegal": 0.25578496681444457,
+                  "South Africa": 0.5805067397603817
                 },
-                "entropy": 0.9361768770642178,
+                "entropy": 0.9607105501558639,
                 "value": "South Africa"
               },
-              "div": 0.004897659568384962,
+              "div": 0.003805244689145784,
               "num_date": {
-                "value": 2022.72201769621
+                "value": 2022.7215606854713
               }
             }
           },
@@ -684,15 +647,15 @@
                 "branch_attrs": {
                   "mutations": {
                     "nuc": [
-                      "A509G",
-                      "G716A"
+                      "T620C",
+                      "C1335T"
                     ]
                   }
                 },
-                "name": "B/SouthAfrica/PET25668/2022",
+                "name": "B/SouthAfrica/PET25810/2022",
                 "node_attrs": {
                   "O2_supplements": {
-                    "value": "no"
+                    "value": "yes"
                   },
                   "clade_membership": {
                     "value": "V1A.3a.2"
@@ -711,9 +674,9 @@
                     "entropy": -1.000088900581841e-12,
                     "value": "South Africa"
                   },
-                  "div": 0.0027248342460933824,
+                  "div": 0.001634321683112895,
                   "num_date": {
-                    "value": 2022.7054794520548
+                    "value": 2022.6890410958904
                   }
                 }
               },
@@ -724,21 +687,26 @@
                 "children": [
                   {
                     "branch_attrs": {
-                      "mutations": {}
+                      "mutations": {
+                        "nuc": [
+                          "A509G",
+                          "G716A"
+                        ]
+                      }
                     },
-                    "name": "B/SouthAfrica/PET26161/2022",
+                    "name": "B/SouthAfrica/PET25668/2022",
                     "node_attrs": {
                       "O2_supplements": {
-                        "value": "yes"
+                        "value": "no"
                       },
                       "clade_membership": {
                         "value": "V1A.3a.2"
                       },
                       "continent": {
                         "confidence": {
-                          "Africa": 0.9999999999999999
+                          "Africa": 1.0
                         },
-                        "entropy": -9.99866855976916e-13,
+                        "entropy": -1.000088900581841e-12,
                         "value": "Africa"
                       },
                       "country": {
@@ -748,98 +716,161 @@
                         "entropy": -1.000088900581841e-12,
                         "value": "South Africa"
                       },
-                      "div": 0.001631959274084625,
+                      "div": 0.0016343192834139936,
                       "num_date": {
-                        "value": 2022.7849315068493
+                        "value": 2022.7054794520548
                       }
                     }
                   },
                   {
                     "branch_attrs": {
-                      "mutations": {
-                        "nuc": [
-                          "A200G",
-                          "G1091A"
-                        ]
-                      }
+                      "mutations": {}
                     },
-                    "name": "B/SouthAfrica/PET25914/2022",
-                    "node_attrs": {
-                      "O2_supplements": {
-                        "value": "yes"
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A200G",
+                              "G1091A"
+                            ]
+                          }
+                        },
+                        "name": "B/SouthAfrica/PET25914/2022",
+                        "node_attrs": {
+                          "O2_supplements": {
+                            "value": "yes"
+                          },
+                          "clade_membership": {
+                            "value": "V1A.3a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Africa": 0.9999999999999999
+                            },
+                            "entropy": -9.99866855976916e-13,
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "confidence": {
+                              "South Africa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "South Africa"
+                          },
+                          "div": 0.0016343192834140075,
+                          "num_date": {
+                            "value": 2022.7410958904109
+                          }
+                        }
                       },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "B/SouthAfrica/PET26161/2022",
+                        "node_attrs": {
+                          "O2_supplements": {
+                            "value": "yes"
+                          },
+                          "clade_membership": {
+                            "value": "V1A.3a.2"
+                          },
+                          "continent": {
+                            "confidence": {
+                              "Africa": 0.9999999999999999
+                            },
+                            "entropy": -9.99866855976916e-13,
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "confidence": {
+                              "South Africa": 0.9999999999999999
+                            },
+                            "entropy": -9.99866855976916e-13,
+                            "value": "South Africa"
+                          },
+                          "div": 0.000542764206632631,
+                          "num_date": {
+                            "value": 2022.7849315068493
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000008",
+                    "node_attrs": {
                       "clade_membership": {
                         "value": "V1A.3a.2"
                       },
                       "continent": {
                         "confidence": {
-                          "Africa": 0.9999999999999999
+                          "Africa": 0.9995260140514116
                         },
-                        "entropy": -9.99866855976916e-13,
+                        "entropy": 0.004101919828925815,
                         "value": "Africa"
                       },
                       "country": {
                         "confidence": {
-                          "South Africa": 0.9999999999999999
+                          "South Africa": 0.9990148278639831
                         },
-                        "entropy": -9.99866855976916e-13,
+                        "entropy": 0.008487580033160915,
                         "value": "South Africa"
                       },
-                      "div": 0.0027248342460933963,
+                      "div": 0.0005427642066326171,
                       "num_date": {
-                        "value": 2022.7410958904109
+                        "value": 2022.6886272432607
                       }
                     }
                   }
                 ],
-                "name": "NODE_0000008",
+                "name": "NODE_0000007",
                 "node_attrs": {
                   "clade_membership": {
                     "value": "V1A.3a.2"
                   },
                   "continent": {
                     "confidence": {
-                      "Africa": 0.9994555971116403
+                      "Africa": 0.9998231166855029
                     },
-                    "entropy": 0.004635889322995633,
+                    "entropy": 0.001705143092685153,
                     "value": "Africa"
                   },
                   "country": {
                     "confidence": {
-                      "South Africa": 0.9988167862113099
+                      "South Africa": 0.9996428937439708
                     },
-                    "entropy": 0.009976890508724126,
+                    "entropy": 0.003439074744645128,
                     "value": "South Africa"
                   },
-                  "div": 0.0016319592740846112,
+                  "div": 0.0005427642066326031,
                   "num_date": {
-                    "value": 2022.6883960012701
+                    "value": 2022.6729577644955
                   }
                 }
               }
             ],
-            "name": "NODE_0000007",
+            "name": "NODE_0000006",
             "node_attrs": {
               "clade_membership": {
                 "value": "V1A.3a.2"
               },
               "continent": {
                 "confidence": {
-                  "Africa": 0.999841850431636
+                  "Africa": 0.9998499422094576
                 },
-                "entropy": 0.0015422572331230617,
+                "entropy": 0.0014712288557340123,
                 "value": "Africa"
               },
               "country": {
                 "confidence": {
-                  "South Africa": 0.9996675294938911
+                  "South Africa": 0.9996982174928326
                 },
-                "entropy": 0.0032255778963728734,
+                "entropy": 0.002957094211129555,
                 "value": "South Africa"
               },
-              "div": 0.0016319592740845973,
+              "div": 0.0005427642066325891,
               "num_date": {
-                "value": 2022.6788596296979
+                "value": 2022.6729577644955
               }
             }
           }
@@ -851,21 +882,21 @@
           },
           "continent": {
             "confidence": {
-              "Africa": 0.9999999210855234
+              "Africa": 0.9999984361430336
             },
-            "entropy": 1.3695509369289693e-06,
+            "entropy": 2.2470049422147618e-05,
             "value": "Africa"
           },
           "country": {
             "confidence": {
-              "South Africa": 0.9999993710146534
+              "South Africa": 0.999987584420211
             },
-            "entropy": 1.0019205473328656e-05,
+            "entropy": 0.00016087464852496388,
             "value": "South Africa"
           },
-          "div": 0.0016319592740845835,
+          "div": 0.0005427642066325751,
           "num_date": {
-            "value": 2022.676100757048
+            "value": 2022.6723807815338
           }
         }
       }
@@ -877,24 +908,24 @@
       },
       "continent": {
         "confidence": {
-          "Africa": 0.9977384343741069,
-          "Europe": 0.002261565625893039
+          "Africa": 0.9976114629296827,
+          "Europe": 0.002388537070317215
         },
-        "entropy": 0.016035781042981954,
+        "entropy": 0.016805457774498173,
         "value": "Africa"
       },
       "country": {
         "confidence": {
-          "Russian Federation": 0.0024271001470513405,
-          "Senegal": 0.0024086924023074352,
-          "South Africa": 0.9951642074506412
+          "Russian Federation": 0.0025085423883283464,
+          "Senegal": 0.0024773882644356458,
+          "South Africa": 0.995014069347236
         },
-        "entropy": 0.03395900681936489,
+        "entropy": 0.034860459129820484,
         "value": "South Africa"
       },
       "div": 0,
       "num_date": {
-        "value": 2022.6587831307847
+        "value": 2022.6622350354237
       }
     }
   },
