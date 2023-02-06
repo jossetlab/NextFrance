@@ -28,7 +28,7 @@ rule all:
         #node_data_mut = expand( outputdir + "temp/tree_nt_muts_{subtype}.json",subtype=SUBTYPE),
         #node_data_aa = expand( outputdir + "temp/aa_muts_{subtype}.json",subtype=SUBTYPE),
         #node_traits = expand( outputdir + "temp/traits_{subtype}.json",subtype=SUBTYPE),
-        auspice_json = expand( "auspice/nextfrance_GIHSN_2022_2023-{subtype}.json", subtype=SUBTYPE),
+        auspice_json = expand( "auspice/nextfrance_HCL_2022_2023-{subtype}.json", subtype=SUBTYPE),
 
 rule remove_dupp:
     input:
@@ -191,14 +191,14 @@ rule augur_export:
         traits = rules.augur_traits.output.node_traits,
         clades = rules.augur_clades.output.clades ,
     output:
-        auspice_json = "auspice/nextfrance_GIHSN_2022_2023-{subtype}.json"  ,  
+        auspice_json = "auspice/nextfrance_HCL_2022_2023-{subtype}.json"  ,  
     shell:
         """
         augur export v2 \
         --tree {input.tree} \
         --metadata {input.meta} \
         --title 'NEXTSRAIN {wildcards.subtype} HA SEGMENT VISUALISATION' \
-        --color-by-metadata 'country' 'continent' 'source' 'O2_supplements' \
+        --color-by-metadata 'country' 'continent' 'source'  \
         --node-data {input.branch_lengths} {input.nt_muts} {input.traits} {input.aa_mut} {input.clades} \
         --output {output.auspice_json} 
         """
