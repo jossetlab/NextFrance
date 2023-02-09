@@ -106,7 +106,7 @@
             "entropy": -1.000088900581841e-12,
             "value": "Australia"
           },
-          "div": 1.9432949379837294e-22,
+          "div": 1.2683697489633197e-22,
           "num_date": {
             "value": 2008.26912568306
           }
@@ -181,21 +181,21 @@
               },
               "continent": {
                 "confidence": {
-                  "Europe": 0.9999999999999999
+                  "Europe": 1.0
                 },
-                "entropy": -9.99866855976916e-13,
+                "entropy": -1.000088900581841e-12,
                 "value": "Europe"
               },
               "country": {
                 "confidence": {
-                  "Norway": 0.9999999999999999
+                  "Norway": 1.0
                 },
-                "entropy": -9.99866855976916e-13,
+                "entropy": -1.000088900581841e-12,
                 "value": "Norway"
               },
-              "div": 0.014201448412859618,
+              "div": 0.014201105744783825,
               "num_date": {
-                "value": 2017.4370603754112
+                "value": 2017.4225850506125
               }
             }
           },
@@ -233,7 +233,7 @@
                 "entropy": -1.000088900581841e-12,
                 "value": "Ireland"
               },
-              "div": 0.01147840420324642,
+              "div": 0.011477960244208557,
               "num_date": {
                 "value": 2016.0368852459017
               }
@@ -286,9 +286,9 @@
                   },
                   "continent": {
                     "confidence": {
-                      "Europe": 1.0
+                      "Europe": 0.9999999999999999
                     },
-                    "entropy": -1.000088900581841e-12,
+                    "entropy": -9.99866855976916e-13,
                     "value": "Europe"
                   },
                   "country": {
@@ -298,7 +298,7 @@
                     "entropy": -1.000088900581841e-12,
                     "value": "Croatia"
                   },
-                  "div": 0.018011813910437203,
+                  "div": 0.01801113070533788,
                   "num_date": {
                     "value": 2019.8616438356164
                   }
@@ -344,7 +344,7 @@
                     "entropy": -1.000088900581841e-12,
                     "value": "Russian Federation"
                   },
-                  "div": 0.01855809891969155,
+                  "div": 0.01855731688404685,
                   "num_date": {
                     "value": 2020.1926229508197
                   }
@@ -428,7 +428,7 @@
                             "entropy": -1.000088900581841e-12,
                             "value": "France"
                           },
-                          "div": 0.022904873402232646,
+                          "div": 0.022903509128942973,
                           "num_date": {
                             "value": 2020.886612021858
                           }
@@ -465,39 +465,39 @@
                             "entropy": -1.000088900581841e-12,
                             "value": "Senegal"
                           },
-                          "div": 0.025078987581549084,
+                          "div": 0.02507741089490114,
                           "num_date": {
                             "value": 2022.817808219178
                           }
                         }
                       }
                     ],
-                    "name": "NODE_0000004",
+                    "name": "NODE_0000005",
                     "node_attrs": {
                       "clade_membership": {
                         "value": "V1A.3a.2"
                       },
                       "continent": {
                         "confidence": {
-                          "Africa": 0.017826479207695454,
-                          "Europe": 0.9816511079645336
+                          "Africa": 0.015346770140724096,
+                          "Europe": 0.9837341865429873
                         },
-                        "entropy": 0.09391589859090543,
+                        "entropy": 0.08729707849834285,
                         "value": "Europe"
                       },
                       "country": {
                         "confidence": {
-                          "Austria": 0.05338922771796154,
-                          "France": 0.63997696012973,
-                          "Russian Federation": 0.08726670899132763,
-                          "Senegal": 0.1295725594307304
+                          "Austria": 0.04983823025286835,
+                          "France": 0.6339270681460498,
+                          "Russian Federation": 0.08939305580968468,
+                          "Senegal": 0.11963810613075765
                         },
-                        "entropy": 1.273147800234521,
+                        "entropy": 1.3303910758395578,
                         "value": "France"
                       },
-                      "div": 0.02236244976823316,
+                      "div": 0.022361130114692075,
                       "num_date": {
-                        "value": 2020.7696032790598
+                        "value": 2020.77097061298
                       }
                     }
                   },
@@ -557,12 +557,12 @@
                               },
                               "country": {
                                 "confidence": {
-                                  "Russian Federation": 1.0
+                                  "Russian Federation": 0.9999999999999999
                                 },
-                                "entropy": -1.000088900581841e-12,
+                                "entropy": -9.99866855976916e-13,
                                 "value": "Russian Federation"
                               },
-                              "div": 0.024533769175586296,
+                              "div": 0.02453231823743615,
                               "num_date": {
                                 "value": 2022.927397260274
                               }
@@ -601,43 +601,43 @@
                               },
                               "country": {
                                 "confidence": {
-                                  "Russian Federation": 1.0
+                                  "Russian Federation": 0.9999999999999999
                                 },
-                                "entropy": -1.000088900581841e-12,
+                                "entropy": -9.99866855976916e-13,
                                 "value": "Russian Federation"
                               },
-                              "div": 0.023990490487072514,
+                              "div": 0.023989015193321323,
                               "num_date": {
                                 "value": 2022.9136986301369
                               }
                             }
                           }
                         ],
-                        "name": "NODE_0000002",
+                        "name": "NODE_0000003",
                         "node_attrs": {
                           "clade_membership": {
                             "value": "V1A.3a.2"
                           },
                           "continent": {
                             "confidence": {
-                              "Europe": 0.9997381872861717
+                              "Europe": 0.9996733126532462
                             },
-                            "entropy": 0.0025618416239913456,
+                            "entropy": 0.0032550657432936785,
                             "value": "Europe"
                           },
                           "country": {
                             "confidence": {
-                              "Austria": 0.002808731305389901,
-                              "France": 0.0015335200180592139,
-                              "Russian Federation": 0.9908461385703111,
-                              "South Africa": 0.0013339592287566608
+                              "Austria": 0.002172802781152882,
+                              "France": 0.001593390544194339,
+                              "Russian Federation": 0.9908344492377996,
+                              "South Africa": 0.0012485565567271967
                             },
-                            "entropy": 0.06949097332825321,
+                            "entropy": 0.07108677284469528,
                             "value": "Russian Federation"
                           },
-                          "div": 0.02290481621218226,
+                          "div": 0.02290348087071321,
                           "num_date": {
-                            "value": 2022.379778048785
+                            "value": 2022.4137976177615
                           }
                         }
                       },
@@ -646,11 +646,69 @@
                           "mutations": {
                             "nuc": [
                               "C137T",
-                              "G1499A"
+                              "G1499A",
+                              "A1772G"
                             ]
                           }
                         },
                         "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HA1: D129G, D197E"
+                              },
+                              "mutations": {
+                                "HA1": [
+                                  "D129G",
+                                  "D197E"
+                                ],
+                                "nuc": [
+                                  "G245A",
+                                  "A329G",
+                                  "A442G",
+                                  "G479T",
+                                  "C647A",
+                                  "G665A",
+                                  "A827G",
+                                  "A833G",
+                                  "A1085G",
+                                  "G1130A",
+                                  "G1196A",
+                                  "C1335T",
+                                  "T1355C",
+                                  "T1586C",
+                                  "C1589A"
+                                ]
+                              }
+                            },
+                            "name": "B/Lebanon/GIHSN-HCL023019122901/2023_S4",
+                            "node_attrs": {
+                              "O2_supplements": {
+                                "value": "no"
+                              },
+                              "clade_membership": {
+                                "value": "V1A.3a.2"
+                              },
+                              "continent": {
+                                "confidence": {
+                                  "Asia": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Asia"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Lebanon": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Lebanon"
+                              },
+                              "div": 0.030548190066633975,
+                              "num_date": {
+                                "value": 2023.0287671232877
+                              }
+                            }
+                          },
                           {
                             "branch_attrs": {
                               "labels": {
@@ -663,8 +721,7 @@
                                 "nuc": [
                                   "G477A",
                                   "C749T",
-                                  "A1223G",
-                                  "A1772G"
+                                  "A1223G"
                                 ]
                               }
                             },
@@ -687,7 +744,7 @@
                                 "entropy": -1.000088900581841e-12,
                                 "value": "Austria"
                               },
-                              "div": 0.02399019434844357,
+                              "div": 0.023988181882358614,
                               "num_date": {
                                 "value": 2021.0506849315068
                               }
@@ -744,7 +801,7 @@
                                     "entropy": -1.000088900581841e-12,
                                     "value": "South Africa"
                                   },
-                                  "div": 0.026166541562181157,
+                                  "div": 0.026707930987820462,
                                   "num_date": {
                                     "value": 2022.7054794520548
                                   }
@@ -779,12 +836,12 @@
                                   },
                                   "country": {
                                     "confidence": {
-                                      "South Africa": 0.9999999999999999
+                                      "South Africa": 1.0
                                     },
-                                    "entropy": -9.99866855976916e-13,
+                                    "entropy": -1.000088900581841e-12,
                                     "value": "South Africa"
                                   },
-                                  "div": 0.026710744177790194,
+                                  "div": 0.027252070703151277,
                                   "num_date": {
                                     "value": 2022.7219178082191
                                   }
@@ -846,7 +903,7 @@
                                         "entropy": -1.000088900581841e-12,
                                         "value": "South Africa"
                                       },
-                                      "div": 0.027800205370504677,
+                                      "div": 0.02834154279126857,
                                       "num_date": {
                                         "value": 2022.6890410958904
                                       }
@@ -898,7 +955,7 @@
                                             "entropy": -1.000088900581841e-12,
                                             "value": "South Africa"
                                           },
-                                          "div": 0.027250829192188637,
+                                          "div": 0.02779185845573802,
                                           "num_date": {
                                             "value": 2022.6972602739727
                                           }
@@ -934,61 +991,61 @@
                                             "entropy": -1.000088900581841e-12,
                                             "value": "South Africa"
                                           },
-                                          "div": 0.02670695106744766,
+                                          "div": 0.027248005431270043,
                                           "num_date": {
                                             "value": 2022.6890410958904
                                           }
                                         }
                                       }
                                     ],
-                                    "name": "NODE_0000017",
+                                    "name": "NODE_0000014",
                                     "node_attrs": {
                                       "clade_membership": {
                                         "value": "V1A.3a.2"
                                       },
                                       "continent": {
                                         "confidence": {
-                                          "Africa": 0.9999533746961782
+                                          "Africa": 0.9999561317131077
                                         },
-                                        "entropy": 0.0005267746704000953,
+                                        "entropy": 0.0005100537198104891,
                                         "value": "Africa"
                                       },
                                       "country": {
                                         "confidence": {
-                                          "South Africa": 0.9998102022772364
+                                          "South Africa": 0.9998016755325415
                                         },
-                                        "entropy": 0.002199423824532912,
+                                        "entropy": 0.0023147932627738373,
                                         "value": "South Africa"
                                       },
-                                      "div": 0.026163752636143848,
+                                      "div": 0.026704841671197358,
                                       "num_date": {
-                                        "value": 2022.3792293429747
+                                        "value": 2022.4107788524605
                                       }
                                     }
                                   }
                                 ],
-                                "name": "NODE_0000016",
+                                "name": "NODE_0000013",
                                 "node_attrs": {
                                   "clade_membership": {
                                     "value": "V1A.3a.2"
                                   },
                                   "continent": {
                                     "confidence": {
-                                      "Africa": 0.9999513494928234
+                                      "Africa": 0.9999544392813198
                                     },
-                                    "entropy": 0.0005471697412369798,
+                                    "entropy": 0.0005273814426723272,
                                     "value": "Africa"
                                   },
                                   "country": {
                                     "confidence": {
-                                      "South Africa": 0.9998078097263547
+                                      "South Africa": 0.999799324065975
                                     },
-                                    "entropy": 0.0022239385130824085,
+                                    "entropy": 0.0023391166893258182,
                                     "value": "South Africa"
                                   },
-                                  "div": 0.025621050690931537,
+                                  "div": 0.02616228609120952,
                                   "num_date": {
-                                    "value": 2022.163508158917
+                                    "value": 2022.1996989682732
                                   }
                                 }
                               },
@@ -1029,7 +1086,7 @@
                                         "entropy": -1.000088900581841e-12,
                                         "value": "South Africa"
                                       },
-                                      "div": 0.025621850770535762,
+                                      "div": 0.026163254790274107,
                                       "num_date": {
                                         "value": 2022.6972602739727
                                       }
@@ -1059,9 +1116,9 @@
                                           },
                                           "continent": {
                                             "confidence": {
-                                              "Africa": 1.0
+                                              "Africa": 0.9999999999999999
                                             },
-                                            "entropy": -1.000088900581841e-12,
+                                            "entropy": -9.99866855976916e-13,
                                             "value": "Africa"
                                           },
                                           "country": {
@@ -1071,7 +1128,7 @@
                                             "entropy": -1.000088900581841e-12,
                                             "value": "South Africa"
                                           },
-                                          "div": 0.0250775134576619,
+                                          "div": 0.02561892317550695,
                                           "num_date": {
                                             "value": 2022.6890410958904
                                           }
@@ -1113,7 +1170,7 @@
                                                 "entropy": -1.000088900581841e-12,
                                                 "value": "South Africa"
                                               },
-                                              "div": 0.025077511815808397,
+                                              "div": 0.025618921443038283,
                                               "num_date": {
                                                 "value": 2022.7054794520548
                                               }
@@ -1124,6 +1181,38 @@
                                               "mutations": {}
                                             },
                                             "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "B/SouthAfrica/PET26161/2022",
+                                                "node_attrs": {
+                                                  "O2_supplements": {
+                                                    "value": "yes"
+                                                  },
+                                                  "clade_membership": {
+                                                    "value": "V1A.3a.2"
+                                                  },
+                                                  "continent": {
+                                                    "confidence": {
+                                                      "Africa": 0.9999999999999999
+                                                    },
+                                                    "entropy": -9.99866855976916e-13,
+                                                    "value": "Africa"
+                                                  },
+                                                  "country": {
+                                                    "confidence": {
+                                                      "South Africa": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12,
+                                                    "value": "South Africa"
+                                                  },
+                                                  "div": 0.02453219705686472,
+                                                  "num_date": {
+                                                    "value": 2022.7849315068493
+                                                  }
+                                                }
+                                              },
                                               {
                                                 "branch_attrs": {
                                                   "mutations": {
@@ -1143,9 +1232,9 @@
                                                   },
                                                   "continent": {
                                                     "confidence": {
-                                                      "Africa": 1.0
+                                                      "Africa": 0.9999999999999999
                                                     },
-                                                    "entropy": -1.000088900581841e-12,
+                                                    "entropy": -9.99866855976916e-13,
                                                     "value": "Africa"
                                                   },
                                                   "country": {
@@ -1155,93 +1244,61 @@
                                                     "entropy": -1.000088900581841e-12,
                                                     "value": "South Africa"
                                                   },
-                                                  "div": 0.025077511815808397,
+                                                  "div": 0.025618921443038283,
                                                   "num_date": {
                                                     "value": 2022.7410958904109
                                                   }
                                                 }
-                                              },
-                                              {
-                                                "branch_attrs": {
-                                                  "mutations": {}
-                                                },
-                                                "name": "B/SouthAfrica/PET26161/2022",
-                                                "node_attrs": {
-                                                  "O2_supplements": {
-                                                    "value": "yes"
-                                                  },
-                                                  "clade_membership": {
-                                                    "value": "V1A.3a.2"
-                                                  },
-                                                  "continent": {
-                                                    "confidence": {
-                                                      "Africa": 1.0
-                                                    },
-                                                    "entropy": -1.000088900581841e-12,
-                                                    "value": "Africa"
-                                                  },
-                                                  "country": {
-                                                    "confidence": {
-                                                      "South Africa": 1.0
-                                                    },
-                                                    "entropy": -1.000088900581841e-12,
-                                                    "value": "South Africa"
-                                                  },
-                                                  "div": 0.023990756515273985,
-                                                  "num_date": {
-                                                    "value": 2022.7849315068493
-                                                  }
-                                                }
                                               }
                                             ],
-                                            "name": "NODE_0000014",
+                                            "name": "NODE_0000016",
                                             "node_attrs": {
                                               "clade_membership": {
                                                 "value": "V1A.3a.2"
                                               },
                                               "continent": {
                                                 "confidence": {
-                                                  "Africa": 0.9999533923586662
+                                                  "Africa": 0.999956145871911
                                                 },
-                                                "entropy": 0.0005265994425722132,
+                                                "entropy": 0.0005099130287573025,
                                                 "value": "Africa"
                                               },
                                               "country": {
                                                 "confidence": {
-                                                  "South Africa": 0.9998100538570971
+                                                  "South Africa": 0.9998015203927846
                                                 },
-                                                "entropy": 0.002201009905909747,
+                                                "entropy": 0.002316463377259074,
                                                 "value": "South Africa"
                                               },
-                                              "div": 0.023990756515273985,
+                                              "div": 0.02453219705686472,
                                               "num_date": {
-                                                "value": 2022.3881358874035
+                                                "value": 2022.4211210204242
                                               }
                                             }
                                           }
                                         ],
-                                        "name": "NODE_0000013",
+                                        "name": "NODE_0000015",
                                         "node_attrs": {
                                           "clade_membership": {
                                             "value": "V1A.3a.2"
                                           },
                                           "continent": {
                                             "confidence": {
-                                              "Africa": 0.9999518445124389
+                                              "Africa": 0.9999548418377989
                                             },
-                                            "entropy": 0.0005423747175531629,
+                                            "entropy": 0.0005235557743416545,
                                             "value": "Africa"
                                           },
                                           "country": {
                                             "confidence": {
-                                              "South Africa": 0.9998033164030958
+                                              "South Africa": 0.999794591375684
                                             },
-                                            "entropy": 0.00227202001554401,
+                                            "entropy": 0.002390113565958374,
                                             "value": "South Africa"
                                           },
-                                          "div": 0.023990756515273985,
+                                          "div": 0.02453219705686472,
                                           "num_date": {
-                                            "value": 2022.3881358874035
+                                            "value": 2022.420945275371
                                           }
                                         }
                                       }
@@ -1253,21 +1310,21 @@
                                       },
                                       "continent": {
                                         "confidence": {
-                                          "Africa": 0.9999516198323511
+                                          "Africa": 0.9999547875372292
                                         },
-                                        "entropy": 0.0005446542413295842,
+                                        "entropy": 0.0005241117321253869,
                                         "value": "Africa"
                                       },
                                       "country": {
                                         "confidence": {
-                                          "South Africa": 0.9998024744283873
+                                          "South Africa": 0.999794502157882
                                         },
-                                        "entropy": 0.0022808586812074847,
+                                        "entropy": 0.00239103648806973,
                                         "value": "South Africa"
                                       },
-                                      "div": 0.023990756515273985,
+                                      "div": 0.02453219705686472,
                                       "num_date": {
-                                        "value": 2022.383322586692
+                                        "value": 2022.420945275371
                                       }
                                     }
                                   }
@@ -1279,47 +1336,47 @@
                                   },
                                   "continent": {
                                     "confidence": {
-                                      "Africa": 0.9999464369160783
+                                      "Africa": 0.999954391667474
                                     },
-                                    "entropy": 0.0005973761876349149,
+                                    "entropy": 0.0005278752146282554,
                                     "value": "Africa"
                                   },
                                   "country": {
                                     "confidence": {
-                                      "South Africa": 0.9997855126324213
+                                      "South Africa": 0.9997990491438337
                                     },
-                                    "entropy": 0.0024586866993404847,
+                                    "entropy": 0.0023420345000657837,
                                     "value": "South Africa"
                                   },
-                                  "div": 0.023990756515273985,
+                                  "div": 0.02453219705686472,
                                   "num_date": {
-                                    "value": 2022.383322586692
+                                    "value": 2022.1697831805327
                                   }
                                 }
                               }
                             ],
-                            "name": "NODE_0000009",
+                            "name": "NODE_0000010",
                             "node_attrs": {
                               "clade_membership": {
                                 "value": "V1A.3a.2"
                               },
                               "continent": {
                                 "confidence": {
-                                  "Africa": 0.9999392592223254
+                                  "Africa": 0.9999455070009927
                                 },
-                                "entropy": 0.0006518887674782105,
+                                "entropy": 0.0005917881264746171,
                                 "value": "Africa"
                               },
                               "country": {
                                 "confidence": {
-                                  "South Africa": 0.9999352822614006
+                                  "South Africa": 0.9999353113682631
                                 },
-                                "entropy": 0.0007648497811149054,
+                                "entropy": 0.000770919234746589,
                                 "value": "South Africa"
                               },
-                              "div": 0.023990756515273985,
+                              "div": 0.02453219705686472,
                               "num_date": {
-                                "value": 2021.7757654752083
+                                "value": 2021.7996545640117
                               }
                             }
                           }
@@ -1331,170 +1388,172 @@
                           },
                           "continent": {
                             "confidence": {
-                              "Africa": 0.0185045400002863,
-                              "Europe": 0.9811775907496842
+                              "Africa": 0.018941553528489755,
+                              "Asia": 0.004078223812792749,
+                              "Europe": 0.9767160740978392
                             },
-                            "entropy": 0.09503251155529611,
+                            "entropy": 0.12275554026903823,
                             "value": "Europe"
                           },
                           "country": {
                             "confidence": {
-                              "Austria": 0.5629515426926752,
-                              "France": 0.0492942996559044,
-                              "Russian Federation": 0.12586102774316088,
-                              "South Africa": 0.19800167395904095
+                              "Austria": 0.5234972840453749,
+                              "Lebanon": 0.0721054687254806,
+                              "Russian Federation": 0.09076198955446436,
+                              "South Africa": 0.22070134022956112
                             },
-                            "entropy": 1.327956674226164,
+                            "entropy": 1.4433595188427206,
                             "value": "Austria"
                           },
-                          "div": 0.02181749146091915,
+                          "div": 0.022359520382976502,
                           "num_date": {
-                            "value": 2020.508609473144
+                            "value": 2020.7967932944025
                           }
                         }
                       }
                     ],
-                    "name": "NODE_0000001",
+                    "name": "NODE_0000002",
                     "node_attrs": {
                       "clade_membership": {
                         "value": "V1A.3a.2"
                       },
                       "continent": {
                         "confidence": {
-                          "Africa": 0.004316609442966117,
-                          "Europe": 0.9955559629797702
+                          "Africa": 0.004317480774353069,
+                          "Europe": 0.9949917327707384
                         },
-                        "entropy": 0.02908208214906859,
+                        "entropy": 0.0338870674141597,
                         "value": "Europe"
                       },
                       "country": {
                         "confidence": {
-                          "Austria": 0.31117709882995276,
-                          "France": 0.12984823531922932,
-                          "Russian Federation": 0.3196492665926842,
-                          "South Africa": 0.11376805043596497
+                          "Austria": 0.2651572503816849,
+                          "France": 0.1496024972804435,
+                          "Russian Federation": 0.2942271942698463,
+                          "South Africa": 0.1175187331681327
                         },
-                        "entropy": 1.6868341316941815,
+                        "entropy": 1.8413029377439851,
                         "value": "Russian Federation"
                       },
-                      "div": 0.020732127842691187,
+                      "div": 0.020731021410178053,
                       "num_date": {
-                        "value": 2020.1469194512508
+                        "value": 2020.1797151294154
                       }
                     }
                   }
                 ],
-                "name": "NODE_0000003",
+                "name": "NODE_0000004",
                 "node_attrs": {
                   "clade_membership": {
                     "value": "V1A.3a.2"
                   },
                   "continent": {
                     "confidence": {
-                      "Africa": 0.003166149260193409,
-                      "Europe": 0.996708547534649
+                      "Africa": 0.0032513945380487947,
+                      "Europe": 0.9964457346765222
                     },
-                    "entropy": 0.022633796926939287,
+                    "entropy": 0.024832846763825387,
                     "value": "Europe"
                   },
                   "country": {
                     "confidence": {
-                      "Austria": 0.18691846391660982,
-                      "Croatia": 0.0775365268575497,
-                      "France": 0.24674196090940123,
-                      "Russian Federation": 0.2965363928616295
+                      "Austria": 0.1540833318739705,
+                      "Croatia": 0.07603267022059784,
+                      "France": 0.2786146055262939,
+                      "Russian Federation": 0.26909385232824057
                     },
-                    "entropy": 1.8087922338934157,
-                    "value": "Russian Federation"
+                    "entropy": 1.887621750341476,
+                    "value": "France"
                   },
-                  "div": 0.020189712449009578,
+                  "div": 0.020188626036551516,
                   "num_date": {
-                    "value": 2019.8456899872422
+                    "value": 2020.008064470208
                   }
                 }
               }
             ],
-            "name": "NODE_0000005",
+            "name": "NODE_0000006",
             "node_attrs": {
               "clade_membership": {
                 "value": "V1A.3a"
               },
               "continent": {
                 "confidence": {
-                  "Europe": 0.9996446841115144
+                  "Europe": 0.9995697065269872
                 },
-                "entropy": 0.0033483271444692936,
+                "entropy": 0.004132016427703392,
                 "value": "Europe"
               },
               "country": {
                 "confidence": {
-                  "Croatia": 0.2805867772400311,
-                  "France": 0.0763236736779036,
-                  "Ireland": 0.07005769351005312,
-                  "Russian Federation": 0.4011597593115747
+                  "Croatia": 0.2984252598150672,
+                  "France": 0.07875524327520463,
+                  "Ireland": 0.0638827757806221,
+                  "Russian Federation": 0.3863163293602012
                 },
-                "entropy": 1.670653763657975,
+                "entropy": 1.706691686366624,
                 "value": "Russian Federation"
               },
-              "div": 0.015836945833781674,
+              "div": 0.015836179133326453,
               "num_date": {
-                "value": 2018.3104472878647
+                "value": 2018.4549680291166
               }
             }
           }
         ],
-        "name": "NODE_0000007",
+        "name": "NODE_0000008",
         "node_attrs": {
           "clade_membership": {
             "value": "V1A"
           },
           "continent": {
             "confidence": {
-              "Europe": 0.9979392461316571,
-              "Oceania": 0.001226665252440174
+              "Europe": 0.9976785022429528,
+              "Oceania": 0.0011857694028797232
             },
-            "entropy": 0.016194522309540046,
+            "entropy": 0.018668180606907062,
             "value": "Europe"
           },
           "country": {
             "confidence": {
-              "Croatia": 0.033615628962958735,
-              "Ireland": 0.6554120643250784,
-              "Norway": 0.172151283196098,
-              "Russian Federation": 0.04286282604811292
+              "Croatia": 0.030677261766692124,
+              "Ireland": 0.671217414533969,
+              "Norway": 0.16291380786888046,
+              "Russian Federation": 0.036246295821783917
             },
-            "entropy": 1.2053270474137106,
+            "entropy": 1.1938587242981193,
             "value": "Ireland"
           },
-          "div": 0.010391902907658462,
+          "div": 0.010391371715686293,
           "num_date": {
-            "value": 2015.373609114698
+            "value": 2015.4431743340228
           }
         }
       }
     ],
-    "name": "NODE_0000006",
+    "name": "NODE_0000001",
     "node_attrs": {
       "clade_membership": {
         "value": "V1A"
       },
       "continent": {
         "confidence": {
-          "Africa": 0.01972567407113689,
-          "Europe": 0.06236409250542268,
-          "Oceania": 0.9179102334234405
+          "Africa": 0.017956149136408552,
+          "Asia": 0.012312975056225514,
+          "Europe": 0.05472961032337575,
+          "Oceania": 0.9150012654839903
         },
-        "entropy": 0.3291096892991573,
+        "entropy": 0.3666100408520814,
         "value": "Oceania"
       },
       "country": {
         "confidence": {
-          "Australia": 0.8259004242916054,
-          "Ireland": 0.033041966926552445,
-          "Norway": 0.023059836928520382,
-          "South Africa": 0.02165083109662613
+          "Australia": 0.8155967514331234,
+          "Ireland": 0.03055205015838342,
+          "Norway": 0.021660322070924998,
+          "South Africa": 0.02086852856442255
         },
-        "entropy": 0.8208686730254727,
+        "entropy": 0.8802847501189711,
         "value": "Australia"
       },
       "div": 0,
